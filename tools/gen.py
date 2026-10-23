@@ -14,26 +14,19 @@ HERE = Path(__file__).parent
 N = 5
 MIN_LEN, MAX_LEN = 4, 12
 ATTEMPTS = 3000
-TARGET_REQUIRED = (35, 75)
+TARGET_REQUIRED = (40, 100)
 
 def load(name):
     return [w.strip().upper() for w in open(HERE / 'data' / name) if w.strip()]
 
 blocked = set(load('blocklist.txt'))
 dictionary = {w for w in load('enable1.txt') if MIN_LEN <= len(w) <= MAX_LEN and w.isalpha()} - blocked
-# Required words are ones most people know: frequent in both web text (20k list)
-# and film subtitles (50k list), or very frequent in subtitles, plus simple
-# inflections. First names are left out unless they're everyday words too.
-subtitle_rank = {w: i for i, w in enumerate(load('subtitles-50k.txt'))}
-web = set(load('common-20k.txt'))
-names = set(load('first-names.txt'))
-def familiar(w):
-    rank = subtitle_rank.get(w, 10**9)
-    if w in names and rank > 1500:
-        return False
-    return (w in web and rank < 45000) or rank < 20000
-common = {w for w in dictionary if familiar(w)}
-common |= {w + suf for w in common for suf in ('S', 'ES', 'ED', 'D', 'ING') if w + suf in dictionary}
+# Required words are the ones most people know: SCOWL's American English list
+# up to size 55 (common words, no proper names, American spellings only, so
+# British spellings like COLOUR end up as bonus words, as in Squaredle), plus a
+# few hand-picked extras.
+common = set(load('scowl-american-55.txt')) & dictionary
+common |= set(load('promote.txt')) & dictionary
 common -= set(load('avoid.txt'))
 regions = json.load(open(HERE / 'regions.json'))
 for r in regions:
@@ -124,7 +117,7 @@ def attempt(birds, rng):
     if len(covered) < N * N or not lo <= len(required) <= hi:
         return None
     # Prefer grids whose filler words are plentiful but not overwhelming, with few bonus words.
-    score = -abs(len(required) - 50) - 0.1 * len(bonus)
+    score = -abs(len(required) - 60) - 0.1 * len(bonus)
     return score, grid, required, bonus, found
 
 def build(region, seed):
