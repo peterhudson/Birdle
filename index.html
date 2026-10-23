@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Birdle</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐦</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <button id="back" class="icon" aria-label="All regions" hidden>‹</button>
+    <h1>Birdle</h1>
+    <button id="help" class="icon" aria-label="How to play">?</button>
+  </header>
+
+  <main id="regions">
+    <p class="lede">Pick a birding region. Each board hides some of its signature birds among the words.</p>
+    <ul id="region-list"></ul>
+  </main>
+
+  <main id="game" hidden>
+    <h2 id="region-name"></h2>
+    <div id="progress" aria-label="Progress">
+      <div class="bar"><div class="fill"></div></div>
+      <div class="stars"></div>
+    </div>
+    <div id="current" aria-live="polite"></div>
+    <div id="board-wrap">
+      <div id="board"></div>
+      <svg id="trail" aria-hidden="true"></svg>
+    </div>
+    <div class="controls">
+      <button id="rotate" class="pill">↻ Rotate</button>
+    </div>
+
+    <section id="birds-panel"></section>
+    <section id="hints" hidden>
+      <h3>Hints</h3>
+      <label><input type="checkbox" id="hint-letters"> Show first letters</label>
+      <label><input type="checkbox" id="hint-sort"> Sort words alphabetically</label>
+    </section>
+    <section id="word-list"></section>
+    <section id="bonus-list"></section>
+    <p class="reset-row"><button id="reset" class="link">Start this board over</button></p>
+  </main>
+
+  <dialog id="rules">
+    <h2>How to play</h2>
+    <p>Find words by connecting letters: up, down, sideways or diagonally. Swipe across the letters, or type the word and press Enter.</p>
+    <ul>
+      <li>Words are at least 4 letters long.</li>
+      <li>Each square can be used only once per word.</li>
+      <li>A few of the words are birds of the region. Find them all!</li>
+      <li>Rarer words count as bonus words.</li>
+      <li>Squares fade once every word that uses them is found.</li>
+    </ul>
+    <p>Longer words are worth more points. As you fill the progress bar you earn help:</p>
+    <ul>
+      <li><b>★ First star:</b> a <span class="num red">red</span> number shows how many words start on each square.</li>
+      <li><b>★ Second star:</b> a <span class="num white">white</span> number shows how many words use each square.</li>
+      <li><b>★ Third star:</b> hints in the word list let you see first letters and sort the words alphabetically.</li>
+    </ul>
+    <form method="dialog"><button class="pill">Got it</button></form>
+  </dialog>
+
+  <script src="boards.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
