@@ -14,7 +14,7 @@
   --bird: #fff3d6;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #131815;
     --fg: #ecefea;
     --muted: #a3aca5;
@@ -22,7 +22,18 @@
     --line: #36403a;
     --tile: #3d8562;
     --bird: #3a3220;
+    color-scheme: dark;
   }
+}
+:root[data-theme="dark"] {
+  --bg: #131815;
+  --fg: #ecefea;
+  --muted: #a3aca5;
+  --panel: #1e2521;
+  --line: #36403a;
+  --tile: #3d8562;
+  --bird: #3a3220;
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {

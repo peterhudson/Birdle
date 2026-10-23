@@ -298,8 +298,16 @@ $('rotate').onclick = () => {
 };
 $('hint-letters').onchange = (e) => { state.hintLetters = e.target.checked; save(); render(); };
 $('hint-sort').onchange = (e) => { state.hintSort = e.target.checked; save(); render(); };
+// Two taps to start over, so a stray tap can't wipe a board.
+let resetArmed;
 $('reset').onclick = () => {
-  if (!confirm('Start this board over? Your found words will be cleared.')) return;
+  if (!resetArmed) {
+    $('reset').textContent = 'Tap again to clear all found words';
+    resetArmed = setTimeout(() => { resetArmed = null; $('reset').textContent = 'Start this board over'; }, 3000);
+    return;
+  }
+  clearTimeout(resetArmed); resetArmed = null;
+  $('reset').textContent = 'Start this board over';
   state = { found: [], bonus: [], hintLetters: false, hintSort: false };
   save(); render();
 };
