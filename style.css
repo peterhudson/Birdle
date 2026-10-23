@@ -130,7 +130,33 @@ section h3 { margin: 0 0 6px; font-size: 1.05rem; }
 #bonus-list .words { color: var(--muted); }
 .reset-row { text-align: center; margin-top: 28px; }
 
-dialog { max-width: 440px; border: 0; border-radius: 16px; background: var(--bg); color: var(--fg); padding: 18px 22px; }
+dialog {
+  width: min(440px, calc(100% - 32px)); border: 0; border-radius: 16px;
+  background: var(--bg); color: var(--fg); padding: 20px 22px 16px; position: relative;
+}
 dialog::backdrop { background: rgb(0 0 0 / .45); }
-dialog h2 { margin-top: 0; }
-dialog li { margin: 4px 0; }
+dialog h2 { margin: 0 40px 10px 0; }
+dialog p { margin: 0 0 10px; }
+dialog .close { position: absolute; top: 12px; right: 12px; }
+.step { min-height: 420px; }
+.demo { display: grid; grid-template-columns: repeat(3, 48px); gap: 6px; justify-content: center; margin: 12px 0 14px; }
+.demo span {
+  aspect-ratio: 1; border-radius: 10px; background: var(--tile); color: var(--tile-fg);
+  display: grid; place-items: center; font-weight: 800; font-size: 1.4rem;
+}
+.demo span.on { background: var(--tile-sel); color: #1d1d1d; }
+.demo-tile {
+  position: relative; width: 72px; aspect-ratio: 1; margin: 6px auto 12px; border-radius: 14px;
+  background: var(--tile); color: var(--tile-fg); display: grid; place-items: center; font-weight: 800;
+  --letter-size: 2.2rem; --num-size: 1rem;
+}
+.demo-tile .letter { font-size: var(--letter-size); }
+.demo-tile .n { position: absolute; bottom: 4px; font-size: var(--num-size); font-weight: 800; line-height: 1; }
+.demo-tile .n.start { left: 5px; background: var(--red); color: #fff; border-radius: 999px; padding: 2px 5px; }
+.demo-tile .n.use { right: 7px; color: #fff; }
+.steps-nav { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 8px; }
+.steps-nav .back[disabled] { visibility: hidden; }
+.pill.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+.dots { display: flex; gap: 8px; }
+.dots i { width: 9px; height: 9px; border-radius: 50%; background: var(--line); }
+.dots i.on { background: var(--accent); }

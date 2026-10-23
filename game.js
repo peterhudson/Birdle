@@ -41,7 +41,8 @@ function showRegions() {
   const list = $('region-list');
   list.innerHTML = '';
   for (const b of BOARDS) {
-    const s = store.get('birdle:' + b.id);
+    const saved = store.get('birdle:' + b.id);
+    const s = saved && saved.grid === b.grid.join('') ? saved : null;
     const found = s ? s.found.length : 0;
     const birds = s ? b.birds.filter((x) => s.found.includes(x.word)).length : 0;
     const status = !s ? `${b.birds.length} birds to find`
@@ -62,7 +63,9 @@ function openBoard(b) {
   bonusSet = new Set(b.bonus);
   birdWords = new Set(b.birds.map((x) => x.word));
   totalPoints = b.words.reduce((t, w) => t + points(w.w), 0);
-  state = store.get('birdle:' + b.id) || { found: [], bonus: [], hintLetters: false, hintSort: false };
+  state = store.get('birdle:' + b.id);
+  // A regenerated board gets a fresh start; old found words wouldn't be on it.
+  if (!state || state.grid !== letters) state = freshState();
   path = []; rotation = 0;
   $('regions').hidden = true; $('game').hidden = false; $('back').hidden = false;
   $('region-name').textContent = `${b.flag} ${b.name}`;
@@ -74,6 +77,7 @@ function openBoard(b) {
 }
 
 const save = () => store.set('birdle:' + board.id, state);
+const freshState = () => ({ grid: letters, found: [], bonus: [], hintLetters: false, hintSort: false });
 
 // ----- board -----------------------------------------------------------------
 
@@ -325,12 +329,32 @@ $('reset').onclick = () => {
   }
   clearTimeout(resetArmed); resetArmed = null;
   $('reset').textContent = 'Start this board over';
-  state = { found: [], bonus: [], hintLetters: false, hintSort: false };
+  state = freshState();
   save(); render();
 };
 $('back').onclick = showRegions;
-$('help').onclick = () => $('rules').showModal();
+// How to play: a few short screens with Back / Next / Let's play.
+const rules = $('rules');
+const steps = [...rules.querySelectorAll('.step')];
+let step = 0;
+function showStep(n) {
+  step = n;
+  steps.forEach((el, i) => { el.hidden = i !== n; });
+  rules.querySelector('.back').disabled = n === 0;
+  rules.querySelector('.next').textContent = n === steps.length - 1 ? "Let's play" : 'Next';
+  rules.querySelector('.dots').innerHTML = steps.map((_, i) => `<i class="${i === n ? 'on' : ''}"></i>`).join('');
+}
+function openRules() {
+  showStep(0);
+  rules.showModal();
+  rules.scrollTop = 0;
+  rules.querySelector('.next').focus();
+}
+rules.querySelector('.back').onclick = () => showStep(step - 1);
+rules.querySelector('.next').onclick = () => (step < steps.length - 1 ? showStep(step + 1) : rules.close());
+rules.querySelector('.close').onclick = () => rules.close();
+$('help').onclick = openRules;
 window.addEventListener('resize', renderPath);
 
 showRegions();
-if (!store.get('birdle:seen-rules')) { store.set('birdle:seen-rules', true); $('rules').showModal(); }
+if (!store.get('birdle:seen-rules')) { store.set('birdle:seen-rules', true); openRules(); }

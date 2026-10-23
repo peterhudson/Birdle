@@ -33,8 +33,9 @@ python3 tools/gen.py bc           # just one
 ```
 
 The generator lays each region's birds into a 5×5 grid, fills the gaps, and finds every word on the
-board. Familiar words become required words; the rest of the dictionary counts as bonus words. If a
-required word feels too obscure or is a proper name, add it to `tools/data/avoid.txt` and regenerate.
+board. Common American English words (SCOWL up to size 55) become required words; everything else in
+the dictionary, including British spellings, counts as a bonus word. To move a word across that line,
+add it to `tools/data/avoid.txt` or `tools/data/promote.txt` and regenerate.
 Word list sources and licenses are in `tools/data/SOURCES.md`.
 
 ## License
