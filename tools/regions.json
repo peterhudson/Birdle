@@ -1,0 +1,326 @@
+[
+ {
+  "id": "bc",
+  "name": "British Columbia",
+  "flag": "🌲",
+  "birds": [
+   {
+    "word": "HERON",
+    "bird": "Great Blue Heron",
+    "note": "The coastal 'fannini' subspecies stays year-round; Stanley Park has a big rookery."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Bald Eagle",
+    "note": "Thousands gather on the Harrison and Squamish rivers for the winter salmon runs."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Chestnut-backed Chickadee",
+    "note": "The chickadee of the wet coastal forests, with a rich chestnut back."
+   },
+   {
+    "word": "OSPREY",
+    "bird": "Osprey",
+    "note": "Nests on pilings and channel markers all along the coast and lakes."
+   }
+  ]
+ },
+ {
+  "id": "southafrica",
+  "name": "South Africa",
+  "flag": "🦁",
+  "birds": [
+   {
+    "word": "PENGUIN",
+    "bird": "African Penguin",
+    "note": "Waddles among sunbathers at Boulders Beach near Cape Town."
+   },
+   {
+    "word": "OSTRICH",
+    "bird": "Common Ostrich",
+    "note": "The world's largest bird; the Little Karoo was the hub of the feather boom."
+   },
+   {
+    "word": "HADEDA",
+    "bird": "Hadeda Ibis",
+    "note": "Named for its loud 'ha-ha-hadeda' call, the country's unofficial alarm clock."
+   },
+   {
+    "word": "SUNBIRD",
+    "bird": "Orange-breasted Sunbird",
+    "note": "Found only in the fynbos of the Western Cape, sipping from proteas and ericas."
+   }
+  ]
+ },
+ {
+  "id": "florida",
+  "name": "Florida",
+  "flag": "🐊",
+  "birds": [
+   {
+    "word": "SPOONBILL",
+    "bird": "Roseate Spoonbill",
+    "note": "Pink from the carotenoids in the shrimp it sweeps up with its spoon-shaped bill."
+   },
+   {
+    "word": "ANHINGA",
+    "bird": "Anhinga",
+    "note": "The 'snake bird' swims with only its neck above water, then dries its wings in the sun."
+   },
+   {
+    "word": "LIMPKIN",
+    "bird": "Limpkin",
+    "note": "Lives almost entirely on apple snails; its wailing scream is a classic Everglades night sound."
+   },
+   {
+    "word": "IBIS",
+    "bird": "White Ibis",
+    "note": "Probes the mud with its curved red bill; the most numerous wading bird in South Florida."
+   }
+  ]
+ },
+ {
+  "id": "australia",
+  "name": "Australia",
+  "flag": "🦘",
+  "birds": [
+   {
+    "word": "KOOKABURRA",
+    "bird": "Laughing Kookaburra",
+    "note": "A giant kingfisher whose dawn chorus sounds like raucous laughter."
+   },
+   {
+    "word": "GALAH",
+    "bird": "Galah",
+    "note": "The pink-and-grey cockatoo; 'galah' is also Aussie slang for a fool."
+   },
+   {
+    "word": "LORIKEET",
+    "bird": "Rainbow Lorikeet",
+    "note": "Brush-tipped tongue for lapping nectar; noisy flocks fill suburban trees."
+   },
+   {
+    "word": "BROLGA",
+    "bird": "Brolga",
+    "note": "A tall crane famous for its leaping, bowing courtship dance."
+   }
+  ]
+ },
+ {
+  "id": "costarica",
+  "name": "Costa Rica",
+  "flag": "🌋",
+  "birds": [
+   {
+    "word": "QUETZAL",
+    "bird": "Resplendent Quetzal",
+    "note": "Males trail emerald tail streamers up to two feet long through cloud forest."
+   },
+   {
+    "word": "TOUCAN",
+    "bird": "Keel-billed Toucan",
+    "note": "Its huge, rainbow-coloured bill is mostly hollow and surprisingly light."
+   },
+   {
+    "word": "MOTMOT",
+    "bird": "Turquoise-browed Motmot",
+    "note": "Swings its racket-tipped tail like a pendulum when it spots a predator."
+   },
+   {
+    "word": "TROGON",
+    "bird": "Slaty-tailed Trogon",
+    "note": "Sits still for long spells, then sallies out to snatch fruit or insects."
+   }
+  ]
+ },
+ {
+  "id": "galapagos",
+  "name": "Galápagos",
+  "flag": "🐢",
+  "birds": [
+   {
+    "word": "BOOBY",
+    "bird": "Blue-footed Booby",
+    "note": "Males show off their bright blue feet in a high-stepping courtship dance."
+   },
+   {
+    "word": "FINCH",
+    "bird": "Darwin's Finches",
+    "note": "More than a dozen species, each with a bill shaped for its island's food."
+   },
+   {
+    "word": "PENGUIN",
+    "bird": "Galápagos Penguin",
+    "note": "The only penguin that lives on the equator."
+   },
+   {
+    "word": "ALBATROSS",
+    "bird": "Waved Albatross",
+    "note": "Nearly the whole world population breeds on Española island."
+   }
+  ]
+ },
+ {
+  "id": "britain",
+  "name": "Britain",
+  "flag": "🫖",
+  "birds": [
+   {
+    "word": "ROBIN",
+    "bird": "European Robin",
+    "note": "Voted the UK's national bird in 2015 and a regular on Christmas cards."
+   },
+   {
+    "word": "PUFFIN",
+    "bird": "Atlantic Puffin",
+    "note": "Can carry a dozen sand eels crosswise in its bill at once."
+   },
+   {
+    "word": "SKYLARK",
+    "bird": "Eurasian Skylark",
+    "note": "Sings non-stop while hovering so high it can vanish from sight."
+   },
+   {
+    "word": "WREN",
+    "bird": "Eurasian Wren",
+    "note": "Tiny, but with one of the loudest songs for its size of any British bird."
+   }
+  ]
+ },
+ {
+  "id": "india",
+  "name": "India",
+  "flag": "🐅",
+  "birds": [
+   {
+    "word": "PEAFOWL",
+    "bird": "Indian Peafowl",
+    "note": "India's national bird; the peacock's train has around 200 display feathers."
+   },
+   {
+    "word": "HORNBILL",
+    "bird": "Great Hornbill",
+    "note": "The female seals herself into a tree hole to nest while the male feeds her."
+   },
+   {
+    "word": "BULBUL",
+    "bird": "Red-vented Bulbul",
+    "note": "One of the commonest garden birds from the Himalayan foothills to the south."
+   },
+   {
+    "word": "MYNA",
+    "bird": "Common Myna",
+    "note": "A bold, chattering city bird found in almost every Indian town."
+   }
+  ]
+ },
+ {
+  "id": "kenya",
+  "name": "Kenya",
+  "flag": "🦒",
+  "birds": [
+   {
+    "word": "FLAMINGO",
+    "bird": "Lesser Flamingo",
+    "note": "Rift Valley soda lakes like Nakuru and Bogoria can turn pink with them."
+   },
+   {
+    "word": "OSTRICH",
+    "bird": "Common Ostrich",
+    "note": "The largest living bird; Kenya also has the blue-legged Somali Ostrich."
+   },
+   {
+    "word": "ROLLER",
+    "bird": "Lilac-breasted Roller",
+    "note": "A safari favourite named for its tumbling, rolling display flight."
+   },
+   {
+    "word": "HAMERKOP",
+    "bird": "Hamerkop",
+    "note": "Builds enormous domed nests that can hold a person's weight."
+   }
+  ]
+ },
+ {
+  "id": "newzealand",
+  "name": "New Zealand",
+  "flag": "🥝",
+  "birds": [
+   {
+    "word": "KIWI",
+    "bird": "Brown Kiwi",
+    "note": "Flightless and nocturnal, with nostrils at the very tip of its long bill."
+   },
+   {
+    "word": "KAKAPO",
+    "bird": "Kākāpō",
+    "note": "The world's heaviest parrot, flightless and nocturnal, with only a few hundred left."
+   },
+   {
+    "word": "TAKAHE",
+    "bird": "Takahē",
+    "note": "Thought extinct for 50 years until it was rediscovered in Fiordland in 1948."
+   },
+   {
+    "word": "PUKEKO",
+    "bird": "Pūkeko",
+    "note": "A purple swamphen that flicks its white undertail as it strides through paddocks."
+   }
+  ]
+ },
+ {
+  "id": "alaska",
+  "name": "Alaska",
+  "flag": "🏔️",
+  "birds": [
+   {
+    "word": "PTARMIGAN",
+    "bird": "Willow Ptarmigan",
+    "note": "Alaska's state bird turns pure white in winter."
+   },
+   {
+    "word": "EIDER",
+    "bird": "Spectacled Eider",
+    "note": "Winters in openings in the Bering Sea ice."
+   },
+   {
+    "word": "LOON",
+    "bird": "Yellow-billed Loon",
+    "note": "The largest loon, breeding on Arctic tundra lakes."
+   },
+   {
+    "word": "PUFFIN",
+    "bird": "Tufted Puffin",
+    "note": "Grows golden head plumes for the breeding season."
+   }
+  ]
+ },
+ {
+  "id": "spain",
+  "name": "Spain",
+  "flag": "💃",
+  "birds": [
+   {
+    "word": "HOOPOE",
+    "bird": "Eurasian Hoopoe",
+    "note": "Raises its crest like a fan; its soft 'oop-oop-oop' call gives it its name."
+   },
+   {
+    "word": "BUSTARD",
+    "bird": "Great Bustard",
+    "note": "One of the heaviest flying birds; Spain holds most of the world's population."
+   },
+   {
+    "word": "VULTURE",
+    "bird": "Griffon Vulture",
+    "note": "Huge colonies soar over the gorges of Monfragüe."
+   },
+   {
+    "word": "STORK",
+    "bird": "White Stork",
+    "note": "Nests on church towers and pylons all across Extremadura."
+   }
+  ]
+ }
+]
