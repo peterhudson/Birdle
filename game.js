@@ -329,8 +329,28 @@ $('reset').onclick = () => {
   save(); render();
 };
 $('back').onclick = showRegions;
-$('help').onclick = () => $('rules').showModal();
+// How to play: a few short screens with Back / Next / Let's play.
+const rules = $('rules');
+const steps = [...rules.querySelectorAll('.step')];
+let step = 0;
+function showStep(n) {
+  step = n;
+  steps.forEach((el, i) => { el.hidden = i !== n; });
+  rules.querySelector('.back').disabled = n === 0;
+  rules.querySelector('.next').textContent = n === steps.length - 1 ? "Let's play" : 'Next';
+  rules.querySelector('.dots').innerHTML = steps.map((_, i) => `<i class="${i === n ? 'on' : ''}"></i>`).join('');
+}
+function openRules() {
+  showStep(0);
+  rules.showModal();
+  rules.scrollTop = 0;
+  rules.querySelector('.next').focus();
+}
+rules.querySelector('.back').onclick = () => showStep(step - 1);
+rules.querySelector('.next').onclick = () => (step < steps.length - 1 ? showStep(step + 1) : rules.close());
+rules.querySelector('.close').onclick = () => rules.close();
+$('help').onclick = openRules;
 window.addEventListener('resize', renderPath);
 
 showRegions();
-if (!store.get('birdle:seen-rules')) { store.set('birdle:seen-rules', true); $('rules').showModal(); }
+if (!store.get('birdle:seen-rules')) { store.set('birdle:seen-rules', true); openRules(); }
