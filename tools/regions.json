@@ -7,192 +7,268 @@
    {
     "word": "HERON",
     "bird": "Great Blue Heron",
-    "note": "The coastal 'fannini' subspecies stays year-round; Stanley Park has a big rookery."
+    "note": "The coastal 'fannini' subspecies stays year-round; Stanley Park has a big rookery.",
+    "sci": "Ardea herodias",
+    "blurb": "A tall grey heron that stands motionless in the shallows, then spears fish with its dagger bill."
    },
    {
     "word": "EAGLE",
     "bird": "Bald Eagle",
-    "note": "Thousands gather on the Harrison and Squamish rivers for the winter salmon runs."
+    "note": "Thousands gather on the Harrison and Squamish rivers for the winter salmon runs.",
+    "sci": "Haliaeetus leucocephalus",
+    "blurb": "A huge eagle with a white head and tail; young birds take about five years to get the adult look."
    },
    {
     "word": "CHICKADEE",
     "bird": "Chestnut-backed Chickadee",
-    "note": "The chickadee of the wet coastal forests, with a rich chestnut back."
+    "note": "The chickadee of the wet coastal forests, with a rich chestnut back.",
+    "sci": "Poecile rufescens",
+    "blurb": "A tiny, busy chickadee with a black cap, white cheeks and a chestnut back and flanks."
    },
    {
     "word": "OSPREY",
     "bird": "Osprey",
-    "note": "Nests on pilings and channel markers all along the coast and lakes."
+    "note": "Nests on pilings and channel markers all along the coast and lakes.",
+    "sci": "Pandion haliaetus",
+    "blurb": "A fish-eating hawk that hovers, then plunges feet-first into the water to grab its catch."
    },
    {
     "word": "RAVEN",
     "bird": "Common Raven",
-    "note": "Central to Haida and other coastal First Nations stories as a trickster and creator."
+    "note": "Central to Haida and other coastal First Nations stories as a trickster and creator.",
+    "sci": "Corvus corax",
+    "blurb": "Bigger than a crow, with a wedge-shaped tail, shaggy throat and a deep croaking call."
    },
    {
     "word": "LOON",
     "bird": "Common Loon",
-    "note": "Its wailing call carries across interior lakes on summer nights."
+    "note": "Its wailing call carries across interior lakes on summer nights.",
+    "sci": "Gavia immer",
+    "blurb": "A big diving bird with a black head, red eye and a checkerboard back in summer."
    },
    {
     "word": "JUNCO",
     "bird": "Dark-eyed Junco",
-    "note": "Flashes white outer tail feathers as it flies up from the ground."
+    "note": "Flashes white outer tail feathers as it flies up from the ground.",
+    "sci": "Junco hyemalis",
+    "blurb": "A small sparrow with a dark hood and pink bill, common at feeders in winter."
    },
    {
     "word": "TOWHEE",
     "bird": "Spotted Towhee",
-    "note": "Scratches noisily in the leaf litter with a two-footed backward hop."
+    "note": "Scratches noisily in the leaf litter with a two-footed backward hop.",
+    "sci": "Pipilo maculatus",
+    "blurb": "A large sparrow with a black hood, rusty sides, red eyes and white spots on its back."
    },
    {
     "word": "WREN",
     "bird": "Pacific Wren",
-    "note": "A tiny bird with a long, tumbling song in old-growth forest."
+    "note": "A tiny bird with a long, tumbling song in old-growth forest.",
+    "sci": "Troglodytes pacificus",
+    "blurb": "A tiny brown wren that cocks its stubby tail and creeps about on the forest floor."
    },
    {
     "word": "DIPPER",
     "bird": "American Dipper",
-    "note": "Walks underwater along mountain streams to feed."
+    "note": "Walks underwater along mountain streams to feed.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
    },
    {
     "word": "GROUSE",
     "bird": "Sooty Grouse",
-    "note": "Males hoot from high in the conifers in spring."
+    "note": "Males hoot from high in the conifers in spring.",
+    "sci": "Dendragapus fuliginosus",
+    "blurb": "A big, dark forest grouse; displaying males puff out yellow neck sacs and fan their tails."
    },
    {
     "word": "PUFFIN",
     "bird": "Tufted Puffin",
-    "note": "Nests on islands off Haida Gwaii and northern Vancouver Island."
+    "note": "Nests on islands off Haida Gwaii and northern Vancouver Island.",
+    "sci": "Fratercula cirrhata",
+    "blurb": "A black puffin with a white face, a big orange bill and golden head plumes in summer."
    },
    {
     "word": "MURRELET",
     "bird": "Marbled Murrelet",
-    "note": "A seabird that nests high on mossy branches of old-growth trees."
+    "note": "A seabird that nests high on mossy branches of old-growth trees.",
+    "sci": "Brachyramphus marmoratus",
+    "blurb": "A small, chunky seabird; brown and marbled in summer, crisp black and white in winter."
    },
    {
     "word": "FLICKER",
     "bird": "Northern Flicker",
-    "note": "BC's 'red-shafted' flickers flash salmon-pink under the wings."
+    "note": "BC's 'red-shafted' flickers flash salmon-pink under the wings.",
+    "sci": "Colaptes auratus",
+    "blurb": "A large brown woodpecker with a black bib and spots that often feeds on ants on the ground."
    },
    {
     "word": "KINGLET",
     "bird": "Golden-crowned Kinglet",
-    "note": "Weighs about as much as two paper clips, yet winters in the north."
+    "note": "Weighs about as much as two paper clips, yet winters in the north.",
+    "sci": "Regulus satrapa",
+    "blurb": "One of the smallest songbirds, with a bright yellow-orange crown stripe and a very high call."
    },
    {
     "word": "BUSHTIT",
     "bird": "Bushtit",
-    "note": "Moves in chattering flocks and weaves a sock-shaped hanging nest."
+    "note": "Moves in chattering flocks and weaves a sock-shaped hanging nest.",
+    "sci": "Psaltriparus minimus",
+    "blurb": "A tiny grey-brown bird with a long tail that travels in busy, twittering flocks."
    },
    {
     "word": "SAPSUCKER",
     "bird": "Red-breasted Sapsucker",
-    "note": "Drills neat rows of holes to drink sap and catch insects."
+    "note": "Drills neat rows of holes to drink sap and catch insects.",
+    "sci": "Sphyrapicus ruber",
+    "blurb": "A woodpecker with an all-red head and breast and a white wing stripe."
    },
    {
     "word": "BUFFLEHEAD",
     "bird": "Bufflehead",
-    "note": "A small diving duck that nests in old flicker holes."
+    "note": "A small diving duck that nests in old flicker holes.",
+    "sci": "Bucephala albeola",
+    "blurb": "A small duck; males are bright white with a dark, glossy head and a big white patch behind the eye."
    },
    {
     "word": "SCOTER",
     "bird": "Surf Scoter",
-    "note": "Huge flocks raft off the coast in winter and spring."
+    "note": "Huge flocks raft off the coast in winter and spring.",
+    "sci": "Melanitta perspicillata",
+    "blurb": "A black sea duck; males have a white forehead and nape and a colourful 'skunk' bill."
    },
    {
     "word": "BRANT",
     "bird": "Brant",
-    "note": "Stops over at Parksville and Qualicum Beach each spring."
+    "note": "Stops over at Parksville and Qualicum Beach each spring.",
+    "sci": "Branta bernicla",
+    "blurb": "A small, dark sea goose with a white necklace that feeds on eelgrass in bays."
    },
    {
     "word": "GOOSE",
     "bird": "Canada Goose",
-    "note": "Abundant on every park lawn and estuary."
+    "note": "Abundant on every park lawn and estuary.",
+    "sci": "Branta canadensis",
+    "blurb": "A big goose with a black neck and white chinstrap that flies in honking V-shaped flocks."
    },
    {
     "word": "CROW",
     "bird": "American Crow",
-    "note": "The coastal 'Northwestern Crow' is now lumped with the American Crow."
+    "note": "The coastal 'Northwestern Crow' is now lumped with the American Crow.",
+    "sci": "Corvus brachyrhynchos",
+    "blurb": "An all-black, clever and social bird that gathers in big winter roosts."
    },
    {
     "word": "HAWK",
     "bird": "Red-tailed Hawk",
-    "note": "The commonest roadside hawk in the Fraser Valley."
+    "note": "The commonest roadside hawk in the Fraser Valley.",
+    "sci": "Buteo jamaicensis",
+    "blurb": "A big, broad-winged hawk with a brick-red tail, often seen perched on poles by the road."
    },
    {
     "word": "GULL",
     "bird": "Glaucous-winged Gull",
-    "note": "The everyday gull of the BC coast."
+    "note": "The everyday gull of the BC coast.",
+    "sci": "Larus glaucescens",
+    "blurb": "A large gull with pale grey wingtips that match the rest of the wing."
    },
    {
     "word": "DUCK",
     "bird": "Harlequin Duck",
-    "note": "Breeds on fast mountain rivers and winters in coastal surf."
+    "note": "Breeds on fast mountain rivers and winters in coastal surf.",
+    "sci": "Histrionicus histrionicus",
+    "blurb": "A small duck; males are slate blue with chestnut sides and bold white stripes and spots."
    },
    {
     "word": "TEAL",
     "bird": "Green-winged Teal",
-    "note": "North America's smallest dabbling duck."
+    "note": "North America's smallest dabbling duck.",
+    "sci": "Anas crecca",
+    "blurb": "A tiny dabbling duck; males have a chestnut head with a green eye patch."
    },
    {
     "word": "COOT",
     "bird": "American Coot",
-    "note": "Has lobed toes instead of webbed feet."
+    "note": "Has lobed toes instead of webbed feet.",
+    "sci": "Fulica americana",
+    "blurb": "A dark, duck-like bird with a white bill that pumps its head as it swims."
    },
    {
     "word": "GREBE",
     "bird": "Western Grebe",
-    "note": "Pairs 'rush' across the water side by side in courtship."
+    "note": "Pairs 'rush' across the water side by side in courtship.",
+    "sci": "Aechmophorus occidentalis",
+    "blurb": "A sleek black-and-white grebe with a long swan-like neck and red eyes."
    },
    {
     "word": "CORMORANT",
     "bird": "Pelagic Cormorant",
-    "note": "Nests on narrow ledges of coastal sea cliffs."
+    "note": "Nests on narrow ledges of coastal sea cliffs.",
+    "sci": "Urile pelagicus",
+    "blurb": "A slim, glossy black cormorant with a thin neck and white flank patches when breeding."
    },
    {
     "word": "HUMMINGBIRD",
     "bird": "Rufous Hummingbird",
-    "note": "Migrates from Mexico to BC, a huge trip for its size."
+    "note": "Migrates from Mexico to BC, a huge trip for its size.",
+    "sci": "Selasphorus rufus",
+    "blurb": "A feisty orange hummingbird; males have a flaming red-orange throat."
    },
    {
     "word": "SISKIN",
     "bird": "Pine Siskin",
-    "note": "A streaky finch that arrives in noisy flocks at feeders."
+    "note": "A streaky finch that arrives in noisy flocks at feeders.",
+    "sci": "Spinus pinus",
+    "blurb": "A small, streaky brown finch with flashes of yellow in the wings and tail."
    },
    {
     "word": "SPARROW",
     "bird": "Song Sparrow",
-    "note": "The dark, rich-coloured coastal birds sing all year."
+    "note": "The dark, rich-coloured coastal birds sing all year.",
+    "sci": "Melospiza melodia",
+    "blurb": "A streaky brown sparrow with a central breast spot that pumps its tail in flight."
    },
    {
     "word": "ROBIN",
     "bird": "American Robin",
-    "note": "A sure sign of spring on every lawn."
+    "note": "A sure sign of spring on every lawn.",
+    "sci": "Turdus migratorius",
+    "blurb": "A big thrush with a brick-red breast that runs and stops on lawns hunting worms."
    },
    {
     "word": "THRUSH",
     "bird": "Varied Thrush",
-    "note": "Its eerie, single-note song echoes through wet forests."
+    "note": "Its eerie, single-note song echoes through wet forests.",
+    "sci": "Ixoreus naevius",
+    "blurb": "A robin-sized thrush with an orange eyebrow and wing bars and a dark breast band."
    },
    {
     "word": "NUTHATCH",
     "bird": "Red-breasted Nuthatch",
-    "note": "Smears sap around its nest hole to keep intruders out."
+    "note": "Smears sap around its nest hole to keep intruders out.",
+    "sci": "Sitta canadensis",
+    "blurb": "A small, stubby bird that creeps head-first down tree trunks, with a black eye line and a tinny call."
    },
    {
     "word": "WIGEON",
     "bird": "American Wigeon",
-    "note": "Grazes in big flocks on golf courses and fields."
+    "note": "Grazes in big flocks on golf courses and fields.",
+    "sci": "Mareca americana",
+    "blurb": "A dabbling duck; males have a white forehead stripe, earning the nickname 'baldpate'."
    },
    {
     "word": "PTARMIGAN",
     "bird": "White-tailed Ptarmigan",
-    "note": "Lives above the treeline and turns white in winter."
+    "note": "Lives above the treeline and turns white in winter.",
+    "sci": "Lagopus leucura",
+    "blurb": "North America's smallest grouse, mottled brown in summer and pure white in winter."
    },
    {
     "word": "SNIPE",
     "bird": "Wilson's Snipe",
-    "note": "Makes a 'winnowing' sound with its tail feathers in display flight."
+    "note": "Makes a 'winnowing' sound with its tail feathers in display flight.",
+    "sci": "Gallinago delicata",
+    "blurb": "A chunky, well-camouflaged shorebird with a very long bill that probes wet ground."
    }
   ]
  },
@@ -204,187 +280,261 @@
    {
     "word": "PENGUIN",
     "bird": "African Penguin",
-    "note": "Waddles among sunbathers at Boulders Beach near Cape Town."
+    "note": "Waddles among sunbathers at Boulders Beach near Cape Town.",
+    "sci": "Spheniscus demersus",
+    "blurb": "Africa's only penguin, with a black chest band and a donkey-like braying call."
    },
    {
     "word": "OSTRICH",
     "bird": "Common Ostrich",
-    "note": "The world's largest bird; the Little Karoo was the hub of the feather boom."
+    "note": "The world's largest bird; the Little Karoo was the hub of the feather boom.",
+    "sci": "Struthio camelus",
+    "blurb": "A flightless giant that can run at 70 km/h and lays the world's biggest eggs."
    },
    {
     "word": "HADEDA",
     "bird": "Hadeda Ibis",
-    "note": "Named for its loud 'ha-ha-hadeda' call, the country's unofficial alarm clock."
+    "note": "Named for its loud 'ha-ha-hadeda' call, the country's unofficial alarm clock.",
+    "sci": "Bostrychia hagedash",
+    "blurb": "A stocky grey-brown ibis with a long curved bill and a green-pink sheen on its wings."
    },
    {
     "word": "SUNBIRD",
     "bird": "Orange-breasted Sunbird",
-    "note": "Found only in the fynbos of the Western Cape, sipping from proteas and ericas."
+    "note": "Found only in the fynbos of the Western Cape, sipping from proteas and ericas.",
+    "sci": "Anthobaphes violacea",
+    "blurb": "Males have an emerald head, an orange breast and a long pointed tail."
    },
    {
     "word": "CRANE",
     "bird": "Blue Crane",
-    "note": "South Africa's national bird."
+    "note": "South Africa's national bird.",
+    "sci": "Grus paradisea",
+    "blurb": "A tall, pale blue-grey crane with long trailing wing feathers that dances in pairs."
    },
    {
     "word": "HOOPOE",
     "bird": "African Hoopoe",
-    "note": "Probes lawns for grubs and raises its crest when alarmed."
+    "note": "Probes lawns for grubs and raises its crest when alarmed.",
+    "sci": "Upupa africana",
+    "blurb": "A cinnamon bird with a black-tipped crest, zebra-striped wings and a soft 'hoop-hoop' call."
    },
    {
     "word": "WEAVER",
     "bird": "Southern Masked Weaver",
-    "note": "Males weave intricate hanging nests and tear them down if the female doesn't approve."
+    "note": "Males weave intricate hanging nests and tear them down if the female doesn't approve.",
+    "sci": "Ploceus velatus",
+    "blurb": "Breeding males are bright yellow with a black mask and red eyes."
    },
    {
     "word": "BARBET",
     "bird": "Crested Barbet",
-    "note": "Its long trilling call is a classic sound of Highveld gardens."
+    "note": "Its long trilling call is a classic sound of Highveld gardens.",
+    "sci": "Trachyphonus vaillantii",
+    "blurb": "A speckled yellow, black and red barbet with a shaggy crest."
    },
    {
     "word": "ROLLER",
     "bird": "Lilac-breasted Roller",
-    "note": "A Kruger favourite that tumbles in its display flight."
+    "note": "A Kruger favourite that tumbles in its display flight.",
+    "sci": "Coracias caudatus",
+    "blurb": "A dazzling bird with a lilac breast, turquoise belly and electric-blue wings."
    },
    {
     "word": "HORNBILL",
     "bird": "Southern Ground Hornbill",
-    "note": "Lives in family groups and booms like a lion at dawn."
+    "note": "Lives in family groups and booms like a lion at dawn.",
+    "sci": "Bucorvus leadbeateri",
+    "blurb": "A turkey-sized black hornbill with bare red face and throat skin."
    },
    {
     "word": "TURACO",
     "bird": "Knysna Turaco",
-    "note": "Flashes brilliant red wing feathers as it flies through the forest."
+    "note": "Flashes brilliant red wing feathers as it flies through the forest.",
+    "sci": "Tauraco corythaix",
+    "blurb": "A green forest bird with a white-tipped crest and crimson flight feathers."
    },
    {
     "word": "HAMERKOP",
     "bird": "Hamerkop",
-    "note": "Builds enormous domed nests that can hold a person's weight."
+    "note": "Builds enormous domed nests that can hold a person's weight.",
+    "sci": "Scopus umbretta",
+    "blurb": "A brown waterbird whose crest and bill make its head look like a hammer."
    },
    {
     "word": "FLAMINGO",
     "bird": "Lesser Flamingo",
-    "note": "Kamfers Dam near Kimberley hosts one of its few breeding colonies."
+    "note": "Kamfers Dam near Kimberley hosts one of its few breeding colonies.",
+    "sci": "Phoeniconaias minor",
+    "blurb": "The smallest flamingo, deep pink with a dark red bill, filtering algae in huge flocks."
    },
    {
     "word": "IBIS",
     "bird": "Sacred Ibis",
-    "note": "A wetland and rubbish-dump regular with a bare black head."
+    "note": "A wetland and rubbish-dump regular with a bare black head.",
+    "sci": "Threskiornis aethiopicus",
+    "blurb": "A white ibis with a black head and neck and a curved black bill."
    },
    {
     "word": "BUSTARD",
     "bird": "Kori Bustard",
-    "note": "One of the heaviest flying birds in the world."
+    "note": "One of the heaviest flying birds in the world.",
+    "sci": "Ardeotis kori",
+    "blurb": "A huge grey-brown ground bird that struts slowly through the grassland."
    },
    {
     "word": "KORHAAN",
     "bird": "Northern Black Korhaan",
-    "note": "Males rise up calling noisily, then parachute down."
+    "note": "Males rise up calling noisily, then parachute down.",
+    "sci": "Afrotis afraoides",
+    "blurb": "A small bustard; males are black below with a white cheek patch and white wing flashes."
    },
    {
     "word": "FISCAL",
     "bird": "Southern Fiscal",
-    "note": "A shrike that impales prey on thorns, nicknamed the 'butcher bird'."
+    "note": "A shrike that impales prey on thorns, nicknamed the 'butcher bird'.",
+    "sci": "Lanius collaris",
+    "blurb": "A black-and-white shrike with a hooked bill that watches for prey from a perch."
    },
    {
     "word": "DRONGO",
     "bird": "Fork-tailed Drongo",
-    "note": "Mimics alarm calls to scare other animals off their food."
+    "note": "Mimics alarm calls to scare other animals off their food.",
+    "sci": "Dicrurus adsimilis",
+    "blurb": "A glossy black bird with red eyes and a deeply forked tail, bold enough to mob eagles."
    },
    {
     "word": "BULBUL",
     "bird": "Dark-capped Bulbul",
-    "note": "One of the commonest garden birds in the north and east."
+    "note": "One of the commonest garden birds in the north and east.",
+    "sci": "Pycnonotus tricolor",
+    "blurb": "A brown bird with a dark crested head and a bright yellow vent."
    },
    {
     "word": "CANARY",
     "bird": "Cape Canary",
-    "note": "A wild relative of the cage canary, with a rich song."
+    "note": "A wild relative of the cage canary, with a rich song.",
+    "sci": "Serinus canicollis",
+    "blurb": "A yellow-green canary with a grey nape that sings from treetops."
    },
    {
     "word": "SUGARBIRD",
     "bird": "Cape Sugarbird",
-    "note": "Males trail very long tails over the fynbos."
+    "note": "Males trail very long tails over the fynbos.",
+    "sci": "Promerops cafer",
+    "blurb": "A brown nectar-feeder with a yellow vent, a curved bill and a very long tail."
    },
    {
     "word": "MOUSEBIRD",
     "bird": "Speckled Mousebird",
-    "note": "Creeps through bushes like a mouse and huddles in groups at night."
+    "note": "Creeps through bushes like a mouse and huddles in groups at night.",
+    "sci": "Colius striatus",
+    "blurb": "A soft brown bird with a crest and a long, stiff tail that clambers through bushes."
    },
    {
     "word": "STARLING",
     "bird": "Cape Starling",
-    "note": "A glossy blue starling that flashes in the sun."
+    "note": "A glossy blue starling that flashes in the sun.",
+    "sci": "Lamprotornis nitens",
+    "blurb": "A glossy blue-green starling with orange-yellow eyes."
    },
    {
     "word": "ORIOLE",
     "bird": "Black-headed Oriole",
-    "note": "Its liquid whistle carries through thornveld and gardens."
+    "note": "Its liquid whistle carries through thornveld and gardens.",
+    "sci": "Oriolus larvatus",
+    "blurb": "A bright yellow bird with a black head and a pink-red bill."
    },
    {
     "word": "VULTURE",
     "bird": "Cape Vulture",
-    "note": "Breeds on cliffs; South Africa holds most of the world population."
+    "note": "Breeds on cliffs; South Africa holds most of the world population.",
+    "sci": "Gyps coprotheres",
+    "blurb": "A large, pale vulture with a bare bluish neck that soars over mountains and farmland."
    },
    {
     "word": "EAGLE",
     "bird": "African Fish Eagle",
-    "note": "Its ringing call is the sound of African rivers and dams."
+    "note": "Its ringing call is the sound of African rivers and dams.",
+    "sci": "Haliaeetus vocifer",
+    "blurb": "A white-headed eagle with a chestnut body that snatches fish from the surface."
    },
    {
     "word": "GANNET",
     "bird": "Cape Gannet",
-    "note": "Dives for sardines in huge colonies at Lambert's Bay and Bird Island."
+    "note": "Dives for sardines in huge colonies at Lambert's Bay and Bird Island.",
+    "sci": "Morus capensis",
+    "blurb": "A big white seabird with a golden head, black-edged wings and blue-rimmed eyes."
    },
    {
     "word": "OXPECKER",
     "bird": "Red-billed Oxpecker",
-    "note": "Rides on buffalo and giraffes, picking off ticks."
+    "note": "Rides on buffalo and giraffes, picking off ticks.",
+    "sci": "Buphagus erythrorynchus",
+    "blurb": "A brown bird with a red bill and yellow eye ring that clings to large mammals."
    },
    {
     "word": "GUINEAFOWL",
     "bird": "Helmeted Guineafowl",
-    "note": "Noisy flocks roam farmland and suburbs."
+    "note": "Noisy flocks roam farmland and suburbs.",
+    "sci": "Numida meleagris",
+    "blurb": "A plump grey bird covered in white spots, with a bony casque on its blue head."
    },
    {
     "word": "FRANCOLIN",
     "bird": "Crested Francolin",
-    "note": "Runs with its tail cocked like a bantam."
+    "note": "Runs with its tail cocked like a bantam.",
+    "sci": "Ortygornis sephaena",
+    "blurb": "A small game bird with a dark cap and white eyebrow that often cocks its tail."
    },
    {
     "word": "LARK",
     "bird": "Rufous-naped Lark",
-    "note": "Calls from the top of a bush, then claps its wings in display."
+    "note": "Calls from the top of a bush, then claps its wings in display.",
+    "sci": "Mirafra africana",
+    "blurb": "A stocky lark with a rufous crest and wings and a cheerful whistled song."
    },
    {
     "word": "CHAT",
     "bird": "Familiar Chat",
-    "note": "Flicks its wings constantly; a common farmyard companion."
+    "note": "Flicks its wings constantly; a common farmyard companion.",
+    "sci": "Oenanthe familiaris",
+    "blurb": "A plain brown chat with a rusty rump and tail that flicks its wings."
    },
    {
     "word": "DOVE",
     "bird": "Cape Turtle Dove",
-    "note": "Its 'work harder' call is a constant sound of the bush."
+    "note": "Its 'work harder' call is a constant sound of the bush.",
+    "sci": "Streptopelia capicola",
+    "blurb": "A soft grey dove with a black half-collar on the back of its neck."
    },
    {
     "word": "TERN",
     "bird": "Swift Tern",
-    "note": "Breeds on Robben Island and harbour breakwaters."
+    "note": "Breeds on Robben Island and harbour breakwaters.",
+    "sci": "Thalasseus bergii",
+    "blurb": "A large tern with a yellow bill and a shaggy black crest."
    },
    {
     "word": "PRINIA",
     "bird": "Karoo Prinia",
-    "note": "A small, perky warbler with a cocked tail."
+    "note": "A small, perky warbler with a cocked tail.",
+    "sci": "Prinia maculosa",
+    "blurb": "A tiny brown warbler with a streaked breast and a long, often cocked, tail."
    },
    {
     "word": "KESTREL",
     "bird": "Rock Kestrel",
-    "note": "Hovers over grassland and roadside verges."
+    "note": "Hovers over grassland and roadside verges.",
+    "sci": "Falco rupicolus",
+    "blurb": "A small chestnut falcon with a grey head, often hovering over open ground."
    },
    {
     "word": "PIPIT",
     "bird": "African Pipit",
-    "note": "A streaky ground bird of open grassland."
+    "note": "A streaky ground bird of open grassland.",
+    "sci": "Anthus cinnamomeus",
+    "blurb": "A slim, streaky brown ground bird that runs and stops, bobbing its tail."
    }
   ]
  },

@@ -84,6 +84,9 @@ function openBoard(b) {
   state = store.get('birdle:' + b.id);
   // A regenerated board gets a fresh start; old found words wouldn't be on it.
   if (!state || state.grid !== letters) state = freshState();
+  // Boards saved before reveals existed start with the usual one.
+  state.reveals ??= 1; state.revealed ||= []; state.birdReveal ??= false;
+  armed = null;
   path = []; rotation = 0;
   $('regions').hidden = true; $('game').hidden = false; $('back').hidden = false;
   $('region-name').textContent = `${b.flag} ${b.name} · ${b.level}`;
@@ -95,7 +98,14 @@ function openBoard(b) {
 }
 
 const save = () => store.set('birdle:' + board.id, state);
-const freshState = () => ({ grid: letters, found: [], bonus: [], hintLetters: false, hintSort: false });
+const freshState = () => ({
+  grid: letters, found: [], bonus: [], hintLetters: false, hintSort: false,
+  reveals: 1, revealed: [], birdReveal: false,
+});
+const isComplete = (b) => {
+  const s = store.get('birdle:' + b.id);
+  return !!s && s.grid === b.grid.join('') && s.found.length === b.words.length;
+};
 
 // ----- board -----------------------------------------------------------------
 
@@ -186,7 +196,7 @@ function retype() {
 }
 
 document.addEventListener('keydown', (e) => {
-  if ($('game').hidden || e.metaKey || e.ctrlKey || e.altKey || $('rules').open) return;
+  if ($('game').hidden || e.metaKey || e.ctrlKey || e.altKey || document.querySelector('dialog[open]')) return;
   if (e.key === 'Enter') submit();
   else if (e.key === 'Escape') clearPath();
   else if (e.key === 'Backspace') { typedWord = typedWord.slice(0, -1); typedAlt = 0; retype(); }
@@ -210,24 +220,73 @@ function submit() {
   if (w.length < MIN_LEN) flash(w, 'Too short');
   else if (state.found.includes(w) || state.bonus.includes(w)) say(`${w}: already found`, 'neutral');
   else if (required.has(w)) {
-    const before = starsEarned();
-    state.found.push(w);
-    save();
-    const bird = board.birds.find((b) => b.word === w);
-    const earned = starsEarned();
-    if (state.found.length === board.words.length) toast('🎉 Board complete! Every word found.');
-    else {
-      const star = earned > before
-        ? ['★ Red numbers unlocked', '★ White numbers unlocked', '★ Hints unlocked'][earned - 1] : '';
-      const found = bird ? `🐦 ${bird.bird}! +${points(w)}` : `${w} +${points(w)}`;
-      toast(star ? `${found} · ${star}` : found);
-    }
+    clearPath();
+    return addFound(w, false);
   } else if (bonusSet.has(w)) {
     state.bonus.push(w);
     save();
     toast(`${w}: bonus word`);
   } else flash(w, 'Not in word list');
   clearPath();
+  render();
+}
+
+// Records a required word as found, whether the player found it or used a reveal on it.
+function addFound(w, viaReveal) {
+  const before = starsEarned();
+  state.found.push(w);
+  if (viaReveal) state.revealed.push(w);
+  // Finding every bird earns one more reveal, once per board.
+  let extra = '';
+  if (!state.birdReveal && board.birds.every((b) => state.found.includes(b.word))) {
+    state.birdReveal = true;
+    state.reveals++;
+    extra = '💡 +1 reveal';
+  }
+  save();
+  const bird = board.birds.find((b) => b.word === w);
+  const earned = starsEarned();
+  const done = state.found.length === board.words.length;
+  if (done) toast('🎉 Board complete! Every word found.');
+  else {
+    const star = earned > before
+      ? ['★ Red numbers unlocked', '★ White numbers unlocked', '★ Hints unlocked'][earned - 1] : '';
+    const found = (viaReveal ? '💡 ' : '') + (bird ? `🐦 ${bird.bird}! +${points(w)}` : `${w} +${points(w)}`);
+    toast([found, star, extra].filter(Boolean).join(' · '));
+  }
+  render();
+  // A newly found bird pops up its card; a finished board then offers the next one.
+  if (bird) showBird(bird, done ? showComplete : null);
+  else if (done) showComplete();
+}
+
+// ----- reveals ---------------------------------------------------------------
+
+// Like Squaredle: a reveal shows a random missing word, or once the hints are
+// unlocked, the missing word you tap (twice, so a stray tap doesn't waste it).
+let armed = null, armedTimer;
+const noReveals = () => say(state.birdReveal ? 'No reveals left on this board' : 'No reveals left. Find all the birds to earn one.', 'neutral');
+function revealRandom() {
+  if (!state.reveals) return noReveals();
+  const left = board.words.map((w) => w.w).filter((w) => !state.found.includes(w));
+  // Leave the birds for the player while there are other words to show.
+  const pool = left.filter((w) => !birdWords.has(w));
+  const choices = pool.length ? pool : left;
+  if (!choices.length) return;
+  useReveal(choices[Math.floor(Math.random() * choices.length)]);
+}
+function useReveal(w) {
+  state.reveals--;
+  armed = null;
+  addFound(w, true);
+}
+function tapMissing(w) {
+  if (!state.reveals) return noReveals();
+  if (armed === w) { clearTimeout(armedTimer); return useReveal(w); }
+  armed = w;
+  clearTimeout(armedTimer);
+  armedTimer = setTimeout(() => { armed = null; render(); }, 3000);
+  say('Tap it again to use a reveal', 'neutral');
   render();
 }
 
@@ -274,6 +333,9 @@ function render() {
     t.style.transform = `rotate(${-rotation}deg)`;
   });
 
+  const rv = $('reveal');
+  rv.textContent = state.reveals ? `💡 Reveal a word (${state.reveals})` : '💡 No reveals';
+  rv.classList.toggle('spent', !state.reveals);
   renderBirds();
   $('hints').hidden = stars < 3;
   $('hint-letters').checked = state.hintLetters;
@@ -283,11 +345,15 @@ function render() {
 
 function renderBirds() {
   const found = board.birds.filter((b) => state.found.includes(b.word)).length;
-  const showLetters = starsEarned() >= 3 && state.hintLetters;
+  const hintsOn = starsEarned() >= 3;
+  const showLetters = hintsOn && state.hintLetters;
+  // Found birds open their card; once hints are unlocked, a missing bird can take a reveal.
   $('birds-panel').innerHTML = `<h3>🐦 Birds of ${board.name}: ${found} of ${board.birds.length}</h3>` +
     board.birds.map((b) => state.found.includes(b.word)
-      ? `<div class="bird-row"><span class="name">${b.word} · ${b.bird}</span><div class="note">${b.note}</div></div>`
-      : `<div class="bird-row"><span class="slots">${showLetters ? hinted(b.word) : '_'.repeat(b.word.length)}</span> <span class="note">${b.word.length} letters</span></div>`
+      ? `<button class="bird-row found" data-bird="${b.word}"><span class="name">${b.word} · ${b.bird}</span>` +
+        `<span class="more">Photo and notes ›</span></button>`
+      : `<div class="bird-row${armed === b.word ? ' armed' : ''}"${hintsOn ? ` data-miss="${b.word}"` : ''}>` +
+        `<span class="slots">${showLetters ? hinted(b.word) : '_'.repeat(b.word.length)}</span> <span class="note">${b.word.length} letters</span></div>`
     ).join('');
 }
 
@@ -305,11 +371,11 @@ function renderWords(hintsOn) {
       : [...state.found.filter((w) => w.length == len), ...all.filter((w) => !found.includes(w)).sort()];
     html += `<div class="group-title">${len} letters · ${found.length} of ${all.length}</div><div class="words">` +
       items.map((w) => {
-        const cls = birdWords.has(w) ? ' bird' : '';
-        if (found.includes(w)) return `<span class="word${cls}">${w}</span>`;
+        const cls = (birdWords.has(w) ? ' bird' : '') + (state.revealed.includes(w) ? ' revealed' : '');
+        if (found.includes(w)) return `<span class="word${cls}"${birdWords.has(w) ? ` data-bird="${w}"` : ''}>${w}</span>`;
         if (!sortAll && !showLetters) return '';
         const shown = showLetters ? hinted(w) : '_'.repeat(w.length);
-        return `<span class="word missing">${shown}</span>`;
+        return `<span class="word missing${armed === w ? ' armed' : ''}" data-miss="${w}">${shown}</span>`;
       }).join('') + '</div>';
   }
   $('word-list').innerHTML = html;
@@ -339,6 +405,16 @@ $('rotate').onclick = () => {
   $('board').style.transform = `rotate(${rotation}deg)`;
   render();
 };
+$('reveal').onclick = revealRandom;
+// Taps in the bird panel and word list: a found bird opens its card, a missing word can be revealed.
+for (const id of ['birds-panel', 'word-list']) {
+  $(id).addEventListener('click', (e) => {
+    const el = e.target.closest('[data-bird], [data-miss]');
+    if (!el) return;
+    if (el.dataset.bird) showBird(board.birds.find((b) => b.word === el.dataset.bird));
+    else tapMissing(el.dataset.miss);
+  });
+}
 $('hint-letters').onchange = (e) => { state.hintLetters = e.target.checked; save(); render(); };
 $('hint-sort').onchange = (e) => { state.hintSort = e.target.checked; save(); render(); };
 // Two taps to start over, so a stray tap can't wipe a board.
@@ -355,6 +431,101 @@ $('reset').onclick = () => {
   save(); render();
 };
 $('back').onclick = showRegions;
+// ----- bird cards ------------------------------------------------------------
+
+// Photos come from iNaturalist, looked up by scientific name the first time a
+// bird's card opens and remembered after that. Only Creative Commons photos
+// are used, with their credit shown.
+const INAT = 'https://api.inaturalist.org/v1';
+async function birdPhoto(bird) {
+  const key = 'birdle:photo:' + bird.sci;
+  const cached = store.get(key);
+  if (cached) return cached;
+  const get = async (url) => { const r = await fetch(url); if (!r.ok) throw new Error(r.status); return r.json(); };
+  const { results } = await get(`${INAT}/taxa?q=${encodeURIComponent(bird.sci)}&per_page=10`);
+  const birds = results.filter((t) => t.iconic_taxon_name === 'Aves');
+  const taxon = birds.find((t) => t.name === bird.sci) || birds.find((t) => t.matched_term === bird.sci) || birds[0];
+  if (!taxon) throw new Error('no taxon');
+  let photo = taxon.default_photo?.license_code ? taxon.default_photo : null;
+  if (!photo) {
+    const full = (await get(`${INAT}/taxa/${taxon.id}`)).results[0];
+    photo = full.taxon_photos.map((p) => p.photo).find((p) => p.license_code);
+  }
+  if (!photo) throw new Error('no open photo');
+  const info = {
+    url: photo.medium_url || photo.url.replace('square', 'medium'),
+    credit: photo.attribution,
+    license: photo.license_code,
+    page: `https://www.inaturalist.org/taxa/${taxon.id}`,
+  };
+  store.set(key, info);
+  return info;
+}
+const licenseUrl = (code) => code === 'cc0'
+  ? 'https://creativecommons.org/publicdomain/zero/1.0/'
+  : `https://creativecommons.org/licenses/${code.replace(/^cc-/, '')}/4.0/`;
+
+const card = $('bird-card');
+let afterCard = null;
+function showBird(bird, then = null) {
+  afterCard = then;
+  card.querySelector('.bird-name').textContent = bird.bird;
+  card.querySelector('.sci').textContent = bird.sci || '';
+  card.querySelector('.blurb').textContent = bird.blurb || '';
+  card.querySelector('.note').textContent = bird.note;
+  const fig = card.querySelector('figure');
+  const img = fig.querySelector('img'), cap = fig.querySelector('figcaption');
+  fig.className = 'loading';
+  img.removeAttribute('src'); img.alt = bird.bird; cap.textContent = 'Loading photo…';
+  card.showModal();
+  card.scrollTop = 0;
+  card.querySelector('.ok').focus();
+  if (!bird.sci) return void (fig.className = 'failed');
+  birdPhoto(bird).then((p) => {
+    if (card.querySelector('.bird-name').textContent !== bird.bird) return;   // another card opened since
+    img.onload = () => { fig.className = ''; };
+    img.onerror = () => { fig.className = 'failed'; cap.textContent = 'Photo unavailable right now'; };
+    img.src = p.url;
+    // iNaturalist's credit line names the photographer and the licence.
+    const link = (href, text) => Object.assign(document.createElement('a'), { href, textContent: text, target: '_blank', rel: 'noopener' });
+    cap.replaceChildren(link(licenseUrl(p.license), p.credit), ' · ', link(p.page, 'iNaturalist'));
+  }).catch(() => { fig.className = 'failed'; cap.textContent = 'Photo unavailable right now'; });
+}
+card.addEventListener('close', () => { const then = afterCard; afterCard = null; if (then) then(); });
+card.querySelector('.ok').onclick = () => card.close();
+card.querySelector('.close').onclick = () => card.close();
+
+// ----- board complete --------------------------------------------------------
+
+// The next board in this region that isn't finished yet, going up the levels and wrapping round.
+function nextBoard() {
+  const region = BOARDS.filter((b) => b.region === board.region);
+  const at = region.indexOf(board);
+  for (let k = 1; k < region.length; k++) {
+    const b = region[(at + k) % region.length];
+    if (!isComplete(b)) return b;
+  }
+  return null;
+}
+const complete = $('complete');
+function showComplete() {
+  const next = nextBoard();
+  const birds = board.birds.length;
+  complete.querySelector('.summary').textContent = next
+    ? `You found all ${board.words.length} words and ${birds} birds. Ready for the next one?`
+    : `You found all ${board.words.length} words and ${birds} birds, and every ${board.name} board is done!`;
+  const go = complete.querySelector('.go');
+  go.hidden = !next;
+  if (next) {
+    go.textContent = `Play ${boardLabel(next)} ›`;
+    go.onclick = () => { complete.close(); openBoard(next); };
+  }
+  complete.showModal();
+  (next ? go : complete.querySelector('.home')).focus();
+}
+complete.querySelector('.home').onclick = () => { complete.close(); showRegions(); };
+complete.querySelector('.stay').onclick = () => complete.close();
+
 // How to play: a few short screens with Back / Next / Let's play.
 const rules = $('rules');
 const steps = [...rules.querySelectorAll('.step')];
