@@ -21,6 +21,8 @@
 
   <main id="game" hidden>
     <h2 id="region-name"></h2>
+    <!-- Like Squaredle, the word count opens the word list, so nobody has to scroll past the board. -->
+    <button id="count" aria-haspopup="dialog"><span class="words-count"></span> <span class="birds-count"></span></button>
     <div id="progress" aria-label="Progress">
       <div class="bar"><div class="fill"></div></div>
       <div class="stars"></div>
@@ -33,7 +35,12 @@
     <div class="controls">
       <button id="rotate" class="pill">↻ Rotate</button>
     </div>
+  </main>
 
+  <dialog id="words" aria-labelledby="words-title">
+    <button class="close icon" aria-label="Close">×</button>
+    <h2 id="words-title">Words</h2>
+    <p id="words-msg" aria-live="polite"></p>
     <section id="birds-panel"></section>
     <section id="hints" hidden>
       <h3>Hints</h3>
@@ -43,7 +50,7 @@
     <section id="word-list"></section>
     <section id="bonus-list"></section>
     <p class="reset-row"><button id="reset" class="link">Start this board over</button></p>
-  </main>
+  </dialog>
 
   <dialog id="bird-card" aria-labelledby="bird-card-name">
     <button class="close icon" aria-label="Close">×</button>
@@ -80,7 +87,7 @@
     <div class="step" hidden>
       <h2>Find the birds</h2>
       <p>Every board is set in a birding region, and a few of its words are that region's birds.</p>
-      <p>Birds are worth double points. The birds panel under the board shows how many letters each one has. Find a bird to see its photo and notes; tap it in the panel to see them again.</p>
+      <p>Birds are worth double points. Tap the word count above the board to see your birds and words, and how many letters each missing bird has.</p>
       <p>Rarer words count as bonus words but don't add points.</p>
     </div>
     <div class="step" hidden>
@@ -96,7 +103,7 @@
       <p><b>★ Third star:</b> hints appear above the word list.</p>
       <p><b>Show some letters</b> reveals the start (and, for long words, the end) of each word you haven't found yet.</p>
       <p><b>Sort words alphabetically</b> puts the missing words in order among the ones you've found.</p>
-      <p><b>💡 Reveals</b> show a 4, 5 or 6 letter word. You get one per board, plus one for finding all the birds. Use it from the word list, or with hints on, tap a missing word twice.</p>
+      <p><b>💡 Reveals</b> light up a 4, 5 or 6 letter word on the board for you to swipe. You get one per board, plus one for finding all the birds.</p>
     </div>
     <nav class="steps-nav">
       <button class="pill back">Back</button>

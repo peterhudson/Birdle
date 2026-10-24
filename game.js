@@ -46,6 +46,7 @@ function hinted(w) {
 const boardLabel = (b) => `${b.level} · ${b.size}×${b.size}`;
 
 function showRegions() {
+  clearInterval(guideTimer);
   $('regions').hidden = false; $('game').hidden = true; $('back').hidden = true;
   const list = $('region-list');
   list.innerHTML = '';
@@ -85,7 +86,7 @@ function openBoard(b) {
   // A regenerated board gets a fresh start; old found words wouldn't be on it.
   if (!state || state.grid !== letters) state = freshState();
   // Boards saved before reveals existed start with the usual one.
-  state.reveals ??= 1; state.revealed ||= []; state.birdReveal ??= false;
+  state.reveals ??= 1; state.revealed ||= []; state.birdReveal ??= false; state.guide ??= null;
   armed = null;
   path = []; rotation = 0;
   $('regions').hidden = true; $('game').hidden = false; $('back').hidden = false;
@@ -93,6 +94,7 @@ function openBoard(b) {
   $('progress').querySelector('.stars').innerHTML =
     STARS.map((s) => `<span class="star" style="left:${s * 100}%">★</span>`).join('');
   buildBoard();
+  startGuide();
   render();
   window.scrollTo(0, 0);
 }
@@ -100,7 +102,7 @@ function openBoard(b) {
 const save = () => store.set('birdle:' + board.id, state);
 const freshState = () => ({
   grid: letters, found: [], bonus: [], hintLetters: false, hintSort: false,
-  reveals: 1, revealed: [], birdReveal: false,
+  reveals: 1, revealed: [], birdReveal: false, guide: null,
 });
 const isComplete = (b) => {
   const s = store.get('birdle:' + b.id);
@@ -221,7 +223,7 @@ function submit() {
   else if (state.found.includes(w) || state.bonus.includes(w)) say(`${w}: already found`, 'neutral');
   else if (required.has(w)) {
     clearPath();
-    return addFound(w, false);
+    return addFound(w, w === state.guide);
   } else if (bonusSet.has(w)) {
     state.bonus.push(w);
     save();
@@ -235,7 +237,7 @@ function submit() {
 function addFound(w, viaReveal) {
   const before = starsEarned();
   state.found.push(w);
-  if (viaReveal) state.revealed.push(w);
+  if (viaReveal) { state.revealed.push(w); state.guide = null; startGuide(); }
   // Finding every bird earns one more reveal, once per board.
   let extra = '';
   if (!state.birdReveal && board.birds.every((b) => state.found.includes(b.word))) {
@@ -262,13 +264,16 @@ function addFound(w, viaReveal) {
 
 // ----- reveals ---------------------------------------------------------------
 
-// Like Squaredle: reveals only work on 4 to 6 letter words. A reveal shows a
+// Like Squaredle: reveals only work on 4 to 6 letter words. A reveal picks a
 // random missing word of one length, or once the hints are unlocked, the
-// missing word you tap (twice, so a stray tap doesn't waste it).
+// missing word you tap (twice, so a stray tap doesn't waste it). The word's
+// squares then light up in order on the board, and it counts once you swipe it.
 const REVEALABLE = (w) => w.length <= 6;
 let armed = null, armedTimer;
 const noReveals = () => say(state.birdReveal ? 'No reveals left on this board' : 'No reveals left. Find all the birds to earn one.', 'neutral');
+const tracingFirst = () => say('Swipe the glowing word on the board first', 'neutral');
 function revealRandom(len) {
+  if (state.guide) return tracingFirst();
   if (!state.reveals) return noReveals();
   const left = board.words.map((w) => w.w).filter((w) => w.length === len && !state.found.includes(w));
   // Leave the birds for the player while there are other words to show.
@@ -278,11 +283,32 @@ function revealRandom(len) {
   useReveal(choices[Math.floor(Math.random() * choices.length)]);
 }
 function useReveal(w) {
+  $('words').close();
   state.reveals--;
+  state.guide = w;
   armed = null;
-  addFound(w, true);
+  save();
+  render();
+  startGuide();
+  $('board-wrap').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  say('💡 Swipe the glowing squares in order', 'neutral');
+}
+// Lights up the revealed word's squares one by one, over and over, until it's swiped.
+let guideTimer = null;
+function startGuide() {
+  clearInterval(guideTimer);
+  guideTimer = null;
+  tiles().forEach((t) => t.classList.remove('guide'));
+  if (!state.guide) return;
+  const steps = pathsFor(state.guide)[0];
+  let k = 0;
+  guideTimer = setInterval(() => {
+    k = (k + 1) % (steps.length + 3);      // all lit, then a short pause before starting again
+    tiles().forEach((t, i) => t.classList.toggle('guide', steps.slice(0, k).includes(i)));
+  }, 450);
 }
 function tapMissing(w) {
+  if (state.guide) return tracingFirst();
   if (!state.reveals) return noReveals();
   if (armed === w) { clearTimeout(armedTimer); return useReveal(w); }
   armed = w;
@@ -335,6 +361,10 @@ function render() {
     t.style.transform = `rotate(${-rotation}deg)`;
   });
 
+  const birdsFound = board.birds.filter((b) => state.found.includes(b.word)).length;
+  $('count').querySelector('.words-count').innerHTML =
+    `<b>${state.found.length}</b> / ${board.words.length} words` + (state.bonus.length ? ` <small>(+${state.bonus.length})</small>` : '');
+  $('count').querySelector('.birds-count').textContent = `🐦 ${birdsFound} / ${board.birds.length} birds`;
   renderBirds();
   $('hints').hidden = stars < 3;
   $('hint-letters').checked = state.hintLetters;
@@ -398,8 +428,12 @@ let message = null, messageTimer;
 // kind: 'good' (green), 'bad' (red, for words that don't count) or 'neutral'.
 function say(text, kind) {
   message = { text, kind };
+  // The word list covers the board, so it shows its own copy of the message.
+  const wm = $('words-msg');
+  wm.textContent = $('words').open ? text : '';
+  wm.className = `msg ${kind}`;
   clearTimeout(messageTimer);
-  messageTimer = setTimeout(() => { message = null; renderPath(); }, 2200);
+  messageTimer = setTimeout(() => { message = null; wm.textContent = ''; renderPath(); }, 2200);
   renderPath();
 }
 const toast = (text) => say(text, 'good');
@@ -435,9 +469,14 @@ $('reset').onclick = () => {
   clearTimeout(resetArmed); resetArmed = null;
   $('reset').textContent = 'Start this board over';
   state = freshState();
-  save(); render();
+  save(); render(); startGuide();
 };
 $('back').onclick = showRegions;
+const wordsDialog = $('words');
+$('count').onclick = () => { wordsDialog.showModal(); wordsDialog.scrollTop = 0; };
+wordsDialog.querySelector('.close').onclick = () => wordsDialog.close();
+// Tapping outside the list closes it too.
+wordsDialog.addEventListener('click', (e) => { if (e.target === wordsDialog) wordsDialog.close(); });
 // ----- bird cards ------------------------------------------------------------
 
 // Photos come from iNaturalist, looked up by scientific name the first time a
