@@ -10,22 +10,30 @@ contains any blocked word is thrown away.
 Usage: python3 tools/gen.py [region-id ...]
 
 Regions marked "draft" in regions.json are only built when named. A region's
-"sizes" list sets its boards; otherwise it gets BOARDS_PER_REGION boards with
-sizes drawn from SIZE_WEIGHTS.
+Every region gets one board per level in LEVELS, from a 3x3 Express to a 7x7
+Extreme Birder.
 """
 import json, random, sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
 MIN_LEN, MAX_LEN = 4, 12
-MIN_BIRDS = 4
 SIGNATURE = 8   # the first birds listed for a region are its best known, and score extra
-BOARDS_PER_REGION = 3
-SIZE_WEIGHTS = {4: 0.6, 5: 0.3, 7: 0.1}   # keeps most games short
+# One board per level for every region: (id, name, size, minimum birds).
+# A 3x3 only has room for one or two birds.
+LEVELS = [
+    ('express', 'Express', 3, 1),
+    ('easy', 'Easy', 4, 4),
+    ('medium', 'Medium', 5, 4),
+    ('hard', 'Hard', 6, 4),
+    ('extreme', 'Extreme Birder', 7, 4),
+]
 # Per size: attempts, acceptable required-word range, and the count to aim for.
 SETTINGS = {
+    3: {'attempts': 20000, 'required': (6, 30), 'target': 14},
     4: {'attempts': 6000, 'required': (15, 50), 'target': 30},
     5: {'attempts': 3000, 'required': (40, 100), 'target': 60},
+    6: {'attempts': 800, 'required': (70, 180), 'target': 110},
     7: {'attempts': 300, 'required': (90, 260), 'target': 150},
 }
 
@@ -119,7 +127,7 @@ def place(grid, word, rng):
             return True
     return False
 
-def attempt(n, birds, rng, used):
+def attempt(n, birds, rng, used, min_birds):
     grid = [[None] * n for _ in range(n)]
     # Try the birds in a random order, keeping every one that still fits.
     order = [b for b in birds if len(b) <= n * n]
@@ -135,7 +143,7 @@ def attempt(n, birds, rng, used):
     if any(w in blocked for w in found):
         return None
     on_board = [b for b in birds if b in found]
-    if len(on_board) < MIN_BIRDS:
+    if len(on_board) < min_birds:
         return None
     bird_forms = set(on_board) | {b + 'S' for b in on_board}
     required = sorted(w for w in found if w in common or w in bird_forms)
@@ -151,12 +159,12 @@ def attempt(n, birds, rng, used):
     score = bird_score - abs(len(required) - SETTINGS[n]['target']) - 0.1 * len(bonus)
     return score, grid, on_board, required, bonus, found
 
-def build(region, n, seed, used):
+def build(region, n, seed, used, min_birds):
     rng = random.Random(seed)
     birds = [b['word'] for b in region['birds']]
     best = None
     for _ in range(SETTINGS[n]['attempts']):
-        res = attempt(n, birds, rng, used)
+        res = attempt(n, birds, rng, used, min_birds)
         if res and (best is None or res[0] > best[0]):
             best = res
     if not best:
@@ -170,22 +178,17 @@ def build(region, n, seed, used):
             'words': [{'w': w, 's': idx(found[w][1]), 'u': idx(found[w][0])} for w in required],
             'bonus': bonus}
 
-def sizes_for(region, seed):
-    if 'sizes' in region:
-        return region['sizes']
-    rng = random.Random(seed)
-    return sorted(rng.choices(list(SIZE_WEIGHTS), weights=list(SIZE_WEIGHTS.values()), k=BOARDS_PER_REGION))
-
 only = set(sys.argv[1:])
 boards = []
 for i, region in enumerate(regions):
     if (only and region['id'] not in only) or (not only and region.get('draft')):
         continue
     used = set()
-    for k, n in enumerate(sizes_for(region, 1000 + i)):
-        b = build(region, n, 1000 + 100 * i + k, used)
+    for k, (level, label, n, min_birds) in enumerate(LEVELS):
+        b = build(region, n, 1000 + 100 * i + k, used, min_birds)
         used |= {x['word'] for x in b['birds']}
-        b['id'] = f"{region['id']}-{k + 1}"
+        b['id'] = f"{region['id']}-{level}"
+        b['level'] = label
         boards.append(b)
         print(f"{b['id']:14} {n}x{n} {' '.join(b['grid'])}  birds={','.join(x['word'] for x in b['birds'])} "
               f"required={len(b['words'])} bonus={len(b['bonus'])}", file=sys.stderr)
