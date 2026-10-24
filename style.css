@@ -103,6 +103,7 @@ main { max-width: 520px; margin: 0 auto; padding: 12px 16px 40px; }
   font-weight: 800; transition: opacity .3s, background .15s, transform .35s;
 }
 .tile .letter { font-size: var(--letter-size, 2.2rem); line-height: 1; pointer-events: none; }
+.tile.guide { opacity: 1; background: color-mix(in srgb, var(--tile) 30%, var(--tile-sel)); box-shadow: 0 0 0 3px var(--tile-sel); }
 .tile.sel { background: var(--tile-sel); color: #1d1d1d; }
 .tile.done { opacity: .28; }
 .tile.blank { visibility: hidden; }

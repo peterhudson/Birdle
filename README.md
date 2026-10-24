@@ -16,7 +16,8 @@ fills you earn the same help as Squaredle:
 
 Each board also comes with one 💡 reveal, and finding all its birds earns another. As in Squaredle,
 reveals only work on 4, 5 and 6 letter words: the word list offers a random one of each length, and
-once the hints are unlocked you can tap a missing word twice to reveal it. Finishing a
+once the hints are unlocked you can tap a missing word twice to reveal it. The word's squares then
+light up in order on the board, and it counts once you swipe it. Finishing a
 board offers the next unfinished board in the region.
 
 Finding a bird opens its card, with a short description, a local note and a Creative Commons photo
