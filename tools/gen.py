@@ -17,9 +17,13 @@ ATTEMPTS = 3000
 TARGET_REQUIRED = (40, 100)
 
 def load(name):
-    return [w.strip().upper() for w in open(HERE / 'data' / name) if w.strip()]
+    return [w.strip().upper() for w in open(HERE / 'data' / name)
+            if w.strip() and not w.startswith('#')]
 
-blocked = set(load('blocklist.txt'))
+# The blocklist rejects words outright, except words we've unblocked (bird names
+# like TITS, everyday words) and words that may only ever be bonus words.
+bonus_only = set(load('bonus-only.txt'))
+blocked = set(load('blocklist.txt')) - set(load('unblock.txt')) - bonus_only
 dictionary = {w for w in load('enable1.txt') if MIN_LEN <= len(w) <= MAX_LEN and w.isalpha()} - blocked
 # Required words are the ones most people know: SCOWL's American English list
 # up to size 55 (common words, no proper names, American spellings only, so
@@ -27,7 +31,7 @@ dictionary = {w for w in load('enable1.txt') if MIN_LEN <= len(w) <= MAX_LEN and
 # few hand-picked extras.
 common = set(load('scowl-american-55.txt')) & dictionary
 common |= set(load('promote.txt')) & dictionary
-common -= set(load('avoid.txt'))
+common -= set(load('avoid.txt')) | bonus_only
 regions = json.load(open(HERE / 'regions.json'))
 for r in regions:
     for b in r['birds']:

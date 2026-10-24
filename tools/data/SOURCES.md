@@ -7,3 +7,5 @@
 | `blocklist.txt` | [LDNOOBW](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) (en) | CC BY 4.0 |
 | `avoid.txt` | Hand-picked words to keep out of the required list | GPL-3.0 (this project) |
 | `promote.txt` | Hand-picked words to add to the required list | GPL-3.0 (this project) |
+| `unblock.txt` | Blocklist entries that are bird names or everyday words, allowed as normal words | GPL-3.0 (this project) |
+| `bonus-only.txt` | Blocklist entries accepted as bonus words but never required | GPL-3.0 (this project) |
