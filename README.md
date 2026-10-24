@@ -27,8 +27,7 @@ Bird words that turn up on a board by chance (OWLET, KITE, SWAN...) count as ✨
 score double and get a card too, but the bird count and first star only cover the region's birds.
 The list of bird words is `tools/data/bird-words.json`.
 
-Stuck on the birds? The word list has a 🐦 bird tweet checkbox, available at any time, that marks
-the square where each missing bird starts.
+🐦 Bird tweets ring the square where each missing bird starts, to help find the birds.
 
 Finding a bird opens its card, with a short description, a local note and a Creative Commons photo
 from [iNaturalist](https://www.inaturalist.org/) with its credit. Photos are looked up live by the
