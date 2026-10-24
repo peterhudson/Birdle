@@ -6,10 +6,14 @@
 // the birds first earns it; the others are at 60% and 80% (or evenly spaced
 // above the first star if the birds are worth more than that).
 function starThresholds() {
-  const birds = board.birds.reduce((t, b) => t + points(b.word), 0) / totalPoints;
+  const birds = regionBirds(board).reduce((t, b) => t + points(b.word), 0) / totalPoints;
   return [birds, Math.max(0.6, birds + (1 - birds) / 3), Math.max(0.8, birds + (2 * (1 - birds)) / 3)];
 }
 let STARS = [];
+// The birds a board was built around. Its other birds are surprise birds: bird
+// words (OWLET, KITE...) that turned up by chance. They score and show like
+// birds, but the stars, the bird reveal and the bird count go by these.
+const regionBirds = (b) => b.birds.filter((x) => !x.extra);
 const MIN_LEN = 4;
 const $ = (id) => document.getElementById(id);
 
@@ -62,10 +66,11 @@ function showRegions() {
     const saved = store.get('birdle:' + b.id);
     const s = saved && saved.grid === b.grid.join('') ? saved : null;
     const found = s ? s.found.length : 0;
-    const birds = s ? b.birds.filter((x) => s.found.includes(x.word)).length : 0;
-    const status = !s ? `${b.birds.length} birds to find`
+    const all = regionBirds(b);
+    const birds = s ? all.filter((x) => s.found.includes(x.word)).length : 0;
+    const status = !s ? `${all.length} birds to find`
       : found === b.words.length ? 'Complete ✓'
-      : `${birds} of ${b.birds.length} birds · ${found} of ${b.words.length} words`;
+      : `${birds} of ${all.length} birds · ${found} of ${b.words.length} words`;
     const li = document.createElement('li');
     li.innerHTML = `<button><span class="name">${boardLabel(b)}</span><span class="state">${status}</span></button>`;
     li.querySelector('button').onclick = () => openBoard(b);
@@ -240,7 +245,7 @@ function addFound(w, viaReveal) {
   if (viaReveal) { state.revealed.push(w); state.guide = null; startGuide(); }
   // Finding every bird earns one more reveal, once per board.
   let extra = '';
-  if (!state.birdReveal && board.birds.every((b) => state.found.includes(b.word))) {
+  if (!state.birdReveal && regionBirds(board).every((b) => state.found.includes(b.word))) {
     state.birdReveal = true;
     state.reveals++;
     extra = '💡 +1 reveal';
@@ -253,7 +258,7 @@ function addFound(w, viaReveal) {
   else {
     const star = earned > before
       ? ['★ Red numbers unlocked', '★ White numbers unlocked', '★ Hints unlocked'][earned - 1] : '';
-    const found = (viaReveal ? '💡 ' : '') + (bird ? `🐦 ${bird.bird}! +${points(w)}` : `${w} +${points(w)}`);
+    const found = (viaReveal ? '💡 ' : '') + (bird ? `${bird.extra ? '✨ Surprise bird: ' : '🐦 '}${bird.bird}! +${points(w)}` : `${w} +${points(w)}`);
     toast([found, star, extra].filter(Boolean).join(' · '));
   }
   render();
@@ -361,10 +366,11 @@ function render() {
     t.style.transform = `rotate(${-rotation}deg)`;
   });
 
-  const birdsFound = board.birds.filter((b) => state.found.includes(b.word)).length;
+  const birdsFound = regionBirds(board).filter((b) => state.found.includes(b.word)).length;
+  const surprises = board.birds.filter((b) => b.extra && state.found.includes(b.word)).length;
   $('count').querySelector('.words-count').innerHTML =
     `<b>${state.found.length}</b> / ${board.words.length} words` + (state.bonus.length ? ` <small>(+${state.bonus.length})</small>` : '');
-  $('count').querySelector('.birds-count').textContent = `🐦 ${birdsFound} / ${board.birds.length} birds`;
+  $('count').querySelector('.birds-count').textContent = `🐦 ${birdsFound} / ${regionBirds(board).length} birds` + (surprises ? ` · ✨ ${surprises}` : '');
   renderBirds();
   $('hints').hidden = stars < 3;
   $('hint-letters').checked = state.hintLetters;
@@ -373,17 +379,21 @@ function render() {
 }
 
 function renderBirds() {
-  const found = board.birds.filter((b) => state.found.includes(b.word)).length;
+  const birds = regionBirds(board);
+  const found = birds.filter((b) => state.found.includes(b.word)).length;
   const hintsOn = starsEarned() >= 3;
   const showLetters = hintsOn && state.hintLetters;
+  const foundRow = (b) => `<button class="bird-row found" data-bird="${b.word}"><span class="name">${b.word} · ${b.bird}</span>` +
+    `<span class="more">Photo and notes ›</span></button>`;
   // Found birds open their card; once hints are unlocked, a missing bird can take a reveal.
-  $('birds-panel').innerHTML = `<h3>🐦 Birds of ${board.name}: ${found} of ${board.birds.length}</h3>` +
-    board.birds.map((b) => state.found.includes(b.word)
-      ? `<button class="bird-row found" data-bird="${b.word}"><span class="name">${b.word} · ${b.bird}</span>` +
-        `<span class="more">Photo and notes ›</span></button>`
+  // Surprise birds stay a surprise: they only appear once found.
+  const surprises = board.birds.filter((b) => b.extra && state.found.includes(b.word));
+  $('birds-panel').innerHTML = `<h3>🐦 Birds of ${board.name}: ${found} of ${birds.length}</h3>` +
+    birds.map((b) => state.found.includes(b.word) ? foundRow(b)
       : `<div class="bird-row${armed === b.word ? ' armed' : ''}"${hintsOn && REVEALABLE(b.word) ? ` data-miss="${b.word}"` : ''}>` +
         `<span class="slots">${showLetters ? hinted(b.word) : '_'.repeat(b.word.length)}</span> <span class="note">${b.word.length} letters</span></div>`
-    ).join('');
+    ).join('') +
+    (surprises.length ? `<h3 class="surprise-head">✨ Surprise birds: ${surprises.length}</h3>` + surprises.map(foundRow).join('') : '');
 }
 
 function renderWords(hintsOn) {
@@ -561,7 +571,7 @@ function nextBoard() {
 const complete = $('complete');
 function showComplete() {
   const next = nextBoard();
-  const birds = board.birds.length;
+  const birds = regionBirds(board).length;
   complete.querySelector('.summary').textContent = next
     ? `You found all ${board.words.length} words and ${birds} birds. Ready for the next one?`
     : `You found all ${board.words.length} words and ${birds} birds, and every ${board.name} board is done!`;

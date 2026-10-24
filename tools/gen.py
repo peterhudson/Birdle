@@ -59,6 +59,9 @@ regions = json.load(open(HERE / 'regions.json'))
 for r in regions:
     for b in r['birds']:
         dictionary.add(b['word'])
+# Bird words in general (OWLET, KITE, SWAN...). One that turns up on a board by
+# chance becomes a surprise bird: a required word that scores and shows like a bird.
+surprise_birds = {b['word']: b for b in json.load(open(HERE / 'data' / 'bird-words.json'))}
 
 # Blocked words go in the trie too, so a grid that spells one can be spotted.
 trie = {}
@@ -170,9 +173,15 @@ def build(region, n, seed, used, min_birds):
     if not best:
         sys.exit(f"Couldn't build a {n}x{n} board for {region['name']}")
     _, grid, on_board, required, bonus, found = best
+    # Surprise birds are added after the grid is chosen, so they never change which grid wins.
+    surprises = [surprise_birds[w] | {'note': f"A surprise bird! It isn't one of the {region['name']} birds this board was built around, but it's a bird all the same.", 'extra': True}
+                 for w in sorted(found) if w in surprise_birds and w not in on_board]
+    extra = {w for s in surprises for w in (s['word'], s['word'] + 'S') if w in found}
+    required = sorted(set(required) | extra)
+    bonus = [w for w in bonus if w not in extra]
     idx = lambda tiles: sorted(r * n + c for r, c in tiles)
     return {'region': region['id'], 'name': region['name'], 'flag': region['flag'], 'size': n,
-            'grid': grid, 'birds': [b for b in region['birds'] if b['word'] in on_board],
+            'grid': grid, 'birds': [b for b in region['birds'] if b['word'] in on_board] + surprises,
             # For each required word: the tiles it can start on and the tiles it can use,
             # which drive the red and white numbers.
             'words': [{'w': w, 's': idx(found[w][1]), 'u': idx(found[w][0])} for w in required],
