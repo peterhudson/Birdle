@@ -219,3 +219,4 @@ dialog .close { position: absolute; top: 12px; right: 12px; }
 .dots i { width: 9px; height: 9px; border-radius: 50%; background: var(--line); }
 .dots i.on { background: var(--accent); }
 #complete h2 { margin-right: 0; }
+#region-list .levels[hidden] { display: none; }
