@@ -115,7 +115,7 @@ function openBoard(b) {
   // A regenerated board gets a fresh start; old found words wouldn't be on it.
   if (!state || state.grid !== letters) state = freshState();
   // Boards saved before reveals existed start with the usual one.
-  state.reveals ??= 1; state.revealed ||= []; state.birdReveal ??= false; state.guide ??= null; state.birdTweet ??= false;
+  state.reveals ??= 1; state.revealed ||= []; state.birdReveal ??= false; state.guide ??= null;
   armed = null;
   path = []; rotation = 0;
   $('regions').hidden = true; $('game').hidden = false; $('back').hidden = false;
@@ -131,7 +131,7 @@ function openBoard(b) {
 const save = () => store.set('birdle:' + board.id, state);
 const freshState = () => ({
   grid: letters, found: [], bonus: [], hintLetters: false, hintSort: false,
-  reveals: 1, revealed: [], birdReveal: false, guide: null, birdTweet: false,
+  reveals: 1, revealed: [], birdReveal: false, guide: null,
 });
 const isComplete = (b) => {
   const s = store.get('birdle:' + b.id);
@@ -383,8 +383,8 @@ function render() {
 
   // Tile numbers count only words still to find; a tile fades when none are left.
   const left = board.words.filter((w) => !state.found.includes(w.w));
-  // The bird tweet marks where each missing bird starts.
-  const tweets = state.birdTweet ? left.filter((w) => regionBirds(board).some((b) => b.word === w.w)) : [];
+  // Bird tweets mark where each missing bird starts.
+  const tweets = left.filter((w) => regionBirds(board).some((b) => b.word === w.w));
   tiles().forEach((t, i) => {
     if (letters[i] === '.') return;
     const starts = left.filter((w) => w.s.includes(i)).length;
@@ -424,8 +424,6 @@ function renderBirds() {
       : `<div class="bird-row${armed === b.word ? ' armed' : ''}"${hintsOn && REVEALABLE(b.word) ? ` data-miss="${b.word}"` : ''}>` +
         `<span class="slots">${showLetters ? hinted(b.word) : '_'.repeat(b.word.length)}</span> <span class="note">${b.word.length} letters</span></div>`
     ).join('') +
-    (found < birds.length ? `<label class="tweet-toggle"><input type="checkbox" id="bird-tweet"${state.birdTweet ? ' checked' : ''}> ` +
-      `Bird tweet: mark where each missing bird starts</label>` : '') +
     (surprises.length ? `<h3 class="surprise-head">✨ Surprise birds: ${surprises.length}</h3>` + surprises.map(foundRow).join('') : '');
 }
 
@@ -499,9 +497,6 @@ for (const id of ['birds-panel', 'word-list']) {
     else tapMissing(el.dataset.miss);
   });
 }
-$('birds-panel').addEventListener('change', (e) => {
-  if (e.target.id === 'bird-tweet') { state.birdTweet = e.target.checked; save(); render(); }
-});
 $('hint-letters').onchange = (e) => { state.hintLetters = e.target.checked; save(); render(); };
 $('hint-sort').onchange = (e) => { state.hintSort = e.target.checked; save(); render(); };
 // Two taps to start over, so a stray tap can't wipe a board.
