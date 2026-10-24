@@ -300,7 +300,13 @@ function addFound(w, viaReveal) {
 const REVEALABLE = (w) => w.length <= 6;
 let armed = null, armedTimer;
 const noReveals = () => say(state.birdReveal ? 'No reveals left on this board' : 'No reveals left. Find all the birds to earn one.', 'neutral');
-const tracingFirst = () => say('Swipe the glowing word on the board first', 'neutral');
+// Closes the word list so the glowing squares can be seen.
+function toBoard(text) {
+  $('words').close();
+  $('board-wrap').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  say(text, 'neutral');
+}
+const tracingFirst = () => toBoard('💡 Swipe the glowing word on the board first');
 function revealRandom(len) {
   if (state.guide) return tracingFirst();
   if (!state.reveals) return noReveals();
@@ -312,15 +318,13 @@ function revealRandom(len) {
   useReveal(choices[Math.floor(Math.random() * choices.length)]);
 }
 function useReveal(w) {
-  $('words').close();
   state.reveals--;
   state.guide = w;
   armed = null;
   save();
   render();
   startGuide();
-  $('board-wrap').scrollIntoView({ behavior: 'smooth', block: 'center' });
-  say('💡 Swipe the glowing squares in order', 'neutral');
+  toBoard('💡 Swipe the glowing squares in order');
 }
 // Lights up the revealed word's squares one by one, over and over, until it's swiped.
 let guideTimer = null;
