@@ -283,6 +283,7 @@ function revealRandom(len) {
   useReveal(choices[Math.floor(Math.random() * choices.length)]);
 }
 function useReveal(w) {
+  $('words').close();
   state.reveals--;
   state.guide = w;
   armed = null;
@@ -360,6 +361,10 @@ function render() {
     t.style.transform = `rotate(${-rotation}deg)`;
   });
 
+  const birdsFound = board.birds.filter((b) => state.found.includes(b.word)).length;
+  $('count').querySelector('.words-count').innerHTML =
+    `<b>${state.found.length}</b> / ${board.words.length} words` + (state.bonus.length ? ` <small>(+${state.bonus.length})</small>` : '');
+  $('count').querySelector('.birds-count').textContent = `🐦 ${birdsFound} / ${board.birds.length} birds`;
   renderBirds();
   $('hints').hidden = stars < 3;
   $('hint-letters').checked = state.hintLetters;
@@ -423,8 +428,12 @@ let message = null, messageTimer;
 // kind: 'good' (green), 'bad' (red, for words that don't count) or 'neutral'.
 function say(text, kind) {
   message = { text, kind };
+  // The word list covers the board, so it shows its own copy of the message.
+  const wm = $('words-msg');
+  wm.textContent = $('words').open ? text : '';
+  wm.className = `msg ${kind}`;
   clearTimeout(messageTimer);
-  messageTimer = setTimeout(() => { message = null; renderPath(); }, 2200);
+  messageTimer = setTimeout(() => { message = null; wm.textContent = ''; renderPath(); }, 2200);
   renderPath();
 }
 const toast = (text) => say(text, 'good');
@@ -463,6 +472,11 @@ $('reset').onclick = () => {
   save(); render(); startGuide();
 };
 $('back').onclick = showRegions;
+const wordsDialog = $('words');
+$('count').onclick = () => { wordsDialog.showModal(); wordsDialog.scrollTop = 0; };
+wordsDialog.querySelector('.close').onclick = () => wordsDialog.close();
+// Tapping outside the list closes it too.
+wordsDialog.addEventListener('click', (e) => { if (e.target === wordsDialog) wordsDialog.close(); });
 // ----- bird cards ------------------------------------------------------------
 
 // Photos come from iNaturalist, looked up by scientific name the first time a
