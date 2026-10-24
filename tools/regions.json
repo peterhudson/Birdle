@@ -2,7 +2,7 @@
  {
   "id": "bc",
   "name": "British Columbia",
-  "flag": "🌲",
+  "flag": "🇨🇦",
   "birds": [
    {
     "word": "HERON",
@@ -270,12 +270,3531 @@
     "sci": "Gallinago delicata",
     "blurb": "A chunky, well-camouflaged shorebird with a very long bill that probes wet ground."
    }
+  ],
+  "group": "Canada",
+  "seed": 0
+ },
+ {
+  "id": "alberta",
+  "name": "Alberta",
+  "flag": "🇨🇦",
+  "group": "Canada",
+  "birds": [
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "A bold, chattering fixture of Calgary and Edmonton neighbourhoods.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Big colonies nest on prairie lakes, and they fish below the weir in Lethbridge.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Black-capped Chickadee",
+    "note": "Stays all winter, even at -40, and readily takes seed from your hand.",
+    "sci": "Poecile atricapillus",
+    "blurb": "A tiny, tame songbird with a black cap and bib that calls 'chick-a-dee-dee'."
+   },
+   {
+    "word": "BLUEBIRD",
+    "bird": "Mountain Bluebird",
+    "note": "A spring favourite along the nest-box trails of the foothills.",
+    "sci": "Sialia currucoides",
+    "blurb": "A sky-blue thrush of open country that hovers before dropping on insects."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Bobs on rocks in Rocky Mountain streams in Banff and Jasper all year.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "White-tailed Ptarmigan",
+    "note": "Lives above the treeline in the Rockies, white as the snow in winter.",
+    "sci": "Lagopus leucura",
+    "blurb": "North America's smallest grouse, mottled brown in summer and pure white in winter."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Watch for it at mountain viewpoints and campgrounds in the Rockies.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "LOON",
+    "bird": "Common Loon",
+    "note": "Its wailing call fills northern Alberta lakes on summer nights.",
+    "sci": "Gavia immer",
+    "blurb": "A big diving bird with a black head, red eye and a checkerboard back in summer."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Sharp-tailed Grouse",
+    "note": "Males dance on spring leks in the prairie and parkland.",
+    "sci": "Tympanuchus phasianellus",
+    "blurb": "A prairie grouse whose males dance on leks, stamping their feet."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Swainson's Hawk",
+    "note": "The common summer hawk on prairie power poles; it winters in Argentina.",
+    "sci": "Buteo swainsoni",
+    "blurb": "A slim hawk that migrates to Argentina in huge flocks and eats grasshoppers."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Prairie Falcon",
+    "note": "Nests on badland cliffs and coulees in the south.",
+    "sci": "Falco mexicanus",
+    "blurb": "A sandy-brown falcon of open country with dark wingpits."
+   },
+   {
+    "word": "CURLEW",
+    "bird": "Long-billed Curlew",
+    "note": "Nests in the native grasslands of southeast Alberta.",
+    "sci": "Numenius americanus",
+    "blurb": "North America's largest shorebird, with an extraordinarily long down-curved bill."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Common on alkaline sloughs across the prairie.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Eared Grebe",
+    "note": "Gathers in huge numbers on prairie sloughs.",
+    "sci": "Podiceps nigricollis",
+    "blurb": "A small grebe with golden ear tufts in summer that gathers in huge flocks on salty lakes."
+   },
+   {
+    "word": "CANVASBACK",
+    "bird": "Canvasback",
+    "note": "Breeds in the potholes of Alberta parkland.",
+    "sci": "Aythya valisineria",
+    "blurb": "A diving duck with a sloping wedge-shaped head and a rusty-red head on males."
+   },
+   {
+    "word": "GOLDENEYE",
+    "bird": "Common Goldeneye",
+    "note": "Nests in tree holes in boreal forest along lakes.",
+    "sci": "Bucephala clangula",
+    "blurb": "A diving duck with golden eyes; its wings whistle in flight."
+   },
+   {
+    "word": "WAXWING",
+    "bird": "Bohemian Waxwing",
+    "note": "Winter flocks descend on mountain ash berries in Edmonton.",
+    "sci": "Bombycilla garrulus",
+    "blurb": "A sleek, crested bird that roams the north in winter flocks, stripping berries."
+   },
+   {
+    "word": "REDPOLL",
+    "bird": "Common Redpoll",
+    "note": "Swarms winter feeders across the north and the parkland.",
+    "sci": "Acanthis flammea",
+    "blurb": "A small streaky finch with a red cap that thrives in bitter cold."
+   },
+   {
+    "word": "CROSSBILL",
+    "bird": "White-winged Crossbill",
+    "note": "Wanders the boreal forest following the spruce cone crop.",
+    "sci": "Loxia leucoptera",
+    "blurb": "A crossbill with white wing bars that follows spruce cone crops."
+   },
+   {
+    "word": "GROSBEAK",
+    "bird": "Pine Grosbeak",
+    "note": "A tame winter visitor to towns, eating crabapples.",
+    "sci": "Pinicola enucleator",
+    "blurb": "A big, tame finch of northern forests; males are rosy red."
+   },
+   {
+    "word": "MEADOWLARK",
+    "bird": "Western Meadowlark",
+    "note": "Its song is a classic sound of the prairie in spring.",
+    "sci": "Sturnella neglecta",
+    "blurb": "A yellow-breasted grassland bird with a black V and a flute-like song."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Baltimore Oriole",
+    "note": "Weaves hanging nests in river-valley poplars.",
+    "sci": "Icterus galbula",
+    "blurb": "Males are flaming orange and black and weave hanging pouch nests."
+   },
+   {
+    "word": "LONGSPUR",
+    "bird": "Chestnut-collared Longspur",
+    "note": "A native-prairie specialist of the southeast.",
+    "sci": "Calcarius ornatus",
+    "blurb": "A prairie sparrow; males have a black belly and chestnut nape."
+   },
+   {
+    "word": "PIPIT",
+    "bird": "Sprague's Pipit",
+    "note": "Sings high over the native grasslands of southern Alberta.",
+    "sci": "Anthus spragueii",
+    "blurb": "A pale prairie pipit that sings from high in the sky for minutes at a time."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Western Tanager",
+    "note": "A splash of red and yellow in summer aspen and conifer forests.",
+    "sci": "Piranga ludoviciana",
+    "blurb": "Males are bright yellow with a flaming red-orange head."
+   },
+   {
+    "word": "FLICKER",
+    "bird": "Northern Flicker",
+    "note": "Common in towns and woodlots; Alberta has both red- and yellow-shafted birds.",
+    "sci": "Colaptes auratus",
+    "blurb": "A large brown woodpecker with a black bib and spots that often feeds on ants on the ground."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Trumpeter Swan",
+    "note": "Grande Prairie, the Swan City, is a stronghold for nesting trumpeters.",
+    "sci": "Cygnus buccinator",
+    "blurb": "North America's largest waterfowl, all white with a black bill and a bugling call."
+   },
+   {
+    "word": "KESTREL",
+    "bird": "American Kestrel",
+    "note": "Hovers over roadside ditches across the farmland.",
+    "sci": "Falco sparverius",
+    "blurb": "North America's smallest falcon, colourful and often seen on roadside wires."
+   },
+   {
+    "word": "BOBOLINK",
+    "bird": "Bobolink",
+    "note": "Nests in hayfields of the parkland.",
+    "sci": "Dolichonyx oryzivorus",
+    "blurb": "A grassland bird whose males look like they are wearing a tuxedo backwards."
+   },
+   {
+    "word": "PHALAROPE",
+    "bird": "Red-necked Phalarope",
+    "note": "Spins on prairie ponds during migration.",
+    "sci": "Phalaropus lobatus",
+    "blurb": "A tiny shorebird that spins on the water to stir up food."
+   }
+  ]
+ },
+ {
+  "id": "saskatchewan",
+  "name": "Saskatchewan",
+  "flag": "🇨🇦",
+  "group": "Canada",
+  "birds": [
+   {
+    "word": "GROUSE",
+    "bird": "Sharp-tailed Grouse",
+    "note": "Saskatchewan's provincial bird, dancing on prairie leks each spring.",
+    "sci": "Tympanuchus phasianellus",
+    "blurb": "A prairie grouse whose males dance on leks, stamping their feet."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Whooping Crane",
+    "note": "The whole wild flock stops in Saskatchewan fields on migration each fall.",
+    "sci": "Grus americana",
+    "blurb": "North America's tallest bird, snow-white with black wingtips, brought back from fewer than 20 birds."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Big colonies nest on lakes like Lavallee and the Quill Lakes.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "GOOSE",
+    "bird": "Snow Goose",
+    "note": "Hundreds of thousands stage around Quill Lakes and Last Mountain Lake in fall.",
+    "sci": "Anser caerulescens",
+    "blurb": "A white goose with black wingtips that travels in enormous, noisy flocks."
+   },
+   {
+    "word": "LONGSPUR",
+    "bird": "Chestnut-collared Longspur",
+    "note": "Sings from fence posts in Grasslands National Park.",
+    "sci": "Calcarius ornatus",
+    "blurb": "A prairie sparrow; males have a black belly and chestnut nape."
+   },
+   {
+    "word": "CURLEW",
+    "bird": "Long-billed Curlew",
+    "note": "Nests in the native grasslands of the southwest.",
+    "sci": "Numenius americanus",
+    "blurb": "North America's largest shorebird, with an extraordinarily long down-curved bill."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Common on the province's many alkaline lakes.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "MEADOWLARK",
+    "bird": "Western Meadowlark",
+    "note": "Its flute-like song carries over the wheat fields in spring.",
+    "sci": "Sturnella neglecta",
+    "blurb": "A yellow-breasted grassland bird with a black V and a flute-like song."
+   },
+   {
+    "word": "GODWIT",
+    "bird": "Marbled Godwit",
+    "note": "Nests in prairie grassland near wetlands.",
+    "sci": "Limosa fedoa",
+    "blurb": "A big cinnamon shorebird with a long, slightly upturned two-toned bill."
+   },
+   {
+    "word": "PLOVER",
+    "bird": "Piping Plover",
+    "note": "Nests on the sandy shores of Lake Diefenbaker and other prairie lakes.",
+    "sci": "Charadrius melodus",
+    "blurb": "A small, sand-coloured plover of beaches and prairie lakeshores."
+   },
+   {
+    "word": "PIPIT",
+    "bird": "Sprague's Pipit",
+    "note": "Sings for minutes on end high above native prairie.",
+    "sci": "Anthus spragueii",
+    "blurb": "A pale prairie pipit that sings from high in the sky for minutes at a time."
+   },
+   {
+    "word": "SPARROW",
+    "bird": "Baird's Sparrow",
+    "note": "A prized grassland sparrow of the southwest.",
+    "sci": "Centronyx bairdii",
+    "blurb": "A streaky, secretive sparrow of native prairie grassland."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Ferruginous Hawk",
+    "note": "Nests on lone trees and power poles in the open prairie.",
+    "sci": "Buteo regalis",
+    "blurb": "North America's largest hawk, rusty above and white below, of open grassland."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Prairie Falcon",
+    "note": "Hunts ground squirrels across the southern grasslands.",
+    "sci": "Falco mexicanus",
+    "blurb": "A sandy-brown falcon of open country with dark wingpits."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Western Grebe",
+    "note": "Courting pairs race across prairie lakes side by side.",
+    "sci": "Aechmophorus occidentalis",
+    "blurb": "A sleek black-and-white grebe with a long swan-like neck and red eyes."
+   },
+   {
+    "word": "CANVASBACK",
+    "bird": "Canvasback",
+    "note": "The prairie potholes are its main nursery.",
+    "sci": "Aythya valisineria",
+    "blurb": "A diving duck with a sloping wedge-shaped head and a rusty-red head on males."
+   },
+   {
+    "word": "REDHEAD",
+    "bird": "Redhead",
+    "note": "Nests in the reedy marshes of prairie potholes.",
+    "sci": "Aythya americana",
+    "blurb": "A diving duck; males have a round rusty head and a grey back."
+   },
+   {
+    "word": "TERN",
+    "bird": "Black Tern",
+    "note": "Swoops over cattail marshes catching insects.",
+    "sci": "Chlidonias niger",
+    "blurb": "A small dark tern that hawks insects over prairie marshes."
+   },
+   {
+    "word": "GULL",
+    "bird": "Franklin's Gull",
+    "note": "Huge flocks follow tractors to snatch insects.",
+    "sci": "Leucophaeus pipixcan",
+    "blurb": "A small prairie gull with a black hood and a rosy blush on its breast."
+   },
+   {
+    "word": "BLACKBIRD",
+    "bird": "Yellow-headed Blackbird",
+    "note": "Makes a rusty racket in every prairie marsh.",
+    "sci": "Xanthocephalus xanthocephalus",
+    "blurb": "Males are black with a bright yellow head and a rusty, grinding song."
+   },
+   {
+    "word": "LOON",
+    "bird": "Common Loon",
+    "note": "Breeds on lakes across the northern forest.",
+    "sci": "Gavia immer",
+    "blurb": "A big diving bird with a black head, red eye and a checkerboard back in summer."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Boreal Chickadee",
+    "note": "A brown-capped chickadee of the northern spruce forests.",
+    "sci": "Poecile hudsonicus",
+    "blurb": "A brown-capped chickadee of northern spruce forests with a wheezy call."
+   },
+   {
+    "word": "WAXWING",
+    "bird": "Bohemian Waxwing",
+    "note": "Winter flocks raid berry trees in Saskatoon and Regina.",
+    "sci": "Bombycilla garrulus",
+    "blurb": "A sleek, crested bird that roams the north in winter flocks, stripping berries."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "A noisy, familiar bird of farmyards and towns.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "BOBOLINK",
+    "bird": "Bobolink",
+    "note": "Nests in hayfields of the parkland.",
+    "sci": "Dolichonyx oryzivorus",
+    "blurb": "A grassland bird whose males look like they are wearing a tuxedo backwards."
+   },
+   {
+    "word": "KINGBIRD",
+    "bird": "Eastern Kingbird",
+    "note": "Perches on fences and chases off crows and hawks.",
+    "sci": "Tyrannus tyrannus",
+    "blurb": "A black-and-white flycatcher with a white-tipped tail."
+   },
+   {
+    "word": "BUNTING",
+    "bird": "Snow Bunting",
+    "note": "Winter flocks swirl over the snowy fields.",
+    "sci": "Plectrophenax nivalis",
+    "blurb": "A white-and-black bunting that nests further north than almost any songbird."
+   },
+   {
+    "word": "PHALAROPE",
+    "bird": "Red-necked Phalarope",
+    "note": "Spins on prairie ponds during migration.",
+    "sci": "Phalaropus lobatus",
+    "blurb": "A tiny shorebird that spins on the water to stir up food."
+   },
+   {
+    "word": "SHRIKE",
+    "bird": "Loggerhead Shrike",
+    "note": "Hunts from shelterbelts in the southern prairie.",
+    "sci": "Lanius ludovicianus",
+    "blurb": "A masked shrike of open country, the 'butcher bird'."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Baltimore Oriole",
+    "note": "Weaves hanging nests in river-valley elms and poplars.",
+    "sci": "Icterus galbula",
+    "blurb": "Males are flaming orange and black and weave hanging pouch nests."
+   }
+  ]
+ },
+ {
+  "id": "manitoba",
+  "name": "Manitoba",
+  "flag": "🇨🇦",
+  "group": "Canada",
+  "birds": [
+   {
+    "word": "GULL",
+    "bird": "Franklin's Gull",
+    "note": "Nests in big colonies at Oak Hammock Marsh and other prairie marshes.",
+    "sci": "Leucophaeus pipixcan",
+    "blurb": "A small prairie gull with a black hood and a rosy blush on its breast."
+   },
+   {
+    "word": "GOOSE",
+    "bird": "Snow Goose",
+    "note": "Huge flocks pass through Oak Hammock Marsh each spring and fall.",
+    "sci": "Anser caerulescens",
+    "blurb": "A white goose with black wingtips that travels in enormous, noisy flocks."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Fishes below the Lockport dam on the Red River.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Black-capped Chickadee",
+    "note": "A cheerful winter companion at Winnipeg feeders.",
+    "sci": "Poecile atricapillus",
+    "blurb": "A tiny, tame songbird with a black cap and bib that calls 'chick-a-dee-dee'."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "Willow Ptarmigan",
+    "note": "Turns white for the winter around Churchill on Hudson Bay.",
+    "sci": "Lagopus lagopus",
+    "blurb": "A grouse of willow thickets that turns white in winter; Alaska's state bird."
+   },
+   {
+    "word": "GODWIT",
+    "bird": "Marbled Godwit",
+    "note": "Nests in the wet grasslands of southern Manitoba.",
+    "sci": "Limosa fedoa",
+    "blurb": "A big cinnamon shorebird with a long, slightly upturned two-toned bill."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Western Grebe",
+    "note": "Courts on big lakes like Lake Manitoba and Delta Marsh.",
+    "sci": "Aechmophorus occidentalis",
+    "blurb": "A sleek black-and-white grebe with a long swan-like neck and red eyes."
+   },
+   {
+    "word": "WARBLER",
+    "bird": "Connecticut Warbler",
+    "note": "A shy northern bog specialist that birders travel to Manitoba to see.",
+    "sci": "Oporornis agilis",
+    "blurb": "A skulking grey-hooded warbler of northern bogs."
+   },
+   {
+    "word": "LOON",
+    "bird": "Common Loon",
+    "note": "Breeds on thousands of lakes across the Canadian Shield.",
+    "sci": "Gavia immer",
+    "blurb": "A big diving bird with a black head, red eye and a checkerboard back in summer."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Big flocks gather on fields in the Interlake in fall.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Tundra Swan",
+    "note": "Migrates through in spring on the way to the Arctic.",
+    "sci": "Cygnus columbianus",
+    "blurb": "A white swan with a small yellow spot by the eye that nests on Arctic tundra."
+   },
+   {
+    "word": "PHALAROPE",
+    "bird": "Red-necked Phalarope",
+    "note": "Nests on the tundra ponds near Churchill.",
+    "sci": "Phalaropus lobatus",
+    "blurb": "A tiny shorebird that spins on the water to stir up food."
+   },
+   {
+    "word": "LONGSPUR",
+    "bird": "Smith's Longspur",
+    "note": "Nests at the edge of the tundra near Churchill.",
+    "sci": "Calcarius pictus",
+    "blurb": "A buffy longspur that nests on the tundra edge."
+   },
+   {
+    "word": "SPARROW",
+    "bird": "Harris's Sparrow",
+    "note": "Breeds at the treeline in northern Manitoba.",
+    "sci": "Zonotrichia querula",
+    "blurb": "A big sparrow with a black face and pink bill that breeds only in Canada's far north."
+   },
+   {
+    "word": "BOBOLINK",
+    "bird": "Bobolink",
+    "note": "Bubbles over hayfields all summer.",
+    "sci": "Dolichonyx oryzivorus",
+    "blurb": "A grassland bird whose males look like they are wearing a tuxedo backwards."
+   },
+   {
+    "word": "RAIL",
+    "bird": "Yellow Rail",
+    "note": "Clicks at night from sedge meadows; heard far more than seen.",
+    "sci": "Coturnicops noveboracensis",
+    "blurb": "A tiny secretive rail that clicks like two stones tapped together."
+   },
+   {
+    "word": "SORA",
+    "bird": "Sora",
+    "note": "Whinnies from cattail marshes like Oak Hammock.",
+    "sci": "Porzana carolina",
+    "blurb": "A small rail with a yellow bill whose descending whinny fills marshes."
+   },
+   {
+    "word": "GROSBEAK",
+    "bird": "Evening Grosbeak",
+    "note": "A colourful winter visitor to northern feeders.",
+    "sci": "Coccothraustes vespertinus",
+    "blurb": "A chunky yellow, black and white finch with a huge pale bill."
+   },
+   {
+    "word": "REDPOLL",
+    "bird": "Common Redpoll",
+    "note": "Flocks into southern Manitoba in snowy winters.",
+    "sci": "Acanthis flammea",
+    "blurb": "A small streaky finch with a red cap that thrives in bitter cold."
+   },
+   {
+    "word": "MEADOWLARK",
+    "bird": "Western Meadowlark",
+    "note": "Sings from fence posts across the southwest.",
+    "sci": "Sturnella neglecta",
+    "blurb": "A yellow-breasted grassland bird with a black V and a flute-like song."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Baltimore Oriole",
+    "note": "A bright summer resident of Winnipeg's elms.",
+    "sci": "Icterus galbula",
+    "blurb": "Males are flaming orange and black and weave hanging pouch nests."
+   },
+   {
+    "word": "BLACKBIRD",
+    "bird": "Yellow-headed Blackbird",
+    "note": "Nests in noisy colonies in marsh cattails.",
+    "sci": "Xanthocephalus xanthocephalus",
+    "blurb": "Males are black with a bright yellow head and a rusty, grinding song."
+   },
+   {
+    "word": "CANVASBACK",
+    "bird": "Canvasback",
+    "note": "Delta Marsh was famous for its canvasback hunting and research.",
+    "sci": "Aythya valisineria",
+    "blurb": "A diving duck with a sloping wedge-shaped head and a rusty-red head on males."
+   },
+   {
+    "word": "CATBIRD",
+    "bird": "Gray Catbird",
+    "note": "Mews from thickets in summer.",
+    "sci": "Dumetella carolinensis",
+    "blurb": "A grey songbird that mews like a cat."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Brown Thrasher",
+    "note": "Sings every phrase twice from the tops of shrubs.",
+    "sci": "Toxostoma rufum",
+    "blurb": "A long-tailed rufous songbird that sings every phrase twice."
+   },
+   {
+    "word": "MARTIN",
+    "bird": "Purple Martin",
+    "note": "Nests in martin houses in Manitoba towns.",
+    "sci": "Progne subis",
+    "blurb": "The largest North American swallow, nesting in apartment-style houses."
+   },
+   {
+    "word": "GOSHAWK",
+    "bird": "Northern Goshawk",
+    "note": "A fierce forest hawk of the boreal woods.",
+    "sci": "Astur atricapillus",
+    "blurb": "A powerful grey forest hawk with a bold white eyebrow."
+   },
+   {
+    "word": "OVENBIRD",
+    "bird": "Ovenbird",
+    "note": "Shouts 'teacher, teacher' from the forest floor.",
+    "sci": "Seiurus aurocapilla",
+    "blurb": "A warbler that builds a domed nest like an oven on the forest floor."
+   },
+   {
+    "word": "CUCKOO",
+    "bird": "Black-billed Cuckoo",
+    "note": "Feasts on tent caterpillars in summer.",
+    "sci": "Coccyzus erythropthalmus",
+    "blurb": "A slender cuckoo that eats hairy caterpillars."
+   }
+  ]
+ },
+ {
+  "id": "yukon",
+  "name": "Yukon",
+  "flag": "🇨🇦",
+  "group": "Canada",
+  "birds": [
+   {
+    "word": "RAVEN",
+    "bird": "Common Raven",
+    "note": "Yukon's territorial bird, thriving in the coldest winters.",
+    "sci": "Corvus corax",
+    "blurb": "Bigger than a crow, with a wedge-shaped tail, shaggy throat and a deep croaking call."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "Willow Ptarmigan",
+    "note": "Flocks of white ptarmigan dot the willows along the Dempster Highway in winter.",
+    "sci": "Lagopus lagopus",
+    "blurb": "A grouse of willow thickets that turns white in winter; Alaska's state bird."
+   },
+   {
+    "word": "GYRFALCON",
+    "bird": "Gyrfalcon",
+    "note": "Hunts ptarmigan on the Dempster Highway and the northern mountains.",
+    "sci": "Falco rusticolus",
+    "blurb": "The largest falcon, from white to dark grey, hunting ptarmigan in the Arctic."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Trumpeter Swan",
+    "note": "Gather at M'Clintock Bay on Marsh Lake each spring for the Celebration of Swans.",
+    "sci": "Cygnus buccinator",
+    "blurb": "North America's largest waterfowl, all white with a black bill and a bugling call."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Tens of thousands fly over Faro in spring and fall.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Golden Eagle",
+    "note": "Nests on cliffs in the northern mountains.",
+    "sci": "Aquila chrysaetos",
+    "blurb": "A dark, powerful eagle with a golden nape that hunts hares and ground squirrels in open country."
+   },
+   {
+    "word": "LOON",
+    "bird": "Common Loon",
+    "note": "Calls across lakes in the long summer evenings.",
+    "sci": "Gavia immer",
+    "blurb": "A big diving bird with a black head, red eye and a checkerboard back in summer."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Spruce Grouse",
+    "note": "So tame it is called the fool hen.",
+    "sci": "Canachites canadensis",
+    "blurb": "A tame forest grouse; males have a red comb above the eye."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Boreal Chickadee",
+    "note": "A brown-capped chickadee of the spruce forest.",
+    "sci": "Poecile hudsonicus",
+    "blurb": "A brown-capped chickadee of northern spruce forests with a wheezy call."
+   },
+   {
+    "word": "REDPOLL",
+    "bird": "Common Redpoll",
+    "note": "Survives winter nights of -40 by fluffing up and feeding fast.",
+    "sci": "Acanthis flammea",
+    "blurb": "A small streaky finch with a red cap that thrives in bitter cold."
+   },
+   {
+    "word": "GROSBEAK",
+    "bird": "Pine Grosbeak",
+    "note": "A tame, rosy finch of the boreal forest.",
+    "sci": "Pinicola enucleator",
+    "blurb": "A big, tame finch of northern forests; males are rosy red."
+   },
+   {
+    "word": "CROSSBILL",
+    "bird": "White-winged Crossbill",
+    "note": "Nests even in winter when spruce cones are plentiful.",
+    "sci": "Loxia leucoptera",
+    "blurb": "A crossbill with white wing bars that follows spruce cone crops."
+   },
+   {
+    "word": "WAXWING",
+    "bird": "Bohemian Waxwing",
+    "note": "Nests in the boreal forest and roams in winter.",
+    "sci": "Bombycilla garrulus",
+    "blurb": "A sleek, crested bird that roams the north in winter flocks, stripping berries."
+   },
+   {
+    "word": "BUNTING",
+    "bird": "Snow Bunting",
+    "note": "One of the first birds back in spring.",
+    "sci": "Plectrophenax nivalis",
+    "blurb": "A white-and-black bunting that nests further north than almost any songbird."
+   },
+   {
+    "word": "LONGSPUR",
+    "bird": "Lapland Longspur",
+    "note": "Nests on the tundra of the far north.",
+    "sci": "Calcarius lapponicus",
+    "blurb": "A tundra sparrow; males have a black face and chestnut nape."
+   },
+   {
+    "word": "PHALAROPE",
+    "bird": "Red-necked Phalarope",
+    "note": "Spins on tundra ponds in summer.",
+    "sci": "Phalaropus lobatus",
+    "blurb": "A tiny shorebird that spins on the water to stir up food."
+   },
+   {
+    "word": "JAEGER",
+    "bird": "Long-tailed Jaeger",
+    "note": "Hunts lemmings over the alpine tundra.",
+    "sci": "Stercorarius longicaudus",
+    "blurb": "A graceful Arctic seabird with long tail streamers that hunts lemmings."
+   },
+   {
+    "word": "MERLIN",
+    "bird": "Merlin",
+    "note": "Chases songbirds through Whitehorse in summer.",
+    "sci": "Falco columbarius",
+    "blurb": "A small, fierce falcon that hunts songbirds in fast, low chases."
+   },
+   {
+    "word": "THRUSH",
+    "bird": "Varied Thrush",
+    "note": "Its eerie single-note song rings through wet spruce forest.",
+    "sci": "Ixoreus naevius",
+    "blurb": "A robin-sized thrush with an orange eyebrow and wing bars and a dark breast band."
+   },
+   {
+    "word": "BLUETHROAT",
+    "bird": "Bluethroat",
+    "note": "An Old World thrush that nests in the far northern Yukon.",
+    "sci": "Luscinia svecica",
+    "blurb": "A thrush whose males have a blue throat with a rusty spot."
+   },
+   {
+    "word": "WARBLER",
+    "bird": "Arctic Warbler",
+    "note": "Crosses from Asia to nest in the northern willow thickets.",
+    "sci": "Phylloscopus borealis",
+    "blurb": "An Old World warbler that nests in Alaska and winters in Asia."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Stays all winter at open water below rapids.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "GOLDENEYE",
+    "bird": "Common Goldeneye",
+    "note": "Nests in tree cavities near northern lakes.",
+    "sci": "Bucephala clangula",
+    "blurb": "A diving duck with golden eyes; its wings whistle in flight."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "American Three-toed Woodpecker",
+    "note": "Flakes bark off spruce to find beetles.",
+    "sci": "Picoides dorsalis",
+    "blurb": "A woodpecker of spruce forests with only three toes."
+   },
+   {
+    "word": "KESTREL",
+    "bird": "American Kestrel",
+    "note": "Hunts grasshoppers in the southern valleys in summer.",
+    "sci": "Falco sparverius",
+    "blurb": "North America's smallest falcon, colourful and often seen on roadside wires."
+   },
+   {
+    "word": "SWALLOW",
+    "bird": "Cliff Swallow",
+    "note": "Builds mud nests under bridges along the Alaska Highway.",
+    "sci": "Petrochelidon pyrrhonota",
+    "blurb": "A square-tailed swallow that builds gourd-shaped mud nests in colonies."
+   },
+   {
+    "word": "HARRIER",
+    "bird": "Northern Harrier",
+    "note": "Glides low over the meadows of the southern Yukon.",
+    "sci": "Circus hudsonius",
+    "blurb": "A slim, owl-faced hawk that glides low over marshes and fields."
+   }
+  ]
+ },
+ {
+  "id": "alaska",
+  "name": "Alaska",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "PTARMIGAN",
+    "bird": "Willow Ptarmigan",
+    "note": "Alaska's state bird, which turns pure white in winter.",
+    "sci": "Lagopus lagopus",
+    "blurb": "A grouse of willow thickets that turns white in winter; Alaska's state bird."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Bald Eagle",
+    "note": "Thousands gather on the Chilkat River near Haines each fall.",
+    "sci": "Haliaeetus leucocephalus",
+    "blurb": "A huge eagle with a white head and tail; young birds take about five years to get the adult look."
+   },
+   {
+    "word": "PUFFIN",
+    "bird": "Tufted Puffin",
+    "note": "Nests on islands near Seward and in the Aleutians.",
+    "sci": "Fratercula cirrhata",
+    "blurb": "A black puffin with a white face, a big orange bill and golden head plumes in summer."
+   },
+   {
+    "word": "GODWIT",
+    "bird": "Bar-tailed Godwit",
+    "note": "Flies nonstop from Alaska to New Zealand, over 11,000 km.",
+    "sci": "Limosa lapponica",
+    "blurb": "A shorebird that flies nonstop from Alaska to New Zealand."
+   },
+   {
+    "word": "EIDER",
+    "bird": "Spectacled Eider",
+    "note": "Nests on the Yukon-Kuskokwim Delta and North Slope tundra.",
+    "sci": "Somateria fischeri",
+    "blurb": "A sea duck whose males wear big white goggles."
+   },
+   {
+    "word": "GOOSE",
+    "bird": "Emperor Goose",
+    "note": "Lives along the Bering Sea coast and winters in the Aleutians.",
+    "sci": "Anser canagicus",
+    "blurb": "A grey goose with a white head that lives along the Bering Sea."
+   },
+   {
+    "word": "MURRELET",
+    "bird": "Marbled Murrelet",
+    "note": "Common in summer in Prince William Sound and Kachemak Bay.",
+    "sci": "Brachyramphus marmoratus",
+    "blurb": "A small, chunky seabird; brown and marbled in summer, crisp black and white in winter."
+   },
+   {
+    "word": "BLUETHROAT",
+    "bird": "Bluethroat",
+    "note": "An Old World thrush that nests near Nome and in the Brooks Range.",
+    "sci": "Luscinia svecica",
+    "blurb": "A thrush whose males have a blue throat with a rusty spot."
+   },
+   {
+    "word": "RAVEN",
+    "bird": "Common Raven",
+    "note": "Central to Tlingit and Haida stories as a trickster and creator.",
+    "sci": "Corvus corax",
+    "blurb": "Bigger than a crow, with a wedge-shaped tail, shaggy throat and a deep croaking call."
+   },
+   {
+    "word": "LOON",
+    "bird": "Common Loon",
+    "note": "Breeds on lakes all over southcentral Alaska.",
+    "sci": "Gavia immer",
+    "blurb": "A big diving bird with a black head, red eye and a checkerboard back in summer."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Thousands gather near Fairbanks at Creamer's Field each fall.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Trumpeter Swan",
+    "note": "The Copper River Delta holds many nesting trumpeters.",
+    "sci": "Cygnus buccinator",
+    "blurb": "North America's largest waterfowl, all white with a black bill and a bugling call."
+   },
+   {
+    "word": "MURRE",
+    "bird": "Common Murre",
+    "note": "Nests on cliffs in the Pribilof Islands by the hundreds of thousands.",
+    "sci": "Uria aalge",
+    "blurb": "A penguin-like seabird that nests on bare cliff ledges."
+   },
+   {
+    "word": "AUKLET",
+    "bird": "Rhinoceros Auklet",
+    "note": "Nests in burrows on Middleton and other islands.",
+    "sci": "Cerorhinca monocerata",
+    "blurb": "A puffin relative with a pale horn on its bill in breeding season."
+   },
+   {
+    "word": "GUILLEMOT",
+    "bird": "Pigeon Guillemot",
+    "note": "Paddles red feet around harbours like Homer and Seward.",
+    "sci": "Cepphus columba",
+    "blurb": "A black seabird with white wing patches and bright red feet."
+   },
+   {
+    "word": "PHALAROPE",
+    "bird": "Red Phalarope",
+    "note": "Nests on the tundra around Utqiagvik.",
+    "sci": "Phalaropus fulicarius",
+    "blurb": "A shorebird that spins on the water; females are brighter than males."
+   },
+   {
+    "word": "JAEGER",
+    "bird": "Long-tailed Jaeger",
+    "note": "Hunts lemmings over the tundra of the North Slope.",
+    "sci": "Stercorarius longicaudus",
+    "blurb": "A graceful Arctic seabird with long tail streamers that hunts lemmings."
+   },
+   {
+    "word": "GYRFALCON",
+    "bird": "Gyrfalcon",
+    "note": "Hunts ptarmigan on the Seward Peninsula.",
+    "sci": "Falco rusticolus",
+    "blurb": "The largest falcon, from white to dark grey, hunting ptarmigan in the Arctic."
+   },
+   {
+    "word": "WARBLER",
+    "bird": "Arctic Warbler",
+    "note": "Flies from Southeast Asia to nest in Alaskan willows.",
+    "sci": "Phylloscopus borealis",
+    "blurb": "An Old World warbler that nests in Alaska and winters in Asia."
+   },
+   {
+    "word": "LONGSPUR",
+    "bird": "Lapland Longspur",
+    "note": "The most common songbird on the tundra.",
+    "sci": "Calcarius lapponicus",
+    "blurb": "A tundra sparrow; males have a black face and chestnut nape."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Boreal Chickadee",
+    "note": "Survives Fairbanks winters in the spruce forest.",
+    "sci": "Poecile hudsonicus",
+    "blurb": "A brown-capped chickadee of northern spruce forests with a wheezy call."
+   },
+   {
+    "word": "REDPOLL",
+    "bird": "Common Redpoll",
+    "note": "Swarms winter feeders across the Interior.",
+    "sci": "Acanthis flammea",
+    "blurb": "A small streaky finch with a red cap that thrives in bitter cold."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Feeds in icy streams all winter.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "ALBATROSS",
+    "bird": "Black-footed Albatross",
+    "note": "Follows fishing boats in the Gulf of Alaska.",
+    "sci": "Phoebastria nigripes",
+    "blurb": "A dark albatross with a two-metre wingspan that follows fishing boats."
+   },
+   {
+    "word": "SHEARWATER",
+    "bird": "Sooty Shearwater",
+    "note": "Huge flocks feed off the Aleutians in summer.",
+    "sci": "Ardenna grisea",
+    "blurb": "A dark seabird that migrates around the whole Pacific each year."
+   },
+   {
+    "word": "THRUSH",
+    "bird": "Varied Thrush",
+    "note": "Its eerie song echoes through the Tongass rainforest.",
+    "sci": "Ixoreus naevius",
+    "blurb": "A robin-sized thrush with an orange eyebrow and wing bars and a dark breast band."
+   },
+   {
+    "word": "GOSHAWK",
+    "bird": "Northern Goshawk",
+    "note": "A fierce hunter of the boreal and coastal forests.",
+    "sci": "Astur atricapillus",
+    "blurb": "A powerful grey forest hawk with a bold white eyebrow."
+   }
+  ]
+ },
+ {
+  "id": "washington",
+  "name": "Washington",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "GOLDFINCH",
+    "bird": "American Goldfinch",
+    "note": "Washington's state bird, bright yellow in summer.",
+    "sci": "Spinus tristis",
+    "blurb": "Breeding males are bright yellow with a black cap."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Bald Eagle",
+    "note": "Hundreds gather on the Skagit River each winter for the salmon runs.",
+    "sci": "Haliaeetus leucocephalus",
+    "blurb": "A huge eagle with a white head and tail; young birds take about five years to get the adult look."
+   },
+   {
+    "word": "HERON",
+    "bird": "Great Blue Heron",
+    "note": "Nests in big colonies around Puget Sound.",
+    "sci": "Ardea herodias",
+    "blurb": "A tall grey heron that stands motionless in the shallows, then spears fish with its dagger bill."
+   },
+   {
+    "word": "PUFFIN",
+    "bird": "Tufted Puffin",
+    "note": "Nests on Protection Island and the outer coast.",
+    "sci": "Fratercula cirrhata",
+    "blurb": "A black puffin with a white face, a big orange bill and golden head plumes in summer."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Sooty Grouse",
+    "note": "Males hoot from high in the conifers on Mount Rainier.",
+    "sci": "Dendragapus fuliginosus",
+    "blurb": "A big, dark forest grouse; displaying males puff out yellow neck sacs and fan their tails."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Begs at Sunrise and other high viewpoints on Rainier.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "MURRELET",
+    "bird": "Marbled Murrelet",
+    "note": "Flies inland at dawn to nest on mossy old-growth branches.",
+    "sci": "Brachyramphus marmoratus",
+    "blurb": "A small, chunky seabird; brown and marbled in summer, crisp black and white in winter."
+   },
+   {
+    "word": "GUILLEMOT",
+    "bird": "Pigeon Guillemot",
+    "note": "Nests under the docks and piers of Puget Sound.",
+    "sci": "Cepphus columba",
+    "blurb": "A black seabird with white wing patches and bright red feet."
+   },
+   {
+    "word": "CROW",
+    "bird": "American Crow",
+    "note": "Tens of thousands roost at the University of Washington Bothell each winter.",
+    "sci": "Corvus brachyrhynchos",
+    "blurb": "An all-black, clever and social bird that gathers in big winter roosts."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Feeds in fast Cascade streams year-round.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "WREN",
+    "bird": "House Wren",
+    "note": "Bubbles its song from gardens and woodland edges.",
+    "sci": "Troglodytes aedon",
+    "blurb": "A small brown wren with a bubbly song that nests in any cavity it can find."
+   },
+   {
+    "word": "THRUSH",
+    "bird": "Varied Thrush",
+    "note": "Its eerie song rings through the Olympic rainforest.",
+    "sci": "Ixoreus naevius",
+    "blurb": "A robin-sized thrush with an orange eyebrow and wing bars and a dark breast band."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Anna's Hummingbird",
+    "note": "Now stays all winter in Seattle gardens, even in snow.",
+    "sci": "Calypte anna",
+    "blurb": "A hummingbird whose males flash a rose-pink head and dive with a loud chirp."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Chestnut-backed Chickadee",
+    "note": "The chickadee of the wet western forests.",
+    "sci": "Poecile rufescens",
+    "blurb": "A tiny, busy chickadee with a black cap, white cheeks and a chestnut back."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Western Tanager",
+    "note": "A flash of red and yellow in summer conifers.",
+    "sci": "Piranga ludoviciana",
+    "blurb": "Males are bright yellow with a flaming red-orange head."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "Pileated Woodpecker",
+    "note": "Chisels big oblong holes in old snags.",
+    "sci": "Dryocopus pileatus",
+    "blurb": "A crow-sized woodpecker with a flaming red crest that chisels big oblong holes."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Thousands stop in the Columbia Basin near Othello in spring.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Nests on islands in the Columbia River.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "GROSBEAK",
+    "bird": "Black-headed Grosbeak",
+    "note": "Sings a rich, robin-like song in summer woodlands.",
+    "sci": "Pheucticus melanocephalus",
+    "blurb": "Males are orange and black with a big, pale bill."
+   },
+   {
+    "word": "MEADOWLARK",
+    "bird": "Western Meadowlark",
+    "note": "Sings over the sagebrush of eastern Washington.",
+    "sci": "Sturnella neglecta",
+    "blurb": "A yellow-breasted grassland bird with a black V and a flute-like song."
+   },
+   {
+    "word": "SCOTER",
+    "bird": "Surf Scoter",
+    "note": "Rafts by the thousand in Puget Sound in winter.",
+    "sci": "Melanitta perspicillata",
+    "blurb": "A black sea duck; males have a white forehead and nape and a colourful 'skunk' bill."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "Common in the dry country east of the Cascades.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "KINGFISHER",
+    "bird": "Belted Kingfisher",
+    "note": "Rattles along every stream and lake shore.",
+    "sci": "Megaceryle alcyon",
+    "blurb": "A big-headed, shaggy-crested bird that rattles loudly as it dives for fish."
+   },
+   {
+    "word": "SWALLOW",
+    "bird": "Violet-green Swallow",
+    "note": "Nests in tree holes and houses all over the state.",
+    "sci": "Tachycineta thalassina",
+    "blurb": "A swallow with emerald and violet upperparts."
+   },
+   {
+    "word": "GULL",
+    "bird": "Glaucous-winged Gull",
+    "note": "The everyday gull of Seattle's waterfront.",
+    "sci": "Larus glaucescens",
+    "blurb": "A large gull with pale grey wingtips that match the rest of the wing."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "White-tailed Ptarmigan",
+    "note": "Lives on the high ridges of Mount Rainier.",
+    "sci": "Lagopus leucura",
+    "blurb": "North America's smallest grouse, mottled brown in summer and pure white in winter."
+   }
+  ]
+ },
+ {
+  "id": "oregon",
+  "name": "Oregon",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "MEADOWLARK",
+    "bird": "Western Meadowlark",
+    "note": "Oregon's state bird, singing from fence posts east of the Cascades.",
+    "sci": "Sturnella neglecta",
+    "blurb": "A yellow-breasted grassland bird with a black V and a flute-like song."
+   },
+   {
+    "word": "MURRE",
+    "bird": "Common Murre",
+    "note": "Packs the sea stacks at Yaquina Head and Three Arch Rocks.",
+    "sci": "Uria aalge",
+    "blurb": "A penguin-like seabird that nests on bare cliff ledges."
+   },
+   {
+    "word": "PUFFIN",
+    "bird": "Tufted Puffin",
+    "note": "Nests on Haystack Rock at Cannon Beach.",
+    "sci": "Fratercula cirrhata",
+    "blurb": "A black puffin with a white face, a big orange bill and golden head plumes in summer."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Nests at Malheur and the Klamath Basin lakes.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Bald Eagle",
+    "note": "The Klamath Basin hosts one of the biggest wintering gatherings in the lower 48.",
+    "sci": "Haliaeetus leucocephalus",
+    "blurb": "A huge eagle with a white head and tail; young birds take about five years to get the adult look."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Greater Sage-Grouse",
+    "note": "Dances on spring leks in the sagebrush of southeast Oregon.",
+    "sci": "Centrocercus urophasianus",
+    "blurb": "A big grouse whose males inflate yellow air sacs to display on leks."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Nests at Malheur National Wildlife Refuge.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "QUAIL",
+    "bird": "Mountain Quail",
+    "note": "Calls from brushy slopes in the Cascades and Siskiyous.",
+    "sci": "Oreortyx pictus",
+    "blurb": "A shy quail with a long, straight head plume and chestnut flanks."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "White-headed Woodpecker",
+    "note": "A ponderosa pine specialist of the eastern Cascades.",
+    "sci": "Dryobates albolarvatus",
+    "blurb": "A black woodpecker with a white head of ponderosa pine forests."
+   },
+   {
+    "word": "SAPSUCKER",
+    "bird": "Red-breasted Sapsucker",
+    "note": "Drills neat rows of sap wells in western forests.",
+    "sci": "Sphyrapicus ruber",
+    "blurb": "A woodpecker with an all-red head and breast and a white wing stripe."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Rufous Hummingbird",
+    "note": "Arrives in early spring with the flowering currant.",
+    "sci": "Selasphorus rufus",
+    "blurb": "A feisty orange hummingbird; males have a flaming red-orange throat."
+   },
+   {
+    "word": "BLUEBIRD",
+    "bird": "Western Bluebird",
+    "note": "Nests in boxes in the Willamette Valley oak savannas.",
+    "sci": "Sialia mexicana",
+    "blurb": "A blue thrush with a rusty breast of open woodland."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Feeds in the alkaline lakes of the high desert.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "STILT",
+    "bird": "Black-necked Stilt",
+    "note": "Wades in the shallow wetlands of Summer Lake.",
+    "sci": "Himantopus mexicanus",
+    "blurb": "A black-and-white wader on very long pink legs."
+   },
+   {
+    "word": "IBIS",
+    "bird": "White-faced Ibis",
+    "note": "Nests by the thousand at Malheur.",
+    "sci": "Plegadis chihi",
+    "blurb": "A dark ibis with a glossy sheen and a white face border when breeding."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Western Grebe",
+    "note": "Dances across the lakes of the Klamath Basin.",
+    "sci": "Aechmophorus occidentalis",
+    "blurb": "A sleek black-and-white grebe with a long swan-like neck and red eyes."
+   },
+   {
+    "word": "TERN",
+    "bird": "Caspian Tern",
+    "note": "Nests on East Sand Island at the Columbia's mouth, the world's largest colony.",
+    "sci": "Hydroprogne caspia",
+    "blurb": "The largest tern, with a thick red bill and a raspy call."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Sage Thrasher",
+    "note": "Sings from sagebrush tops in the high desert.",
+    "sci": "Oreoscoptes montanus",
+    "blurb": "A small streaky thrasher that sings long songs from sagebrush tops."
+   },
+   {
+    "word": "CHUKAR",
+    "bird": "Chukar",
+    "note": "Calls its own name from the rimrock of eastern Oregon.",
+    "sci": "Alectoris chukar",
+    "blurb": "A partridge from Asia that calls its own name from rocky slopes."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Bobs on rocks in Cascade streams.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "WRENTIT",
+    "bird": "Wrentit",
+    "note": "Sings a bouncing-ball song from coastal brush.",
+    "sci": "Chamaea fasciata",
+    "blurb": "A secretive, long-tailed bird of chaparral with a bouncing-ball song."
+   },
+   {
+    "word": "GULL",
+    "bird": "Western Gull",
+    "note": "The big dark-backed gull of the Oregon coast.",
+    "sci": "Larus occidentalis",
+    "blurb": "A big dark-backed gull found almost only on the Pacific coast."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Western Tanager",
+    "note": "Brightens summer forests with red and yellow.",
+    "sci": "Piranga ludoviciana",
+    "blurb": "Males are bright yellow with a flaming red-orange head."
+   },
+   {
+    "word": "KESTREL",
+    "bird": "American Kestrel",
+    "note": "Hovers over farm fields in the Willamette Valley.",
+    "sci": "Falco sparverius",
+    "blurb": "North America's smallest falcon, colourful and often seen on roadside wires."
+   },
+   {
+    "word": "TOWHEE",
+    "bird": "Spotted Towhee",
+    "note": "Scratches in the leaf litter of every garden.",
+    "sci": "Pipilo maculatus",
+    "blurb": "A large sparrow with a black hood, rusty sides, red eyes and white spots on its back."
+   },
+   {
+    "word": "SWIFT",
+    "bird": "Vaux's Swift",
+    "note": "Thousands swirl into the Chapman School chimney in Portland each September.",
+    "sci": "Chaetura vauxi",
+    "blurb": "A tiny swift that roosts in hollow trees and chimneys."
+   },
+   {
+    "word": "GOSHAWK",
+    "bird": "Northern Goshawk",
+    "note": "A fierce hawk of mature forest.",
+    "sci": "Astur atricapillus",
+    "blurb": "A powerful grey forest hawk with a bold white eyebrow."
+   }
+  ]
+ },
+ {
+  "id": "california",
+  "name": "California",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "QUAIL",
+    "bird": "California Quail",
+    "note": "California's state bird, with a curling black topknot.",
+    "sci": "Callipepla californica",
+    "blurb": "A plump quail with a forward-curling black topknot."
+   },
+   {
+    "word": "CONDOR",
+    "bird": "California Condor",
+    "note": "Soars over Big Sur and Pinnacles, back from the brink of extinction.",
+    "sci": "Gymnogyps californianus",
+    "blurb": "North America's largest flying bird, rescued from just 22 birds in 1987."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Yellow-billed Magpie",
+    "note": "Found nowhere in the world but California's Central Valley and coast ranges.",
+    "sci": "Pica nuttalli",
+    "blurb": "A magpie with a yellow bill found only in California."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "Brown Pelican",
+    "note": "Glides in lines along every surfing beach.",
+    "sci": "Pelecanus occidentalis",
+    "blurb": "A grey-brown pelican that plunge-dives from the air for fish."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "Acorn Woodpecker",
+    "note": "Stores thousands of acorns in granary trees in oak woodland.",
+    "sci": "Melanerpes formicivorus",
+    "blurb": "A clown-faced woodpecker that stores thousands of acorns in granary trees."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Anna's Hummingbird",
+    "note": "A year-round garden regular; males flash a rose-pink head.",
+    "sci": "Calypte anna",
+    "blurb": "A hummingbird whose males flash a rose-pink head and dive with a loud chirp."
+   },
+   {
+    "word": "ROADRUNNER",
+    "bird": "Greater Roadrunner",
+    "note": "Sprints after lizards in the deserts and chaparral.",
+    "sci": "Geococcyx californianus",
+    "blurb": "A ground cuckoo that sprints after lizards and snakes."
+   },
+   {
+    "word": "WRENTIT",
+    "bird": "Wrentit",
+    "note": "A secretive chaparral bird with a bouncing-ball song.",
+    "sci": "Chamaea fasciata",
+    "blurb": "A secretive, long-tailed bird of chaparral with a bouncing-ball song."
+   },
+   {
+    "word": "TITMOUSE",
+    "bird": "Oak Titmouse",
+    "note": "A plain grey bird of the oak woodlands.",
+    "sci": "Baeolophus inornatus",
+    "blurb": "A plain grey titmouse with a little crest, of California oaks."
+   },
+   {
+    "word": "TOWHEE",
+    "bird": "California Towhee",
+    "note": "Hops about patios and gardens.",
+    "sci": "Melozone crissalis",
+    "blurb": "A plain brown towhee with a rusty vent."
+   },
+   {
+    "word": "BLACKBIRD",
+    "bird": "Tricolored Blackbird",
+    "note": "Nests in huge colonies, nearly all of them in California.",
+    "sci": "Agelaius tricolor",
+    "blurb": "A blackbird with red-and-white shoulders that nests in huge colonies."
+   },
+   {
+    "word": "RAIL",
+    "bird": "Ridgway's Rail",
+    "note": "Clatters from the tidal marshes of San Francisco Bay.",
+    "sci": "Rallus obsoletus",
+    "blurb": "A chicken-sized marsh rail of tidal marshes."
+   },
+   {
+    "word": "GULL",
+    "bird": "Western Gull",
+    "note": "The big gull of the Farallones and Pacific beaches.",
+    "sci": "Larus occidentalis",
+    "blurb": "A big dark-backed gull found almost only on the Pacific coast."
+   },
+   {
+    "word": "TERN",
+    "bird": "Elegant Tern",
+    "note": "Nests in San Diego Bay and feeds off the southern coast.",
+    "sci": "Thalasseus elegans",
+    "blurb": "A slim tern with a shaggy crest and a long orange bill."
+   },
+   {
+    "word": "EGRET",
+    "bird": "Snowy Egret",
+    "note": "Stalks the marshes with its 'golden slippers'.",
+    "sci": "Egretta thula",
+    "blurb": "A white egret with 'golden slippers' — yellow feet on black legs."
+   },
+   {
+    "word": "GOOSE",
+    "bird": "Snow Goose",
+    "note": "Huge winter flocks fill the Sacramento Valley refuges.",
+    "sci": "Anser caerulescens",
+    "blurb": "A white goose with black wingtips that travels in enormous, noisy flocks."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Winters around Lodi, where they fly in to roost at dusk.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Eared Grebe",
+    "note": "Over a million gather on Mono Lake each fall.",
+    "sci": "Podiceps nigricollis",
+    "blurb": "A small grebe with golden ear tufts in summer that gathers in huge flocks on salty lakes."
+   },
+   {
+    "word": "PHALAROPE",
+    "bird": "Red-necked Phalarope",
+    "note": "Spins on Mono Lake during migration.",
+    "sci": "Phalaropus lobatus",
+    "blurb": "A tiny shorebird that spins on the water to stir up food."
+   },
+   {
+    "word": "GOLDFINCH",
+    "bird": "Lawrence's Goldfinch",
+    "note": "A grey goldfinch of dry foothills, sought by visiting birders.",
+    "sci": "Spinus lawrencei",
+    "blurb": "A grey goldfinch with a black face and yellow wing bars."
+   },
+   {
+    "word": "PHOEBE",
+    "bird": "Black Phoebe",
+    "note": "Wags its tail by every creek and fountain.",
+    "sci": "Sayornis nigricans",
+    "blurb": "A neat black-and-white flycatcher that wags its tail by water."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "California Thrasher",
+    "note": "Digs with its long curved bill in chaparral leaf litter.",
+    "sci": "Toxostoma redivivum",
+    "blurb": "A big brown thrasher with a long, sickle-shaped bill."
+   },
+   {
+    "word": "KITE",
+    "bird": "White-tailed Kite",
+    "note": "Hovers over grassland like a pale ghost.",
+    "sci": "Elanus leucurus",
+    "blurb": "A white-and-grey hawk with black shoulders that hovers over fields."
+   },
+   {
+    "word": "ALBATROSS",
+    "bird": "Black-footed Albatross",
+    "note": "Seen on pelagic trips out of Monterey Bay.",
+    "sci": "Phoebastria nigripes",
+    "blurb": "A dark albatross with a two-metre wingspan that follows fishing boats."
+   },
+   {
+    "word": "SHEARWATER",
+    "bird": "Sooty Shearwater",
+    "note": "Streams past Monterey in flocks of thousands.",
+    "sci": "Ardenna grisea",
+    "blurb": "A dark seabird that migrates around the whole Pacific each year."
+   },
+   {
+    "word": "VERDIN",
+    "bird": "Verdin",
+    "note": "A tiny yellow-faced bird of the desert washes.",
+    "sci": "Auriparus flaviceps",
+    "blurb": "A tiny grey desert bird with a yellow face."
+   },
+   {
+    "word": "PHAINOPEPLA",
+    "bird": "Phainopepla",
+    "note": "Glossy black males perch on mistletoe in the desert.",
+    "sci": "Phainopepla nitens",
+    "blurb": "A silky, crested bird; males are glossy black with red eyes."
+   },
+   {
+    "word": "SWALLOW",
+    "bird": "Cliff Swallow",
+    "note": "Returns to Mission San Juan Capistrano each spring.",
+    "sci": "Petrochelidon pyrrhonota",
+    "blurb": "A square-tailed swallow that builds gourd-shaped mud nests in colonies."
+   },
+   {
+    "word": "BUSHTIT",
+    "bird": "Bushtit",
+    "note": "Moves through gardens in twittering flocks.",
+    "sci": "Psaltriparus minimus",
+    "blurb": "A tiny grey-brown bird with a long tail that travels in busy, twittering flocks."
+   }
+  ]
+ },
+ {
+  "id": "idaho",
+  "name": "Idaho",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "BLUEBIRD",
+    "bird": "Mountain Bluebird",
+    "note": "Idaho's state bird, sky-blue against the sagebrush.",
+    "sci": "Sialia currucoides",
+    "blurb": "A sky-blue thrush of open country that hovers before dropping on insects."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Prairie Falcon",
+    "note": "The Snake River Birds of Prey area has one of the densest falcon populations anywhere.",
+    "sci": "Falco mexicanus",
+    "blurb": "A sandy-brown falcon of open country with dark wingpits."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Golden Eagle",
+    "note": "Nests on the cliffs of the Snake River Canyon.",
+    "sci": "Aquila chrysaetos",
+    "blurb": "A dark, powerful eagle with a golden nape that hunts hares and ground squirrels in open country."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Greater Sage-Grouse",
+    "note": "Struts on spring leks across the sagebrush plains.",
+    "sci": "Centrocercus urophasianus",
+    "blurb": "A big grouse whose males inflate yellow air sacs to display on leks."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Gathers by the thousand at Grays Lake in fall.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Trumpeter Swan",
+    "note": "Winters on the open springs of the upper Henry's Fork.",
+    "sci": "Cygnus buccinator",
+    "blurb": "North America's largest waterfowl, all white with a black bill and a bugling call."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Caches whitebark pine seeds in the high mountains.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Nests on islands in the Blackfoot Reservoir.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "A noisy regular of Boise neighbourhoods.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "CHUKAR",
+    "bird": "Chukar",
+    "note": "Calls from the steep canyons of Hells Canyon.",
+    "sci": "Alectoris chukar",
+    "blurb": "A partridge from Asia that calls its own name from rocky slopes."
+   },
+   {
+    "word": "QUAIL",
+    "bird": "California Quail",
+    "note": "Common in the farm country of western Idaho.",
+    "sci": "Callipepla californica",
+    "blurb": "A plump quail with a forward-curling black topknot."
+   },
+   {
+    "word": "CURLEW",
+    "bird": "Long-billed Curlew",
+    "note": "Nests in the grasslands near Boise.",
+    "sci": "Numenius americanus",
+    "blurb": "North America's largest shorebird, with an extraordinarily long down-curved bill."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Sage Thrasher",
+    "note": "Sings long songs from sagebrush tops.",
+    "sci": "Oreoscoptes montanus",
+    "blurb": "A small streaky thrasher that sings long songs from sagebrush tops."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Ferruginous Hawk",
+    "note": "Hunts ground squirrels on the open desert.",
+    "sci": "Buteo regalis",
+    "blurb": "North America's largest hawk, rusty above and white below, of open grassland."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "Lewis's Woodpecker",
+    "note": "Catches insects on the wing in old burns and cottonwoods.",
+    "sci": "Melanerpes lewis",
+    "blurb": "A dark green woodpecker with a pink belly that catches insects in flight."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Dives in Sawtooth mountain streams.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "OSPREY",
+    "bird": "Osprey",
+    "note": "Nests on platforms along Lake Coeur d'Alene.",
+    "sci": "Pandion haliaetus",
+    "blurb": "A fish-eating hawk that hovers, then plunges feet-first into the water to grab its catch."
+   },
+   {
+    "word": "GROSBEAK",
+    "bird": "Evening Grosbeak",
+    "note": "Visits feeders in the northern mountains.",
+    "sci": "Coccothraustes vespertinus",
+    "blurb": "A chunky yellow, black and white finch with a huge pale bill."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Western Tanager",
+    "note": "A bright summer bird of the conifer forests.",
+    "sci": "Piranga ludoviciana",
+    "blurb": "Males are bright yellow with a flaming red-orange head."
+   },
+   {
+    "word": "BUNTING",
+    "bird": "Lazuli Bunting",
+    "note": "A turquoise singer of brushy draws.",
+    "sci": "Passerina amoena",
+    "blurb": "Males are turquoise-blue with a cinnamon breast."
+   },
+   {
+    "word": "MEADOWLARK",
+    "bird": "Western Meadowlark",
+    "note": "Sings over farm fields and sagebrush.",
+    "sci": "Sturnella neglecta",
+    "blurb": "A yellow-breasted grassland bird with a black V and a flute-like song."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Feeds at Market Lake and other wetlands.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Western Grebe",
+    "note": "Courts on the big reservoirs of southern Idaho.",
+    "sci": "Aechmophorus occidentalis",
+    "blurb": "A sleek black-and-white grebe with a long swan-like neck and red eyes."
+   },
+   {
+    "word": "KESTREL",
+    "bird": "American Kestrel",
+    "note": "Hunts grasshoppers along every country road.",
+    "sci": "Falco sparverius",
+    "blurb": "North America's smallest falcon, colourful and often seen on roadside wires."
+   },
+   {
+    "word": "SOLITAIRE",
+    "bird": "Townsend's Solitaire",
+    "note": "Guards juniper berries through the winter.",
+    "sci": "Myadestes townsendi",
+    "blurb": "A slim grey thrush that defends juniper berries in winter."
+   },
+   {
+    "word": "WREN",
+    "bird": "Rock Wren",
+    "note": "Bobs on the basalt of the Snake River Canyon.",
+    "sci": "Salpinctes obsoletus",
+    "blurb": "A pale wren of rocky slopes that paves the entrance to its nest with pebbles."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Calliope Hummingbird",
+    "note": "The smallest bird in North America nests in Idaho's mountains.",
+    "sci": "Selasphorus calliope",
+    "blurb": "North America's smallest bird; males have magenta throat streaks."
+   },
+   {
+    "word": "GOSHAWK",
+    "bird": "Northern Goshawk",
+    "note": "Hunts in the forests of the Panhandle.",
+    "sci": "Astur atricapillus",
+    "blurb": "A powerful grey forest hawk with a bold white eyebrow."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Mountain Chickadee",
+    "note": "Calls cheeseburger from mountain conifers.",
+    "sci": "Poecile gambeli",
+    "blurb": "A chickadee with a white eyebrow, common in western mountain conifers."
+   }
+  ]
+ },
+ {
+  "id": "nevada",
+  "name": "Nevada",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "BLUEBIRD",
+    "bird": "Mountain Bluebird",
+    "note": "Nevada's state bird, bright blue over the high desert.",
+    "sci": "Sialia currucoides",
+    "blurb": "A sky-blue thrush of open country that hovers before dropping on insects."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Greater Sage-Grouse",
+    "note": "Dances on leks across the Great Basin sagebrush.",
+    "sci": "Centrocercus urophasianus",
+    "blurb": "A big grouse whose males inflate yellow air sacs to display on leks."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Nests at Anaho Island in Pyramid Lake.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "FINCH",
+    "bird": "Gray-crowned Rosy-Finch",
+    "note": "Breeds on the high peaks of the Ruby Mountains.",
+    "sci": "Leucosticte tephrocotis",
+    "blurb": "A brown-and-pink finch of alpine snowfields."
+   },
+   {
+    "word": "ROADRUNNER",
+    "bird": "Greater Roadrunner",
+    "note": "Sprints through the Mojave Desert around Las Vegas.",
+    "sci": "Geococcyx californianus",
+    "blurb": "A ground cuckoo that sprints after lizards and snakes."
+   },
+   {
+    "word": "QUAIL",
+    "bird": "Gambel's Quail",
+    "note": "Runs in coveys through desert washes of southern Nevada.",
+    "sci": "Callipepla gambelii",
+    "blurb": "A desert quail with a teardrop topknot and a chestnut cap."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Caches pine seeds on the high ridges of Great Basin National Park.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Sage Thrasher",
+    "note": "Sings from sagebrush tops all summer.",
+    "sci": "Oreoscoptes montanus",
+    "blurb": "A small streaky thrasher that sings long songs from sagebrush tops."
+   },
+   {
+    "word": "SPARROW",
+    "bird": "Black-throated Sparrow",
+    "note": "A smart little sparrow of the desert.",
+    "sci": "Amphispiza bilineata",
+    "blurb": "A grey desert sparrow with a black throat and white face stripes."
+   },
+   {
+    "word": "CHUKAR",
+    "bird": "Chukar",
+    "note": "Calls from rocky Great Basin hillsides.",
+    "sci": "Alectoris chukar",
+    "blurb": "A partridge from Asia that calls its own name from rocky slopes."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Golden Eagle",
+    "note": "Soars over the basin-and-range valleys.",
+    "sci": "Aquila chrysaetos",
+    "blurb": "A dark, powerful eagle with a golden nape that hunts hares and ground squirrels in open country."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Feeds in the alkaline wetlands of Stillwater.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "STILT",
+    "bird": "Black-necked Stilt",
+    "note": "Wades in Lahontan Valley marshes.",
+    "sci": "Himantopus mexicanus",
+    "blurb": "A black-and-white wader on very long pink legs."
+   },
+   {
+    "word": "IBIS",
+    "bird": "White-faced Ibis",
+    "note": "Nests in the Carson Sink wetlands.",
+    "sci": "Plegadis chihi",
+    "blurb": "A dark ibis with a glossy sheen and a white face border when breeding."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Western Grebe",
+    "note": "Courts on Pyramid Lake.",
+    "sci": "Aechmophorus occidentalis",
+    "blurb": "A sleek black-and-white grebe with a long swan-like neck and red eyes."
+   },
+   {
+    "word": "PHAINOPEPLA",
+    "bird": "Phainopepla",
+    "note": "Glossy black males perch on desert mistletoe.",
+    "sci": "Phainopepla nitens",
+    "blurb": "A silky, crested bird; males are glossy black with red eyes."
+   },
+   {
+    "word": "VERDIN",
+    "bird": "Verdin",
+    "note": "A tiny yellow-faced desert bird.",
+    "sci": "Auriparus flaviceps",
+    "blurb": "A tiny grey desert bird with a yellow face."
+   },
+   {
+    "word": "WREN",
+    "bird": "Cactus Wren",
+    "note": "Builds football-shaped nests in desert cactus.",
+    "sci": "Campylorhynchus brunneicapillus",
+    "blurb": "A big, bold wren of the desert that nests in cholla cactus."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Scott's Oriole",
+    "note": "A lemon-and-black oriole of yucca and Joshua trees.",
+    "sci": "Icterus parisorum",
+    "blurb": "A lemon-yellow and black oriole of yucca deserts."
+   },
+   {
+    "word": "PHOEBE",
+    "bird": "Say's Phoebe",
+    "note": "Nests on ranch buildings across the state.",
+    "sci": "Sayornis saya",
+    "blurb": "A pale flycatcher with a cinnamon belly of dry, open country."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Prairie Falcon",
+    "note": "Nests on desert cliffs.",
+    "sci": "Falco mexicanus",
+    "blurb": "A sandy-brown falcon of open country with dark wingpits."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Red-tailed Hawk",
+    "note": "The commonest hawk along Nevada highways.",
+    "sci": "Buteo jamaicensis",
+    "blurb": "A big, broad-winged hawk with a brick-red tail, often seen perched on poles by the road."
+   },
+   {
+    "word": "RAVEN",
+    "bird": "Common Raven",
+    "note": "Thrives in the desert towns and highways.",
+    "sci": "Corvus corax",
+    "blurb": "Bigger than a crow, with a wedge-shaped tail, shaggy throat and a deep croaking call."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "Common in the ranch country of northern Nevada.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "KESTREL",
+    "bird": "American Kestrel",
+    "note": "Hovers over the open desert.",
+    "sci": "Falco sparverius",
+    "blurb": "North America's smallest falcon, colourful and often seen on roadside wires."
+   },
+   {
+    "word": "SOLITAIRE",
+    "bird": "Townsend's Solitaire",
+    "note": "Guards juniper berries in winter.",
+    "sci": "Myadestes townsendi",
+    "blurb": "A slim grey thrush that defends juniper berries in winter."
+   },
+   {
+    "word": "DOVE",
+    "bird": "Mourning Dove",
+    "note": "Coos from every ranch and town.",
+    "sci": "Zenaida macroura",
+    "blurb": "A slender dove with a soft, mournful coo."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "Downy Woodpecker",
+    "note": "Visits backyard feeders in Reno.",
+    "sci": "Dryobates pubescens",
+    "blurb": "The smallest North American woodpecker, a regular at backyard feeders."
+   },
+   {
+    "word": "SWIFT",
+    "bird": "White-throated Swift",
+    "note": "Zooms past the cliffs of Red Rock Canyon.",
+    "sci": "Aeronautes saxatalis",
+    "blurb": "A fast black-and-white swift of cliffs and canyons."
+   }
+  ]
+ },
+ {
+  "id": "montana",
+  "name": "Montana",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "MEADOWLARK",
+    "bird": "Western Meadowlark",
+    "note": "Montana's state bird, singing over the Big Sky prairie.",
+    "sci": "Sturnella neglecta",
+    "blurb": "A yellow-breasted grassland bird with a black V and a flute-like song."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Trumpeter Swan",
+    "note": "Red Rock Lakes refuge saved the species from extinction.",
+    "sci": "Cygnus buccinator",
+    "blurb": "North America's largest waterfowl, all white with a black bill and a bugling call."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "White-tailed Ptarmigan",
+    "note": "Lives on Glacier National Park's high ridges.",
+    "sci": "Lagopus leucura",
+    "blurb": "North America's smallest grouse, mottled brown in summer and pure white in winter."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Greater Sage-Grouse",
+    "note": "Struts on leks in the sagebrush of central Montana.",
+    "sci": "Centrocercus urophasianus",
+    "blurb": "A big grouse whose males inflate yellow air sacs to display on leks."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Feeds in the streams of Glacier National Park.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Golden Eagle",
+    "note": "Migrates along the Rocky Mountain Front in big numbers.",
+    "sci": "Aquila chrysaetos",
+    "blurb": "A dark, powerful eagle with a golden nape that hunts hares and ground squirrels in open country."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Nests at Medicine Lake and Bowdoin refuges.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "LONGSPUR",
+    "bird": "Thick-billed Longspur",
+    "note": "Sings in parachute flights over the shortgrass prairie.",
+    "sci": "Rhynchophanes mccownii",
+    "blurb": "A shortgrass prairie sparrow that sings in a parachute flight."
+   },
+   {
+    "word": "BLUEBIRD",
+    "bird": "Mountain Bluebird",
+    "note": "Nests in boxes along ranch fences.",
+    "sci": "Sialia currucoides",
+    "blurb": "A sky-blue thrush of open country that hovers before dropping on insects."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "Common on every ranch.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "CURLEW",
+    "bird": "Long-billed Curlew",
+    "note": "Nests in the grasslands east of the mountains.",
+    "sci": "Numenius americanus",
+    "blurb": "North America's largest shorebird, with an extraordinarily long down-curved bill."
+   },
+   {
+    "word": "PLOVER",
+    "bird": "Mountain Plover",
+    "note": "Nests on the shortgrass prairie of the northeast.",
+    "sci": "Anarhynchus montanus",
+    "blurb": "A plain plover of shortgrass prairie, nowhere near mountains."
+   },
+   {
+    "word": "PIPIT",
+    "bird": "Sprague's Pipit",
+    "note": "Sings high above the native grasslands.",
+    "sci": "Anthus spragueii",
+    "blurb": "A pale prairie pipit that sings from high in the sky for minutes at a time."
+   },
+   {
+    "word": "BOBOLINK",
+    "bird": "Bobolink",
+    "note": "Nests in hayfields along the rivers.",
+    "sci": "Dolichonyx oryzivorus",
+    "blurb": "A grassland bird whose males look like they are wearing a tuxedo backwards."
+   },
+   {
+    "word": "DUCK",
+    "bird": "Harlequin Duck",
+    "note": "Breeds on McDonald Creek in Glacier National Park.",
+    "sci": "Histrionicus histrionicus",
+    "blurb": "A small duck; males are slate blue with chestnut sides and bold white stripes and spots."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Caches whitebark pine seeds in the high country.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "GROSBEAK",
+    "bird": "Evening Grosbeak",
+    "note": "Visits feeders in mountain towns.",
+    "sci": "Coccothraustes vespertinus",
+    "blurb": "A chunky yellow, black and white finch with a huge pale bill."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "Black-backed Woodpecker",
+    "note": "Seeks out freshly burned forest.",
+    "sci": "Picoides arcticus",
+    "blurb": "A woodpecker that seeks out freshly burned forests."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Nests in mountain valleys and calls over the Bitterroot.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "OSPREY",
+    "bird": "Osprey",
+    "note": "Nests along the Clark Fork and Flathead rivers.",
+    "sci": "Pandion haliaetus",
+    "blurb": "A fish-eating hawk that hovers, then plunges feet-first into the water to grab its catch."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Swainson's Hawk",
+    "note": "Hunts grasshoppers on the eastern plains.",
+    "sci": "Buteo swainsoni",
+    "blurb": "A slim hawk that migrates to Argentina in huge flocks and eats grasshoppers."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Prairie Falcon",
+    "note": "Nests on badland cliffs.",
+    "sci": "Falco mexicanus",
+    "blurb": "A sandy-brown falcon of open country with dark wingpits."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Feeds on prairie potholes.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "KINGBIRD",
+    "bird": "Western Kingbird",
+    "note": "Chases hawks from the cottonwoods.",
+    "sci": "Tyrannus verticalis",
+    "blurb": "A yellow-bellied flycatcher that sits on wires and chases off hawks."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Western Tanager",
+    "note": "A summer flash of colour in the forests.",
+    "sci": "Piranga ludoviciana",
+    "blurb": "Males are bright yellow with a flaming red-orange head."
+   },
+   {
+    "word": "SOLITAIRE",
+    "bird": "Townsend's Solitaire",
+    "note": "Guards juniper berries in winter.",
+    "sci": "Myadestes townsendi",
+    "blurb": "A slim grey thrush that defends juniper berries in winter."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Mountain Chickadee",
+    "note": "A common bird of the conifer forests.",
+    "sci": "Poecile gambeli",
+    "blurb": "A chickadee with a white eyebrow, common in western mountain conifers."
+   },
+   {
+    "word": "WAXWING",
+    "bird": "Bohemian Waxwing",
+    "note": "Winter flocks raid crabapples in Missoula and Bozeman.",
+    "sci": "Bombycilla garrulus",
+    "blurb": "A sleek, crested bird that roams the north in winter flocks, stripping berries."
+   }
+  ]
+ },
+ {
+  "id": "wyoming",
+  "name": "Wyoming",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "MEADOWLARK",
+    "bird": "Western Meadowlark",
+    "note": "Wyoming's state bird, singing from fence posts.",
+    "sci": "Sturnella neglecta",
+    "blurb": "A yellow-breasted grassland bird with a black V and a flute-like song."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Greater Sage-Grouse",
+    "note": "Wyoming holds more sage-grouse than any other state.",
+    "sci": "Centrocercus urophasianus",
+    "blurb": "A big grouse whose males inflate yellow air sacs to display on leks."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Trumpeter Swan",
+    "note": "Glides on the rivers of Yellowstone and Grand Teton.",
+    "sci": "Cygnus buccinator",
+    "blurb": "North America's largest waterfowl, all white with a black bill and a bugling call."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Nests on islands in Yellowstone Lake.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Bald Eagle",
+    "note": "Nests along the Snake River in Grand Teton.",
+    "sci": "Haliaeetus leucocephalus",
+    "blurb": "A huge eagle with a white head and tail; young birds take about five years to get the adult look."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Caches whitebark pine seeds in the Tetons.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Bobs in Yellowstone streams all winter.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "PLOVER",
+    "bird": "Mountain Plover",
+    "note": "Nests on the shortgrass prairie and sagebrush flats.",
+    "sci": "Anarhynchus montanus",
+    "blurb": "A plain plover of shortgrass prairie, nowhere near mountains."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Calls over the meadows of Jackson Hole.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "OSPREY",
+    "bird": "Osprey",
+    "note": "Fishes in the Grand Canyon of the Yellowstone.",
+    "sci": "Pandion haliaetus",
+    "blurb": "A fish-eating hawk that hovers, then plunges feet-first into the water to grab its catch."
+   },
+   {
+    "word": "BLUEBIRD",
+    "bird": "Mountain Bluebird",
+    "note": "Hovers over sagebrush flats in summer.",
+    "sci": "Sialia currucoides",
+    "blurb": "A sky-blue thrush of open country that hovers before dropping on insects."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "Picks at elk carcasses and ranch scraps.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "RAVEN",
+    "bird": "Common Raven",
+    "note": "Follows wolves to their kills in Yellowstone.",
+    "sci": "Corvus corax",
+    "blurb": "Bigger than a crow, with a wedge-shaped tail, shaggy throat and a deep croaking call."
+   },
+   {
+    "word": "FINCH",
+    "bird": "Gray-crowned Rosy-Finch",
+    "note": "Feeds on alpine snowfields in the Beartooths.",
+    "sci": "Leucosticte tephrocotis",
+    "blurb": "A brown-and-pink finch of alpine snowfields."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Sage Thrasher",
+    "note": "Sings from sagebrush tops.",
+    "sci": "Oreoscoptes montanus",
+    "blurb": "A small streaky thrasher that sings long songs from sagebrush tops."
+   },
+   {
+    "word": "SPARROW",
+    "bird": "Sagebrush Sparrow",
+    "note": "Runs between sagebrush with its tail cocked.",
+    "sci": "Artemisiospiza nevadensis",
+    "blurb": "A grey sparrow of sagebrush that runs with its tail cocked."
+   },
+   {
+    "word": "CURLEW",
+    "bird": "Long-billed Curlew",
+    "note": "Nests in the grasslands of the Bighorn Basin.",
+    "sci": "Numenius americanus",
+    "blurb": "North America's largest shorebird, with an extraordinarily long down-curved bill."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Prairie Falcon",
+    "note": "Nests on cliffs above the sagebrush.",
+    "sci": "Falco mexicanus",
+    "blurb": "A sandy-brown falcon of open country with dark wingpits."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Ferruginous Hawk",
+    "note": "Hunts prairie dogs on the plains.",
+    "sci": "Buteo regalis",
+    "blurb": "North America's largest hawk, rusty above and white below, of open grassland."
+   },
+   {
+    "word": "BUNTING",
+    "bird": "Lark Bunting",
+    "note": "Males sing in fluttering song flights over the plains.",
+    "sci": "Calamospiza melanocorys",
+    "blurb": "Breeding males are black with big white wing patches."
+   },
+   {
+    "word": "LONGSPUR",
+    "bird": "Thick-billed Longspur",
+    "note": "Nests on the shortgrass prairie.",
+    "sci": "Rhynchophanes mccownii",
+    "blurb": "A shortgrass prairie sparrow that sings in a parachute flight."
+   },
+   {
+    "word": "GOLDENEYE",
+    "bird": "Barrow's Goldeneye",
+    "note": "Nests in tree holes in Yellowstone.",
+    "sci": "Bucephala islandica",
+    "blurb": "A diving duck with a crescent-shaped white face patch on males."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "American Three-toed Woodpecker",
+    "note": "Feeds in burned lodgepole forests.",
+    "sci": "Picoides dorsalis",
+    "blurb": "A woodpecker of spruce forests with only three toes."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Western Tanager",
+    "note": "A summer flash of red and yellow.",
+    "sci": "Piranga ludoviciana",
+    "blurb": "Males are bright yellow with a flaming red-orange head."
+   },
+   {
+    "word": "GOSHAWK",
+    "bird": "Northern Goshawk",
+    "note": "A fierce hunter of mountain forest.",
+    "sci": "Astur atricapillus",
+    "blurb": "A powerful grey forest hawk with a bold white eyebrow."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Mountain Chickadee",
+    "note": "Common in mountain conifers.",
+    "sci": "Poecile gambeli",
+    "blurb": "A chickadee with a white eyebrow, common in western mountain conifers."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Feeds on alkaline ponds.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "KESTREL",
+    "bird": "American Kestrel",
+    "note": "Hovers over ranch hayfields.",
+    "sci": "Falco sparverius",
+    "blurb": "North America's smallest falcon, colourful and often seen on roadside wires."
+   },
+   {
+    "word": "SOLITAIRE",
+    "bird": "Townsend's Solitaire",
+    "note": "Guards juniper berries in winter.",
+    "sci": "Myadestes townsendi",
+    "blurb": "A slim grey thrush that defends juniper berries in winter."
+   }
+  ]
+ },
+ {
+  "id": "utah",
+  "name": "Utah",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "GULL",
+    "bird": "California Gull",
+    "note": "Utah's state bird, honoured for eating the crickets that threatened the pioneers' crops.",
+    "sci": "Larus californicus",
+    "blurb": "A medium-sized gull with a black-and-red spot on its yellow bill."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Eared Grebe",
+    "note": "Millions gather on Great Salt Lake each fall to eat brine shrimp.",
+    "sci": "Podiceps nigricollis",
+    "blurb": "A small grebe with golden ear tufts in summer that gathers in huge flocks on salty lakes."
+   },
+   {
+    "word": "PHALAROPE",
+    "bird": "Wilson's Phalarope",
+    "note": "Hundreds of thousands stop on Great Salt Lake in summer.",
+    "sci": "Phalaropus tricolor",
+    "blurb": "A dainty shorebird that spins on the water; females are the brighter sex."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Nests at Bear River Migratory Bird Refuge.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Nests on Gunnison Island in Great Salt Lake.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "CONDOR",
+    "bird": "California Condor",
+    "note": "Soars over Zion National Park.",
+    "sci": "Gymnogyps californianus",
+    "blurb": "North America's largest flying bird, rescued from just 22 birds in 1987."
+   },
+   {
+    "word": "ROADRUNNER",
+    "bird": "Greater Roadrunner",
+    "note": "Lives in the deserts around St. George.",
+    "sci": "Geococcyx californianus",
+    "blurb": "A ground cuckoo that sprints after lizards and snakes."
+   },
+   {
+    "word": "STILT",
+    "bird": "Black-necked Stilt",
+    "note": "Wades in the Great Salt Lake marshes.",
+    "sci": "Himantopus mexicanus",
+    "blurb": "A black-and-white wader on very long pink legs."
+   },
+   {
+    "word": "IBIS",
+    "bird": "White-faced Ibis",
+    "note": "Nests in the Bear River marshes.",
+    "sci": "Plegadis chihi",
+    "blurb": "A dark ibis with a glossy sheen and a white face border when breeding."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Tundra Swan",
+    "note": "Tens of thousands stop at Bear River in fall.",
+    "sci": "Cygnus columbianus",
+    "blurb": "A white swan with a small yellow spot by the eye that nests on Arctic tundra."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Bald Eagle",
+    "note": "Winters around Farmington Bay.",
+    "sci": "Haliaeetus leucocephalus",
+    "blurb": "A huge eagle with a white head and tail; young birds take about five years to get the adult look."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Peregrine Falcon",
+    "note": "Nests on cliffs in Zion and on Salt Lake City buildings.",
+    "sci": "Falco peregrinus",
+    "blurb": "The fastest animal on Earth, diving at over 300 km/h."
+   },
+   {
+    "word": "CHUKAR",
+    "bird": "Chukar",
+    "note": "Calls from rocky desert hills.",
+    "sci": "Alectoris chukar",
+    "blurb": "A partridge from Asia that calls its own name from rocky slopes."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Greater Sage-Grouse",
+    "note": "Struts on leks in the sagebrush valleys.",
+    "sci": "Centrocercus urophasianus",
+    "blurb": "A big grouse whose males inflate yellow air sacs to display on leks."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "Common in the Wasatch Front valleys.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "TITMOUSE",
+    "bird": "Juniper Titmouse",
+    "note": "A plain grey bird of juniper woodland.",
+    "sci": "Baeolophus ridgwayi",
+    "blurb": "A plain grey titmouse of juniper woodland."
+   },
+   {
+    "word": "WREN",
+    "bird": "Canyon Wren",
+    "note": "Its cascading song echoes off red-rock walls.",
+    "sci": "Catherpes mexicanus",
+    "blurb": "A rusty wren whose cascading song echoes down canyon walls."
+   },
+   {
+    "word": "SWIFT",
+    "bird": "White-throated Swift",
+    "note": "Zooms past the cliffs of Arches and Capitol Reef.",
+    "sci": "Aeronautes saxatalis",
+    "blurb": "A fast black-and-white swift of cliffs and canyons."
+   },
+   {
+    "word": "RAVEN",
+    "bird": "Common Raven",
+    "note": "Plays on the updrafts at canyon overlooks.",
+    "sci": "Corvus corax",
+    "blurb": "Bigger than a crow, with a wedge-shaped tail, shaggy throat and a deep croaking call."
+   },
+   {
+    "word": "BLUEBIRD",
+    "bird": "Mountain Bluebird",
+    "note": "Nests in high mountain meadows.",
+    "sci": "Sialia currucoides",
+    "blurb": "A sky-blue thrush of open country that hovers before dropping on insects."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Caches pine seeds in the Uinta Mountains.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "White-tailed Ptarmigan",
+    "note": "Introduced to the Uinta Mountains.",
+    "sci": "Lagopus leucura",
+    "blurb": "North America's smallest grouse, mottled brown in summer and pure white in winter."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Sage Thrasher",
+    "note": "Sings from sagebrush tops.",
+    "sci": "Oreoscoptes montanus",
+    "blurb": "A small streaky thrasher that sings long songs from sagebrush tops."
+   },
+   {
+    "word": "QUAIL",
+    "bird": "Gambel's Quail",
+    "note": "Runs in coveys through southern Utah's washes.",
+    "sci": "Callipepla gambelii",
+    "blurb": "A desert quail with a teardrop topknot and a chestnut cap."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Broad-tailed Hummingbird",
+    "note": "Trills its wings over mountain meadows.",
+    "sci": "Selasphorus platycercus",
+    "blurb": "Males have a rose throat and wings that trill loudly in flight."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Bobs in Wasatch streams.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "KINGBIRD",
+    "bird": "Western Kingbird",
+    "note": "Perches on fences in farm country.",
+    "sci": "Tyrannus verticalis",
+    "blurb": "A yellow-bellied flycatcher that sits on wires and chases off hawks."
+   },
+   {
+    "word": "BUNTING",
+    "bird": "Lazuli Bunting",
+    "note": "A turquoise singer of brushy canyons.",
+    "sci": "Passerina amoena",
+    "blurb": "Males are turquoise-blue with a cinnamon breast."
+   }
+  ]
+ },
+ {
+  "id": "colorado",
+  "name": "Colorado",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "BUNTING",
+    "bird": "Lark Bunting",
+    "note": "Colorado's state bird, singing in fluttering flights over the eastern plains.",
+    "sci": "Calamospiza melanocorys",
+    "blurb": "Breeding males are black with big white wing patches."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "White-tailed Ptarmigan",
+    "note": "Lives above the treeline at Guanella Pass and Rocky Mountain National Park.",
+    "sci": "Lagopus leucura",
+    "blurb": "North America's smallest grouse, mottled brown in summer and pure white in winter."
+   },
+   {
+    "word": "FINCH",
+    "bird": "Gray-crowned Rosy-Finch",
+    "note": "Flocks to feeders in mountain towns in winter.",
+    "sci": "Leucosticte tephrocotis",
+    "blurb": "A brown-and-pink finch of alpine snowfields."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Over 20,000 stop in the San Luis Valley each spring.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Dusky Grouse",
+    "note": "Hoots from the mountain forests in spring.",
+    "sci": "Dendragapus obscurus",
+    "blurb": "A big, dark mountain grouse that hoots in spring."
+   },
+   {
+    "word": "CHICKEN",
+    "bird": "Lesser Prairie-Chicken",
+    "note": "Displays on leks in the far southeast.",
+    "sci": "Tympanuchus pallidicinctus",
+    "blurb": "A prairie grouse whose males puff reddish air sacs to display."
+   },
+   {
+    "word": "PLOVER",
+    "bird": "Mountain Plover",
+    "note": "Nests on the shortgrass of Pawnee National Grassland.",
+    "sci": "Anarhynchus montanus",
+    "blurb": "A plain plover of shortgrass prairie, nowhere near mountains."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Black-billed Magpie",
+    "note": "A noisy regular of Denver neighbourhoods.",
+    "sci": "Pica hudsonia",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Begs at Rocky Mountain National Park overlooks.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Bobs in mountain streams all winter.",
+    "sci": "Cinclus mexicanus",
+    "blurb": "A plump grey songbird that bobs on rocks in rushing streams, North America's only aquatic songbird."
+   },
+   {
+    "word": "BLUEBIRD",
+    "bird": "Mountain Bluebird",
+    "note": "Hovers over mountain meadows.",
+    "sci": "Sialia currucoides",
+    "blurb": "A sky-blue thrush of open country that hovers before dropping on insects."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Broad-tailed Hummingbird",
+    "note": "Males trill their wings loudly over mountain meadows.",
+    "sci": "Selasphorus platycercus",
+    "blurb": "Males have a rose throat and wings that trill loudly in flight."
+   },
+   {
+    "word": "SWIFT",
+    "bird": "Black Swift",
+    "note": "Nests behind waterfalls in the San Juan Mountains.",
+    "sci": "Cypseloides niger",
+    "blurb": "A big dark swift that nests behind waterfalls."
+   },
+   {
+    "word": "LONGSPUR",
+    "bird": "Chestnut-collared Longspur",
+    "note": "Sings on the Pawnee grasslands.",
+    "sci": "Calcarius ornatus",
+    "blurb": "A prairie sparrow; males have a black belly and chestnut nape."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Ferruginous Hawk",
+    "note": "Hunts prairie dogs on the eastern plains.",
+    "sci": "Buteo regalis",
+    "blurb": "North America's largest hawk, rusty above and white below, of open grassland."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Prairie Falcon",
+    "note": "Nests on cliffs above the plains.",
+    "sci": "Falco mexicanus",
+    "blurb": "A sandy-brown falcon of open country with dark wingpits."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Golden Eagle",
+    "note": "Soars over the foothills.",
+    "sci": "Aquila chrysaetos",
+    "blurb": "A dark, powerful eagle with a golden nape that hunts hares and ground squirrels in open country."
+   },
+   {
+    "word": "GOSHAWK",
+    "bird": "Northern Goshawk",
+    "note": "Hunts in the mountain forests.",
+    "sci": "Astur atricapillus",
+    "blurb": "A powerful grey forest hawk with a bold white eyebrow."
+   },
+   {
+    "word": "CHICKADEE",
+    "bird": "Mountain Chickadee",
+    "note": "Calls cheeseburger in mountain conifers.",
+    "sci": "Poecile gambeli",
+    "blurb": "A chickadee with a white eyebrow, common in western mountain conifers."
+   },
+   {
+    "word": "NUTHATCH",
+    "bird": "Pygmy Nuthatch",
+    "note": "Roosts in huddles in ponderosa pines.",
+    "sci": "Sitta pygmaea",
+    "blurb": "A tiny nuthatch of ponderosa pine forests that roosts in huddles of over a hundred."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Western Tanager",
+    "note": "Brightens summer forests.",
+    "sci": "Piranga ludoviciana",
+    "blurb": "Males are bright yellow with a flaming red-orange head."
+   },
+   {
+    "word": "GROSBEAK",
+    "bird": "Evening Grosbeak",
+    "note": "Visits mountain feeders.",
+    "sci": "Coccothraustes vespertinus",
+    "blurb": "A chunky yellow, black and white finch with a huge pale bill."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "American White Pelican",
+    "note": "Fishes on plains reservoirs.",
+    "sci": "Pelecanus erythrorhynchos",
+    "blurb": "A huge white pelican with black flight feathers that fishes cooperatively in flocks."
+   },
+   {
+    "word": "AVOCET",
+    "bird": "American Avocet",
+    "note": "Feeds on plains reservoirs.",
+    "sci": "Recurvirostra americana",
+    "blurb": "An elegant wader with a thin upturned bill and a cinnamon head in summer."
+   },
+   {
+    "word": "CURLEW",
+    "bird": "Long-billed Curlew",
+    "note": "Nests on the southeastern plains.",
+    "sci": "Numenius americanus",
+    "blurb": "North America's largest shorebird, with an extraordinarily long down-curved bill."
+   },
+   {
+    "word": "KINGBIRD",
+    "bird": "Western Kingbird",
+    "note": "Perches on fences along plains roads.",
+    "sci": "Tyrannus verticalis",
+    "blurb": "A yellow-bellied flycatcher that sits on wires and chases off hawks."
+   },
+   {
+    "word": "WREN",
+    "bird": "Canyon Wren",
+    "note": "Sings in the canyons of the Western Slope.",
+    "sci": "Catherpes mexicanus",
+    "blurb": "A rusty wren whose cascading song echoes down canyon walls."
+   },
+   {
+    "word": "JUNCO",
+    "bird": "Dark-eyed Junco",
+    "note": "Colorado has several junco forms, including the gray-headed.",
+    "sci": "Junco hyemalis",
+    "blurb": "A small sparrow with a dark hood and pink bill, common at feeders in winter."
+   },
+   {
+    "word": "SOLITAIRE",
+    "bird": "Townsend's Solitaire",
+    "note": "Guards juniper berries in winter.",
+    "sci": "Myadestes townsendi",
+    "blurb": "A slim grey thrush that defends juniper berries in winter."
+   }
+  ]
+ },
+ {
+  "id": "arizona",
+  "name": "Arizona",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "WREN",
+    "bird": "Cactus Wren",
+    "note": "Arizona's state bird, nesting in cholla cactus.",
+    "sci": "Campylorhynchus brunneicapillus",
+    "blurb": "A big, bold wren of the desert that nests in cholla cactus."
+   },
+   {
+    "word": "ROADRUNNER",
+    "bird": "Greater Roadrunner",
+    "note": "Sprints across Sonoran Desert trails.",
+    "sci": "Geococcyx californianus",
+    "blurb": "A ground cuckoo that sprints after lizards and snakes."
+   },
+   {
+    "word": "QUAIL",
+    "bird": "Gambel's Quail",
+    "note": "Runs in coveys through every desert neighbourhood.",
+    "sci": "Callipepla gambelii",
+    "blurb": "A desert quail with a teardrop topknot and a chestnut cap."
+   },
+   {
+    "word": "WOODPECKER",
+    "bird": "Gila Woodpecker",
+    "note": "Excavates nest holes in saguaro cactus.",
+    "sci": "Melanerpes uropygialis",
+    "blurb": "A zebra-backed desert woodpecker that nests in saguaro cactus."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Costa's Hummingbird",
+    "note": "A desert hummingbird with a purple flared gorget.",
+    "sci": "Calypte costae",
+    "blurb": "A desert hummingbird; males have a purple crown and flaring gorget."
+   },
+   {
+    "word": "CONDOR",
+    "bird": "California Condor",
+    "note": "Soars over the Grand Canyon and Vermilion Cliffs.",
+    "sci": "Gymnogyps californianus",
+    "blurb": "North America's largest flying bird, rescued from just 22 birds in 1987."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Curve-billed Thrasher",
+    "note": "Calls whit-wheet from Phoenix and Tucson gardens.",
+    "sci": "Toxostoma curvirostre",
+    "blurb": "A grey desert thrasher with orange eyes and a whit-wheet call."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Harris's Hawk",
+    "note": "Hunts cooperatively in family groups around Tucson.",
+    "sci": "Parabuteo unicinctus",
+    "blurb": "A dark chocolate-and-rust hawk that hunts cooperatively in family groups."
+   },
+   {
+    "word": "CARDINAL",
+    "bird": "Northern Cardinal",
+    "note": "Brightens mesquite thickets along desert rivers.",
+    "sci": "Cardinalis cardinalis",
+    "blurb": "Males are brilliant red with a crest and black face."
+   },
+   {
+    "word": "PYRRHULOXIA",
+    "bird": "Pyrrhuloxia",
+    "note": "A grey desert cardinal with a red crest.",
+    "sci": "Cardinalis sinuatus",
+    "blurb": "A grey desert cardinal with a red crest and a stubby yellow bill."
+   },
+   {
+    "word": "PHAINOPEPLA",
+    "bird": "Phainopepla",
+    "note": "Perches on mistletoe in mesquite.",
+    "sci": "Phainopepla nitens",
+    "blurb": "A silky, crested bird; males are glossy black with red eyes."
+   },
+   {
+    "word": "VERDIN",
+    "bird": "Verdin",
+    "note": "A tiny yellow-faced desert bird.",
+    "sci": "Auriparus flaviceps",
+    "blurb": "A tiny grey desert bird with a yellow face."
+   },
+   {
+    "word": "DOVE",
+    "bird": "White-winged Dove",
+    "note": "Pollinates saguaro flowers in early summer.",
+    "sci": "Zenaida asiatica",
+    "blurb": "A desert dove with white wing stripes that pollinates saguaro flowers."
+   },
+   {
+    "word": "FLYCATCHER",
+    "bird": "Vermilion Flycatcher",
+    "note": "A scarlet flash along desert rivers.",
+    "sci": "Pyrocephalus obscurus",
+    "blurb": "Males are a brilliant scarlet with a dark mask."
+   },
+   {
+    "word": "TROGON",
+    "bird": "Elegant Trogon",
+    "note": "Nests in the sycamores of the Chiricahua and Huachuca canyons.",
+    "sci": "Trogon elegans",
+    "blurb": "A colourful tropical bird; males are emerald and rose-red."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Scott's Oriole",
+    "note": "Sings from yucca and Joshua trees.",
+    "sci": "Icterus parisorum",
+    "blurb": "A lemon-yellow and black oriole of yucca deserts."
+   },
+   {
+    "word": "SPARROW",
+    "bird": "Black-throated Sparrow",
+    "note": "A smart little sparrow of the desert.",
+    "sci": "Amphispiza bilineata",
+    "blurb": "A grey desert sparrow with a black throat and white face stripes."
+   },
+   {
+    "word": "RAVEN",
+    "bird": "Common Raven",
+    "note": "Plays on the Grand Canyon updrafts.",
+    "sci": "Corvus corax",
+    "blurb": "Bigger than a crow, with a wedge-shaped tail, shaggy throat and a deep croaking call."
+   },
+   {
+    "word": "SWIFT",
+    "bird": "White-throated Swift",
+    "note": "Zooms along the Grand Canyon rim.",
+    "sci": "Aeronautes saxatalis",
+    "blurb": "A fast black-and-white swift of cliffs and canyons."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Over 20,000 winter at Whitewater Draw.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Summer Tanager",
+    "note": "A rose-red bird of the riverside cottonwoods.",
+    "sci": "Piranga rubra",
+    "blurb": "Males are entirely rose-red; it specializes in eating bees and wasps."
+   },
+   {
+    "word": "PHOEBE",
+    "bird": "Black Phoebe",
+    "note": "Wags its tail along creeks.",
+    "sci": "Sayornis nigricans",
+    "blurb": "A neat black-and-white flycatcher that wags its tail by water."
+   },
+   {
+    "word": "KINGBIRD",
+    "bird": "Western Kingbird",
+    "note": "Perches on wires everywhere.",
+    "sci": "Tyrannus verticalis",
+    "blurb": "A yellow-bellied flycatcher that sits on wires and chases off hawks."
+   },
+   {
+    "word": "OSPREY",
+    "bird": "Osprey",
+    "note": "Fishes on the lakes of the Mogollon Rim.",
+    "sci": "Pandion haliaetus",
+    "blurb": "A fish-eating hawk that hovers, then plunges feet-first into the water to grab its catch."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Bald Eagle",
+    "note": "A desert-nesting population breeds along the Salt and Verde rivers.",
+    "sci": "Haliaeetus leucocephalus",
+    "blurb": "A huge eagle with a white head and tail; young birds take about five years to get the adult look."
+   },
+   {
+    "word": "KESTREL",
+    "bird": "American Kestrel",
+    "note": "Hunts over desert grassland.",
+    "sci": "Falco sparverius",
+    "blurb": "North America's smallest falcon, colourful and often seen on roadside wires."
+   },
+   {
+    "word": "GOLDFINCH",
+    "bird": "Lesser Goldfinch",
+    "note": "Common at backyard feeders.",
+    "sci": "Spinus psaltria",
+    "blurb": "A tiny goldfinch; males are yellow below with a black cap."
+   },
+   {
+    "word": "CARACARA",
+    "bird": "Crested Caracara",
+    "note": "Walks the ground in the Tohono O'odham desert lands.",
+    "sci": "Caracara plancus",
+    "blurb": "A long-legged falcon with a black cap and orange face that walks the ground."
+   }
+  ]
+ },
+ {
+  "id": "newmexico",
+  "name": "New Mexico",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "ROADRUNNER",
+    "bird": "Greater Roadrunner",
+    "note": "New Mexico's state bird, sprinting through the desert.",
+    "sci": "Geococcyx californianus",
+    "blurb": "A ground cuckoo that sprints after lizards and snakes."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Sandhill Crane",
+    "note": "Thousands winter at Bosque del Apache, lifting off at sunrise.",
+    "sci": "Antigone canadensis",
+    "blurb": "A tall grey crane with a red cap whose rattling calls carry for miles."
+   },
+   {
+    "word": "GOOSE",
+    "bird": "Snow Goose",
+    "note": "The famous blast-off at Bosque del Apache is a winter spectacle.",
+    "sci": "Anser caerulescens",
+    "blurb": "A white goose with black wingtips that travels in enormous, noisy flocks."
+   },
+   {
+    "word": "QUAIL",
+    "bird": "Scaled Quail",
+    "note": "The 'cottontop' quail runs through desert grassland.",
+    "sci": "Callipepla squamata",
+    "blurb": "A grey quail with a white cottony crest, nicknamed 'cottontop'."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "White-tailed Ptarmigan",
+    "note": "Lives in the high Sangre de Cristo Mountains.",
+    "sci": "Lagopus leucura",
+    "blurb": "North America's smallest grouse, mottled brown in summer and pure white in winter."
+   },
+   {
+    "word": "CHICKEN",
+    "bird": "Lesser Prairie-Chicken",
+    "note": "Displays on leks in the eastern plains.",
+    "sci": "Tympanuchus pallidicinctus",
+    "blurb": "A prairie grouse whose males puff reddish air sacs to display."
+   },
+   {
+    "word": "PYRRHULOXIA",
+    "bird": "Pyrrhuloxia",
+    "note": "A grey desert cardinal of the south.",
+    "sci": "Cardinalis sinuatus",
+    "blurb": "A grey desert cardinal with a red crest and a stubby yellow bill."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Curve-billed Thrasher",
+    "note": "Calls whit-wheet from cholla cactus.",
+    "sci": "Toxostoma curvirostre",
+    "blurb": "A grey desert thrasher with orange eyes and a whit-wheet call."
+   },
+   {
+    "word": "WREN",
+    "bird": "Cactus Wren",
+    "note": "Builds nests in cholla cactus.",
+    "sci": "Campylorhynchus brunneicapillus",
+    "blurb": "A big, bold wren of the desert that nests in cholla cactus."
+   },
+   {
+    "word": "TOWHEE",
+    "bird": "Canyon Towhee",
+    "note": "Hops around adobe walls and patios.",
+    "sci": "Melozone fusca",
+    "blurb": "A plain brown towhee with a rusty cap of desert canyons."
+   },
+   {
+    "word": "TITMOUSE",
+    "bird": "Juniper Titmouse",
+    "note": "A plain grey bird of juniper woodland.",
+    "sci": "Baeolophus ridgwayi",
+    "blurb": "A plain grey titmouse of juniper woodland."
+   },
+   {
+    "word": "FINCH",
+    "bird": "Gray-crowned Rosy-Finch",
+    "note": "Flocks to Sandia Crest in winter.",
+    "sci": "Leucosticte tephrocotis",
+    "blurb": "A brown-and-pink finch of alpine snowfields."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Broad-tailed Hummingbird",
+    "note": "Trills its wings in mountain meadows.",
+    "sci": "Selasphorus platycercus",
+    "blurb": "Males have a rose throat and wings that trill loudly in flight."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Swainson's Hawk",
+    "note": "Gathers in big flocks before migrating south.",
+    "sci": "Buteo swainsoni",
+    "blurb": "A slim hawk that migrates to Argentina in huge flocks and eats grasshoppers."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Prairie Falcon",
+    "note": "Nests on cliffs above the desert.",
+    "sci": "Falco mexicanus",
+    "blurb": "A sandy-brown falcon of open country with dark wingpits."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Golden Eagle",
+    "note": "Soars over the mesas.",
+    "sci": "Aquila chrysaetos",
+    "blurb": "A dark, powerful eagle with a golden nape that hunts hares and ground squirrels in open country."
+   },
+   {
+    "word": "FLYCATCHER",
+    "bird": "Vermilion Flycatcher",
+    "note": "A scarlet flash along the Rio Grande.",
+    "sci": "Pyrocephalus obscurus",
+    "blurb": "Males are a brilliant scarlet with a dark mask."
+   },
+   {
+    "word": "PHOEBE",
+    "bird": "Say's Phoebe",
+    "note": "Nests on old adobe buildings.",
+    "sci": "Sayornis saya",
+    "blurb": "A pale flycatcher with a cinnamon belly of dry, open country."
+   },
+   {
+    "word": "BUNTING",
+    "bird": "Lazuli Bunting",
+    "note": "Sings from brushy draws.",
+    "sci": "Passerina amoena",
+    "blurb": "Males are turquoise-blue with a cinnamon breast."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Scott's Oriole",
+    "note": "Sings from yucca in the desert.",
+    "sci": "Icterus parisorum",
+    "blurb": "A lemon-yellow and black oriole of yucca deserts."
+   },
+   {
+    "word": "SPARROW",
+    "bird": "Black-throated Sparrow",
+    "note": "A smart little desert sparrow.",
+    "sci": "Amphispiza bilineata",
+    "blurb": "A grey desert sparrow with a black throat and white face stripes."
+   },
+   {
+    "word": "RAVEN",
+    "bird": "Common Raven",
+    "note": "Common over the mesas.",
+    "sci": "Corvus corax",
+    "blurb": "Bigger than a crow, with a wedge-shaped tail, shaggy throat and a deep croaking call."
+   },
+   {
+    "word": "BLUEBIRD",
+    "bird": "Western Bluebird",
+    "note": "Nests in the pine forests.",
+    "sci": "Sialia mexicana",
+    "blurb": "A blue thrush with a rusty breast of open woodland."
+   },
+   {
+    "word": "NUTCRACKER",
+    "bird": "Clark's Nutcracker",
+    "note": "Lives in the high mountains.",
+    "sci": "Nucifraga columbiana",
+    "blurb": "A grey jay of high mountains that buries thousands of pine seeds and remembers where."
+   },
+   {
+    "word": "SWIFT",
+    "bird": "White-throated Swift",
+    "note": "Zooms past canyon cliffs.",
+    "sci": "Aeronautes saxatalis",
+    "blurb": "A fast black-and-white swift of cliffs and canyons."
+   },
+   {
+    "word": "DOVE",
+    "bird": "Inca Dove",
+    "note": "A tiny scaly dove of desert towns.",
+    "sci": "Columbina inca",
+    "blurb": "A tiny, scaly-looking dove that calls no hope."
+   },
+   {
+    "word": "KINGBIRD",
+    "bird": "Western Kingbird",
+    "note": "Perches on fences everywhere.",
+    "sci": "Tyrannus verticalis",
+    "blurb": "A yellow-bellied flycatcher that sits on wires and chases off hawks."
+   },
+   {
+    "word": "TURKEY",
+    "bird": "Wild Turkey",
+    "note": "Merriam's turkeys roam the mountain pine forests.",
+    "sci": "Meleagris gallopavo",
+    "blurb": "A big game bird; males gobble, strut and fan their tails."
+   }
+  ]
+ },
+ {
+  "id": "texas",
+  "name": "Texas",
+  "flag": "🇺🇸",
+  "group": "United States",
+  "birds": [
+   {
+    "word": "MOCKINGBIRD",
+    "bird": "Northern Mockingbird",
+    "note": "Texas's state bird, mimicking dozens of songs.",
+    "sci": "Mimus polyglottos",
+    "blurb": "A grey songbird that mimics dozens of other birds' songs."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Whooping Crane",
+    "note": "The only wild flock winters at Aransas National Wildlife Refuge.",
+    "sci": "Grus americana",
+    "blurb": "North America's tallest bird, snow-white with black wingtips, brought back from fewer than 20 birds."
+   },
+   {
+    "word": "SPOONBILL",
+    "bird": "Roseate Spoonbill",
+    "note": "Sweeps the coastal marshes of Galveston and High Island.",
+    "sci": "Platalea ajaja",
+    "blurb": "A pink wader that sweeps its spoon-shaped bill through shallow water."
+   },
+   {
+    "word": "WARBLER",
+    "bird": "Golden-cheeked Warbler",
+    "note": "Nests only in the juniper-oak woodland of the Hill Country.",
+    "sci": "Setophaga chrysoparia",
+    "blurb": "A black-and-yellow warbler that nests only in central Texas."
+   },
+   {
+    "word": "KISKADEE",
+    "bird": "Great Kiskadee",
+    "note": "Shouts its name along the Rio Grande Valley.",
+    "sci": "Pitangus sulphuratus",
+    "blurb": "A loud, yellow-bellied flycatcher that shouts its name."
+   },
+   {
+    "word": "CHACHALACA",
+    "bird": "Plain Chachalaca",
+    "note": "Its dawn chorus is deafening in the Valley.",
+    "sci": "Ortalis vetula",
+    "blurb": "A long-tailed brown tropical bird whose dawn chorus is deafening."
+   },
+   {
+    "word": "FLYCATCHER",
+    "bird": "Scissor-tailed Flycatcher",
+    "note": "Perches on fences trailing its long forked tail.",
+    "sci": "Tyrannus forficatus",
+    "blurb": "A pale grey flycatcher with an extraordinarily long, forked tail."
+   },
+   {
+    "word": "BUNTING",
+    "bird": "Painted Bunting",
+    "note": "A rainbow-coloured songbird of brushy thickets.",
+    "sci": "Passerina ciris",
+    "blurb": "Males are blue, green and red, perhaps the most colourful bird in North America."
+   },
+   {
+    "word": "ROADRUNNER",
+    "bird": "Greater Roadrunner",
+    "note": "Common across the brush country.",
+    "sci": "Geococcyx californianus",
+    "blurb": "A ground cuckoo that sprints after lizards and snakes."
+   },
+   {
+    "word": "VIREO",
+    "bird": "Black-capped Vireo",
+    "note": "Nests in the scrubby Hill Country.",
+    "sci": "Vireo atricapilla",
+    "blurb": "A small vireo with a black cap and white spectacles of Texas Hill Country."
+   },
+   {
+    "word": "CARACARA",
+    "bird": "Crested Caracara",
+    "note": "Walks the ranch pastures of south Texas.",
+    "sci": "Caracara plancus",
+    "blurb": "A long-legged falcon with a black cap and orange face that walks the ground."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Altamira Oriole",
+    "note": "Weaves long hanging nests in the Valley.",
+    "sci": "Icterus gularis",
+    "blurb": "A big orange oriole that weaves very long hanging nests."
+   },
+   {
+    "word": "PELICAN",
+    "bird": "Brown Pelican",
+    "note": "Glides along Gulf beaches.",
+    "sci": "Pelecanus occidentalis",
+    "blurb": "A grey-brown pelican that plunge-dives from the air for fish."
+   },
+   {
+    "word": "EGRET",
+    "bird": "Great Egret",
+    "note": "Nests in rookeries along the coast.",
+    "sci": "Ardea alba",
+    "blurb": "A tall white heron with a yellow bill and black legs."
+   },
+   {
+    "word": "STORK",
+    "bird": "Wood Stork",
+    "note": "Visits coastal wetlands in late summer.",
+    "sci": "Mycteria americana",
+    "blurb": "A big white stork with a bare dark head that feeds by touch."
+   },
+   {
+    "word": "CARDINAL",
+    "bird": "Northern Cardinal",
+    "note": "A year-round favourite at feeders.",
+    "sci": "Cardinalis cardinalis",
+    "blurb": "Males are brilliant red with a crest and black face."
+   },
+   {
+    "word": "PYRRHULOXIA",
+    "bird": "Pyrrhuloxia",
+    "note": "A grey desert cardinal of West Texas.",
+    "sci": "Cardinalis sinuatus",
+    "blurb": "A grey desert cardinal with a red crest and a stubby yellow bill."
+   },
+   {
+    "word": "QUAIL",
+    "bird": "Scaled Quail",
+    "note": "The 'cottontop' of the Trans-Pecos.",
+    "sci": "Callipepla squamata",
+    "blurb": "A grey quail with a white cottony crest, nicknamed 'cottontop'."
+   },
+   {
+    "word": "CHICKEN",
+    "bird": "Greater Prairie-Chicken",
+    "note": "Attwater's prairie-chickens boom on the coastal prairie.",
+    "sci": "Tympanuchus cupido",
+    "blurb": "A prairie grouse whose males boom with orange air sacs at dawn."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Harris's Hawk",
+    "note": "Hunts in family groups in south Texas brush.",
+    "sci": "Parabuteo unicinctus",
+    "blurb": "A dark chocolate-and-rust hawk that hunts cooperatively in family groups."
+   },
+   {
+    "word": "KINGBIRD",
+    "bird": "Western Kingbird",
+    "note": "Perches on fences in West Texas.",
+    "sci": "Tyrannus verticalis",
+    "blurb": "A yellow-bellied flycatcher that sits on wires and chases off hawks."
+   },
+   {
+    "word": "DOVE",
+    "bird": "White-winged Dove",
+    "note": "Coos from every Texas town.",
+    "sci": "Zenaida asiatica",
+    "blurb": "A desert dove with white wing stripes that pollinates saguaro flowers."
+   },
+   {
+    "word": "THRASHER",
+    "bird": "Curve-billed Thrasher",
+    "note": "Calls from brushy thickets.",
+    "sci": "Toxostoma curvirostre",
+    "blurb": "A grey desert thrasher with orange eyes and a whit-wheet call."
+   },
+   {
+    "word": "GOOSE",
+    "bird": "Snow Goose",
+    "note": "Huge flocks winter on the coastal prairie.",
+    "sci": "Anser caerulescens",
+    "blurb": "A white goose with black wingtips that travels in enormous, noisy flocks."
+   },
+   {
+    "word": "TERN",
+    "bird": "Black Tern",
+    "note": "Passes through the coast in migration.",
+    "sci": "Chlidonias niger",
+    "blurb": "A small dark tern that hawks insects over prairie marshes."
+   },
+   {
+    "word": "FALCON",
+    "bird": "Peregrine Falcon",
+    "note": "Migrates along South Padre Island.",
+    "sci": "Falco peregrinus",
+    "blurb": "The fastest animal on Earth, diving at over 300 km/h."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Summer Tanager",
+    "note": "A rose-red bird of oak woodland.",
+    "sci": "Piranga rubra",
+    "blurb": "Males are entirely rose-red; it specializes in eating bees and wasps."
+   },
+   {
+    "word": "PLOVER",
+    "bird": "Piping Plover",
+    "note": "Winters on the beaches of the Gulf coast.",
+    "sci": "Charadrius melodus",
+    "blurb": "A small, sand-coloured plover of beaches and prairie lakeshores."
+   },
+   {
+    "word": "MARTIN",
+    "bird": "Purple Martin",
+    "note": "Huge pre-migration roosts gather in Texas cities.",
+    "sci": "Progne subis",
+    "blurb": "The largest North American swallow, nesting in apartment-style houses."
+   },
+   {
+    "word": "TURKEY",
+    "bird": "Wild Turkey",
+    "note": "Rio Grande turkeys roam the Hill Country.",
+    "sci": "Meleagris gallopavo",
+    "blurb": "A big game bird; males gobble, strut and fan their tails."
+   }
   ]
  },
  {
   "id": "southafrica",
   "name": "South Africa",
-  "flag": "🦁",
+  "flag": "🇿🇦",
   "birds": [
    {
     "word": "PENGUIN",
@@ -536,6 +4055,1084 @@
     "sci": "Anthus cinnamomeus",
     "blurb": "A slim, streaky brown ground bird that runs and stops, bobbing its tail."
    }
+  ],
+  "group": "Africa",
+  "seed": 1
+ },
+ {
+  "id": "zimbabwe",
+  "name": "Zimbabwe",
+  "flag": "🇿🇼",
+  "group": "Africa",
+  "birds": [
+   {
+    "word": "EAGLE",
+    "bird": "African Fish Eagle",
+    "note": "Zimbabwe's national emblem echoes the eagle carved in soapstone at Great Zimbabwe; its call rings over Lake Kariba.",
+    "sci": "Haliaeetus vocifer",
+    "blurb": "A white-headed eagle with a chestnut body that snatches fish from the surface."
+   },
+   {
+    "word": "ROLLER",
+    "bird": "Lilac-breasted Roller",
+    "note": "A favourite on game drives in Hwange and Mana Pools.",
+    "sci": "Coracias caudatus",
+    "blurb": "A dazzling bird with a lilac breast, turquoise belly and electric-blue wings."
+   },
+   {
+    "word": "HORNBILL",
+    "bird": "Southern Ground Hornbill",
+    "note": "Family groups stride through the grass of Hwange.",
+    "sci": "Bucorvus leadbeateri",
+    "blurb": "A turkey-sized black hornbill with bare red face and throat skin."
+   },
+   {
+    "word": "LOURIE",
+    "bird": "Grey Go-away-bird",
+    "note": "Its nasal 'go-away' call is a classic sound of the bush.",
+    "sci": "Crinifer concolor",
+    "blurb": "A grey, crested turaco that tells intruders to go away."
+   },
+   {
+    "word": "BATELEUR",
+    "bird": "Bateleur",
+    "note": "Tilts from side to side as it soars over the Zambezi Valley.",
+    "sci": "Terathopius ecaudatus",
+    "blurb": "A short-tailed eagle with a red face and legs that rocks like a tightrope walker in flight."
+   },
+   {
+    "word": "SKIMMER",
+    "bird": "African Skimmer",
+    "note": "Skims the Zambezi at Mana Pools with its lower bill in the water.",
+    "sci": "Rynchops flavirostris",
+    "blurb": "A tern-like bird whose longer lower bill slices the water for fish."
+   },
+   {
+    "word": "TURACO",
+    "bird": "Livingstone's Turaco",
+    "note": "Flashes crimson wings in the riverine forest of the Eastern Highlands.",
+    "sci": "Tauraco livingstonii",
+    "blurb": "A green turaco with a tall white-tipped crest and red flight feathers."
+   },
+   {
+    "word": "HAMERKOP",
+    "bird": "Hamerkop",
+    "note": "Builds huge domed nests along every river.",
+    "sci": "Scopus umbretta",
+    "blurb": "A brown waterbird whose crest and bill make its head look like a hammer."
+   },
+   {
+    "word": "VULTURE",
+    "bird": "White-backed Vulture",
+    "note": "Gathers at carcasses in Hwange in big numbers.",
+    "sci": "Gyps africanus",
+    "blurb": "A large brown vulture with a white back visible in flight."
+   },
+   {
+    "word": "STORK",
+    "bird": "Saddle-billed Stork",
+    "note": "Stalks the floodplains of Mana Pools.",
+    "sci": "Ephippiorhynchus senegalensis",
+    "blurb": "A huge stork with a red, black and yellow bill."
+   },
+   {
+    "word": "HERON",
+    "bird": "Goliath Heron",
+    "note": "The world's largest heron, fishing on Lake Kariba.",
+    "sci": "Ardea goliath",
+    "blurb": "A giant chestnut-and-grey heron."
+   },
+   {
+    "word": "KINGFISHER",
+    "bird": "Pied Kingfisher",
+    "note": "Hovers over the Zambezi before plunging.",
+    "sci": "Ceryle rudis",
+    "blurb": "A black-and-white kingfisher that hovers to fish."
+   },
+   {
+    "word": "JACANA",
+    "bird": "African Jacana",
+    "note": "Walks on lily pads at Kariba.",
+    "sci": "Actophilornis africanus",
+    "blurb": "A chestnut bird with huge toes that walks on floating plants."
+   },
+   {
+    "word": "GUINEAFOWL",
+    "bird": "Helmeted Guineafowl",
+    "note": "Noisy flocks roam the farmland and parks.",
+    "sci": "Numida meleagris",
+    "blurb": "A plump grey bird covered in white spots, with a bony casque on its blue head."
+   },
+   {
+    "word": "FRANCOLIN",
+    "bird": "Swainson's Spurfowl",
+    "note": "Crows loudly from termite mounds at dawn.",
+    "sci": "Pternistis swainsonii",
+    "blurb": "A brown game bird with a bare red face and throat."
+   },
+   {
+    "word": "BUSTARD",
+    "bird": "Kori Bustard",
+    "note": "Struts through the open grassland of Hwange.",
+    "sci": "Ardeotis kori",
+    "blurb": "One of the heaviest flying birds in the world."
+   },
+   {
+    "word": "OXPECKER",
+    "bird": "Red-billed Oxpecker",
+    "note": "Rides on buffalo and giraffe.",
+    "sci": "Buphagus erythrorynchus",
+    "blurb": "A brown bird with a red bill that clings to large mammals to eat ticks."
+   },
+   {
+    "word": "STARLING",
+    "bird": "Greater Blue-eared Starling",
+    "note": "Flashes metallic blue around camps.",
+    "sci": "Lamprotornis chalybaeus",
+    "blurb": "A glossy blue-green starling with orange eyes."
+   },
+   {
+    "word": "WEAVER",
+    "bird": "Southern Masked Weaver",
+    "note": "Hangs woven nests from reeds and branches.",
+    "sci": "Ploceus velatus",
+    "blurb": "Breeding males are bright yellow with a black mask and red eyes."
+   },
+   {
+    "word": "BULBUL",
+    "bird": "Dark-capped Bulbul",
+    "note": "One of the commonest garden birds.",
+    "sci": "Pycnonotus tricolor",
+    "blurb": "A brown bird with a dark crested head and a bright yellow vent."
+   },
+   {
+    "word": "DRONGO",
+    "bird": "Fork-tailed Drongo",
+    "note": "Mimics alarm calls to steal food.",
+    "sci": "Dicrurus adsimilis",
+    "blurb": "A glossy black bird with red eyes and a deeply forked tail."
+   },
+   {
+    "word": "SUNBIRD",
+    "bird": "Scarlet-chested Sunbird",
+    "note": "Visits flowering aloes in gardens.",
+    "sci": "Chalcomitra senegalensis",
+    "blurb": "Males are velvety black with a scarlet chest."
+   },
+   {
+    "word": "BARBET",
+    "bird": "Crested Barbet",
+    "note": "Its trilling call is a classic garden sound.",
+    "sci": "Trachyphonus vaillantii",
+    "blurb": "A speckled yellow, black and red barbet with a shaggy crest."
+   },
+   {
+    "word": "DOVE",
+    "bird": "Cape Turtle Dove",
+    "note": "Calls 'work harder' all day.",
+    "sci": "Streptopelia capicola",
+    "blurb": "A soft grey dove with a black half-collar."
+   },
+   {
+    "word": "HOOPOE",
+    "bird": "African Hoopoe",
+    "note": "Probes lawns for grubs.",
+    "sci": "Upupa africana",
+    "blurb": "A cinnamon bird with a black-tipped crest and zebra-striped wings."
+   },
+   {
+    "word": "OSTRICH",
+    "bird": "Common Ostrich",
+    "note": "Roams the open plains.",
+    "sci": "Struthio camelus",
+    "blurb": "The world's largest bird, flightless but very fast."
+   },
+   {
+    "word": "IBIS",
+    "bird": "Hadeda Ibis",
+    "note": "Its 'ha-ha-hadeda' call wakes up Harare.",
+    "sci": "Bostrychia hagedash",
+    "blurb": "A stocky grey-brown ibis with a long curved bill."
+   },
+   {
+    "word": "PRATINCOLE",
+    "bird": "Rock Pratincole",
+    "note": "Perches on rocks in the Zambezi rapids.",
+    "sci": "Glareola nuchalis",
+    "blurb": "A small grey bird with a white collar that nests on river rocks."
+   },
+   {
+    "word": "WAXBILL",
+    "bird": "Blue Waxbill",
+    "note": "Flocks in gardens and bush.",
+    "sci": "Uraeginthus angolensis",
+    "blurb": "A tiny powder-blue finch."
+   }
+  ]
+ },
+ {
+  "id": "thailand",
+  "name": "Thailand",
+  "flag": "🇹🇭",
+  "group": "Asia",
+  "birds": [
+   {
+    "word": "HORNBILL",
+    "bird": "Great Hornbill",
+    "note": "Its wingbeats whoosh over the forest of Khao Yai.",
+    "sci": "Buceros bicornis",
+    "blurb": "A huge black-and-white hornbill with a yellow casque."
+   },
+   {
+    "word": "PHEASANT",
+    "bird": "Siamese Fireback",
+    "note": "Thailand's national bird, found in the lowland forest of Khao Yai.",
+    "sci": "Lophura diardi",
+    "blurb": "A grey pheasant with a red face and a curved, glossy black tail."
+   },
+   {
+    "word": "PITTA",
+    "bird": "Blue Pitta",
+    "note": "A jewel of the forest floor in Kaeng Krachan.",
+    "sci": "Hydrornis cyaneus",
+    "blurb": "A plump ground bird with blue upperparts and orange crown."
+   },
+   {
+    "word": "BROADBILL",
+    "bird": "Long-tailed Broadbill",
+    "note": "Hangs pear-shaped nests from branches in Doi Inthanon.",
+    "sci": "Psarisomus dalhousiae",
+    "blurb": "A green bird with a black-and-yellow head and a long blue tail."
+   },
+   {
+    "word": "SUNBIRD",
+    "bird": "Mrs. Gould's Sunbird",
+    "note": "Feeds on flowers in the mountains of the north.",
+    "sci": "Aethopyga gouldiae",
+    "blurb": "Males are scarlet, yellow and purple with a long tail."
+   },
+   {
+    "word": "KINGFISHER",
+    "bird": "White-throated Kingfisher",
+    "note": "Perches on wires by rice paddies.",
+    "sci": "Halcyon smyrnensis",
+    "blurb": "A turquoise kingfisher with a chocolate head and red bill."
+   },
+   {
+    "word": "MYNA",
+    "bird": "Common Myna",
+    "note": "Struts on every Bangkok lawn.",
+    "sci": "Acridotheres tristis",
+    "blurb": "A brown starling with a yellow face patch."
+   },
+   {
+    "word": "SANDPIPER",
+    "bird": "Spoon-billed Sandpiper",
+    "note": "One of the rarest birds on Earth, wintering at the Pak Thale salt pans.",
+    "sci": "Calidris pygmaea",
+    "blurb": "A tiny sandpiper with a spoon-shaped bill."
+   },
+   {
+    "word": "BULBUL",
+    "bird": "Red-whiskered Bulbul",
+    "note": "A cheerful, crested garden bird.",
+    "sci": "Pycnonotus jocosus",
+    "blurb": "A brown bulbul with a pointed crest and red cheek patch."
+   },
+   {
+    "word": "BARBET",
+    "bird": "Coppersmith Barbet",
+    "note": "Its 'tonk-tonk' call sounds like a coppersmith at work.",
+    "sci": "Psilopogon haemacephalus",
+    "blurb": "A small green barbet with a red forehead and breast spot."
+   },
+   {
+    "word": "DRONGO",
+    "bird": "Greater Racket-tailed Drongo",
+    "note": "Trails two racket-tipped tail feathers.",
+    "sci": "Dicrurus paradiseus",
+    "blurb": "A glossy black bird with long, racket-tipped tail streamers."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Black-naped Oriole",
+    "note": "Its fluting call carries through parks.",
+    "sci": "Oriolus chinensis",
+    "blurb": "A golden-yellow bird with a black band through the eye."
+   },
+   {
+    "word": "TROGON",
+    "bird": "Red-headed Trogon",
+    "note": "Sits quietly in the mid-storey of the forest.",
+    "sci": "Harpactes erythrocephalus",
+    "blurb": "A red-headed trogon with a pink belly."
+   },
+   {
+    "word": "MINIVET",
+    "bird": "Scarlet Minivet",
+    "note": "Flocks flash red and yellow through the canopy.",
+    "sci": "Pericrocotus speciosus",
+    "blurb": "Males are scarlet and black; females are yellow and grey."
+   },
+   {
+    "word": "PEAFOWL",
+    "bird": "Green Peafowl",
+    "note": "Survives in Huai Kha Khaeng wildlife sanctuary.",
+    "sci": "Pavo muticus",
+    "blurb": "A green-necked peafowl with a long train."
+   },
+   {
+    "word": "STORK",
+    "bird": "Asian Openbill",
+    "note": "Gathers in huge numbers in the central plains rice fields.",
+    "sci": "Anastomus oscitans",
+    "blurb": "A grey-white stork with a gap between its bill halves for holding snails."
+   },
+   {
+    "word": "EGRET",
+    "bird": "Great Egret",
+    "note": "Stalks the rice paddies.",
+    "sci": "Ardea alba",
+    "blurb": "A tall white heron with a yellow bill."
+   },
+   {
+    "word": "SWIFTLET",
+    "bird": "Edible-nest Swiftlet",
+    "note": "Nests in caves; its saliva nests are prized for soup.",
+    "sci": "Aerodramus fuciphagus",
+    "blurb": "A small dark swift that builds nests of hardened saliva."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Red-billed Blue Magpie",
+    "note": "Trails a long blue tail through northern forest.",
+    "sci": "Urocissa erythroryncha",
+    "blurb": "A blue magpie with a black head and a very long tail."
+   },
+   {
+    "word": "TAILORBIRD",
+    "bird": "Common Tailorbird",
+    "note": "Sews leaves together to make its nest.",
+    "sci": "Orthotomus sutorius",
+    "blurb": "A tiny green warbler with a rufous cap."
+   },
+   {
+    "word": "KOEL",
+    "bird": "Asian Koel",
+    "note": "Its 'ko-el' call rings through Bangkok in the hot season.",
+    "sci": "Eudynamys scolopaceus",
+    "blurb": "A long-tailed cuckoo; males are glossy black with red eyes."
+   },
+   {
+    "word": "PARAKEET",
+    "bird": "Red-breasted Parakeet",
+    "note": "Noisy flocks in lowland forest.",
+    "sci": "Psittacula alexandri",
+    "blurb": "A green parakeet with a pink breast and black moustache."
+   },
+   {
+    "word": "MUNIA",
+    "bird": "Scaly-breasted Munia",
+    "note": "Flocks in grassy fields.",
+    "sci": "Lonchura punctulata",
+    "blurb": "A small brown finch with a scaly-patterned breast."
+   },
+   {
+    "word": "DOVE",
+    "bird": "Zebra Dove",
+    "note": "Kept in Thailand for its cooing competitions.",
+    "sci": "Geopelia striata",
+    "blurb": "A small, finely barred dove."
+   },
+   {
+    "word": "LEAFBIRD",
+    "bird": "Blue-winged Leafbird",
+    "note": "Green as the leaves it forages among.",
+    "sci": "Chloropsis cochinchinensis",
+    "blurb": "A bright green bird with blue wing edges."
+   },
+   {
+    "word": "WAGTAIL",
+    "bird": "Eastern Yellow Wagtail",
+    "note": "Winters in rice fields.",
+    "sci": "Motacilla tschutschensis",
+    "blurb": "A slim yellow-and-olive bird that wags its tail."
+   },
+   {
+    "word": "SHAMA",
+    "bird": "White-rumped Shama",
+    "note": "A superb songster of the forest.",
+    "sci": "Copsychus malabaricus",
+    "blurb": "A black-and-chestnut thrush with a long tail and white rump."
+   },
+   {
+    "word": "JUNGLEFOWL",
+    "bird": "Red Junglefowl",
+    "note": "The wild ancestor of the chicken, crowing in Thai forests.",
+    "sci": "Gallus gallus",
+    "blurb": "A colourful wild chicken; roosters have a red comb and golden hackles."
+   },
+   {
+    "word": "HERON",
+    "bird": "Chinese Pond Heron",
+    "note": "Common in every paddy and pond.",
+    "sci": "Ardeola bacchus",
+    "blurb": "A small heron that turns from streaky brown to chestnut and white."
+   },
+   {
+    "word": "FALCONET",
+    "bird": "Collared Falconet",
+    "note": "One of the smallest birds of prey.",
+    "sci": "Microhierax caerulescens",
+    "blurb": "A sparrow-sized black-and-white falcon."
+   }
+  ]
+ },
+ {
+  "id": "china",
+  "name": "China",
+  "flag": "🇨🇳",
+  "group": "Asia",
+  "birds": [
+   {
+    "word": "CRANE",
+    "bird": "Red-crowned Crane",
+    "note": "A symbol of long life in Chinese art; winters at Yancheng.",
+    "sci": "Grus japonensis",
+    "blurb": "A tall white crane with black neck and a red crown."
+   },
+   {
+    "word": "PHEASANT",
+    "bird": "Golden Pheasant",
+    "note": "A dazzling native of the mountain forests of central China.",
+    "sci": "Chrysolophus pictus",
+    "blurb": "Males are golden, red and orange with a long tail and cape."
+   },
+   {
+    "word": "IBIS",
+    "bird": "Crested Ibis",
+    "note": "Saved from just seven birds found in Shaanxi in 1981.",
+    "sci": "Nipponia nippon",
+    "blurb": "A white ibis with a pink face and shaggy crest."
+   },
+   {
+    "word": "MAGPIE",
+    "bird": "Oriental Magpie",
+    "note": "A bird of good luck in Chinese folklore.",
+    "sci": "Pica serica",
+    "blurb": "A long-tailed black-and-white bird with an iridescent sheen."
+   },
+   {
+    "word": "DUCK",
+    "bird": "Mandarin Duck",
+    "note": "A symbol of love and fidelity in Chinese culture.",
+    "sci": "Aix galericulata",
+    "blurb": "Males have orange sails on their back and a bold face pattern."
+   },
+   {
+    "word": "SANDPIPER",
+    "bird": "Spoon-billed Sandpiper",
+    "note": "Stops at Rudong on the Jiangsu coast on migration.",
+    "sci": "Calidris pygmaea",
+    "blurb": "A tiny sandpiper with a spoon-shaped bill."
+   },
+   {
+    "word": "TRAGOPAN",
+    "bird": "Temminck's Tragopan",
+    "note": "Males puff out a blue-and-red throat lappet in the mountains of Sichuan.",
+    "sci": "Tragopan temminckii",
+    "blurb": "A red pheasant covered in white spots."
+   },
+   {
+    "word": "BULBUL",
+    "bird": "Light-vented Bulbul",
+    "note": "A common bird of Shanghai and Beijing parks.",
+    "sci": "Pycnonotus sinensis",
+    "blurb": "A grey-green bulbul with a white patch on the back of its head."
+   },
+   {
+    "word": "SPARROW",
+    "bird": "Eurasian Tree Sparrow",
+    "note": "The everyday sparrow of Chinese cities.",
+    "sci": "Passer montanus",
+    "blurb": "A neat sparrow with a chocolate cap and black cheek spot."
+   },
+   {
+    "word": "HOOPOE",
+    "bird": "Eurasian Hoopoe",
+    "note": "Probes lawns in Beijing parks.",
+    "sci": "Upupa epops",
+    "blurb": "A cinnamon bird with a fan-like crest and zebra wings."
+   },
+   {
+    "word": "SWIFT",
+    "bird": "Common Swift",
+    "note": "The Beijing swift nests in the city's old gate towers.",
+    "sci": "Apus apus",
+    "blurb": "A dark, sickle-winged bird that lives on the wing."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Black-naped Oriole",
+    "note": "A golden summer songster.",
+    "sci": "Oriolus chinensis",
+    "blurb": "A yellow bird with a black band through the eye."
+   },
+   {
+    "word": "GOOSE",
+    "bird": "Swan Goose",
+    "note": "Winters at Poyang Lake; the ancestor of the Chinese goose.",
+    "sci": "Anser cygnoides",
+    "blurb": "A brown goose with a long, two-tone neck."
+   },
+   {
+    "word": "STORK",
+    "bird": "Oriental Stork",
+    "note": "Winters at Poyang Lake.",
+    "sci": "Ciconia boyciana",
+    "blurb": "A big white stork with a black bill."
+   },
+   {
+    "word": "SWAN",
+    "bird": "Whooper Swan",
+    "note": "Winters on the lakes of Rongcheng.",
+    "sci": "Cygnus cygnus",
+    "blurb": "A white swan with a yellow-and-black bill."
+   },
+   {
+    "word": "EGRET",
+    "bird": "Little Egret",
+    "note": "Stalks the rice paddies of the south.",
+    "sci": "Egretta garzetta",
+    "blurb": "A small white egret with yellow feet."
+   },
+   {
+    "word": "KINGFISHER",
+    "bird": "Common Kingfisher",
+    "note": "Darts along streams in parks.",
+    "sci": "Alcedo atthis",
+    "blurb": "A small blue and orange kingfisher."
+   },
+   {
+    "word": "THRUSH",
+    "bird": "Chinese Thrush",
+    "note": "A spotted thrush of central China.",
+    "sci": "Turdus mupinensis",
+    "blurb": "A brown thrush with bold black spots."
+   },
+   {
+    "word": "BUNTING",
+    "bird": "Yellow-breasted Bunting",
+    "note": "Once common, now endangered by trapping.",
+    "sci": "Emberiza aureola",
+    "blurb": "Males have a yellow breast and a chestnut back."
+   },
+   {
+    "word": "ROBIN",
+    "bird": "Red-billed Leiothrix",
+    "note": "Kept as the 'Pekin robin' for its song.",
+    "sci": "Leiothrix lutea",
+    "blurb": "A colourful babbler with a red bill and a yellow-orange throat."
+   },
+   {
+    "word": "MYNA",
+    "bird": "Crested Myna",
+    "note": "A black myna with a tufted forehead.",
+    "sci": "Acridotheres cristatellus",
+    "blurb": "A black starling with white wing patches and a tufted forehead."
+   },
+   {
+    "word": "CORMORANT",
+    "bird": "Great Cormorant",
+    "note": "Trained by fishermen on the Li River to catch fish.",
+    "sci": "Phalacrocorax carbo",
+    "blurb": "A big black diving bird."
+   },
+   {
+    "word": "SWALLOW",
+    "bird": "Barn Swallow",
+    "note": "Nests under the eaves of houses; a sign of good luck.",
+    "sci": "Hirundo rustica",
+    "blurb": "A swallow with a deeply forked tail."
+   },
+   {
+    "word": "WAGTAIL",
+    "bird": "White Wagtail",
+    "note": "Runs along canals and pavements.",
+    "sci": "Motacilla alba",
+    "blurb": "A black, white and grey bird that wags its tail."
+   },
+   {
+    "word": "DOVE",
+    "bird": "Spotted Dove",
+    "note": "Coos in every garden.",
+    "sci": "Spilopelia chinensis",
+    "blurb": "A brown dove with a black-and-white spotted collar."
+   },
+   {
+    "word": "PARROTBILL",
+    "bird": "Vinous-throated Parrotbill",
+    "note": "Flocks through reeds and shrubs.",
+    "sci": "Sinosuthora webbiana",
+    "blurb": "A tiny brown bird with a stubby parrot-like bill."
+   },
+   {
+    "word": "CUCKOO",
+    "bird": "Common Cuckoo",
+    "note": "Its call marks the arrival of summer.",
+    "sci": "Cuculus canorus",
+    "blurb": "A grey cuckoo that lays eggs in other birds' nests."
+   },
+   {
+    "word": "GULL",
+    "bird": "Black-headed Gull",
+    "note": "Winters by the thousand in Kunming, fed by locals.",
+    "sci": "Chroicocephalus ridibundus",
+    "blurb": "A small gull with a chocolate hood in summer."
+   },
+   {
+    "word": "ROLLER",
+    "bird": "Dollarbird",
+    "note": "Shows coin-like spots on its wings.",
+    "sci": "Eurystomus orientalis",
+    "blurb": "A dark roller with a red bill and pale wing spots."
+   },
+   {
+    "word": "HERON",
+    "bird": "Black-crowned Night Heron",
+    "note": "Roosts in city parks.",
+    "sci": "Nycticorax nycticorax",
+    "blurb": "A stocky heron with a black cap."
+   }
+  ]
+ },
+ {
+  "id": "costarica",
+  "name": "Costa Rica",
+  "flag": "🇨🇷",
+  "group": "Central & South America",
+  "birds": [
+   {
+    "word": "QUETZAL",
+    "bird": "Resplendent Quetzal",
+    "note": "Males trail emerald tail streamers through the cloud forest of San Gerardo de Dota.",
+    "sci": "Pharomachrus mocinno",
+    "blurb": "A brilliant green trogon with a red belly."
+   },
+   {
+    "word": "TOUCAN",
+    "bird": "Keel-billed Toucan",
+    "note": "Its rainbow bill is a highlight of the Caribbean lowlands.",
+    "sci": "Ramphastos sulfuratus",
+    "blurb": "A black toucan with a huge multicoloured bill."
+   },
+   {
+    "word": "MACAW",
+    "bird": "Scarlet Macaw",
+    "note": "Flies in noisy pairs over Carara and the Osa Peninsula.",
+    "sci": "Ara macao",
+    "blurb": "A big red, yellow and blue parrot with a long tail."
+   },
+   {
+    "word": "MOTMOT",
+    "bird": "Lesson's Motmot",
+    "note": "Swings its racket-tipped tail like a pendulum.",
+    "sci": "Momotus lessonii",
+    "blurb": "A green bird with a blue crown and racket-tipped tail."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Violet Sabrewing",
+    "note": "One of 50-odd hummingbirds in Costa Rica, dominating feeders at Monteverde.",
+    "sci": "Campylopterus hemileucurus",
+    "blurb": "A big violet hummingbird with a curved bill."
+   },
+   {
+    "word": "BELLBIRD",
+    "bird": "Three-wattled Bellbird",
+    "note": "Its loud BONK rings through Monteverde.",
+    "sci": "Procnias tricarunculatus",
+    "blurb": "Males are chestnut with a white head and three dangling wattles."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Scarlet-rumped Tanager",
+    "note": "A velvet-black bird with a scarlet rump, common in gardens.",
+    "sci": "Ramphocelus passerinii",
+    "blurb": "Males are velvety black with a glowing red rump."
+   },
+   {
+    "word": "TROGON",
+    "bird": "Slaty-tailed Trogon",
+    "note": "Sits still in the lowland rainforest.",
+    "sci": "Trogon massena",
+    "blurb": "A green trogon with a red belly."
+   },
+   {
+    "word": "ARACARI",
+    "bird": "Collared Aracari",
+    "note": "Travels in small, noisy groups.",
+    "sci": "Pteroglossus torquatus",
+    "blurb": "A slim toucan with a red band across its yellow belly."
+   },
+   {
+    "word": "MANAKIN",
+    "bird": "Long-tailed Manakin",
+    "note": "Males dance in pairs to impress females.",
+    "sci": "Chiroxiphia linearis",
+    "blurb": "Males are black with a blue back, red crown and long central tail feathers."
+   },
+   {
+    "word": "KISKADEE",
+    "bird": "Great Kiskadee",
+    "note": "Shouts its name from every pasture.",
+    "sci": "Pitangus sulphuratus",
+    "blurb": "A yellow-bellied flycatcher with a bold head stripe."
+   },
+   {
+    "word": "OROPENDOLA",
+    "bird": "Montezuma Oropendola",
+    "note": "Weaves long hanging nests in colonies.",
+    "sci": "Psarocolius montezuma",
+    "blurb": "A big chestnut bird with a yellow tail and a gurgling call."
+   },
+   {
+    "word": "PARROT",
+    "bird": "Red-lored Amazon",
+    "note": "Flies over the lowlands in pairs.",
+    "sci": "Amazona autumnalis",
+    "blurb": "A green parrot with a red forehead."
+   },
+   {
+    "word": "JACANA",
+    "bird": "Northern Jacana",
+    "note": "Walks on floating plants in Caño Negro.",
+    "sci": "Jacana spinosa",
+    "blurb": "A chestnut bird with yellow wings and huge toes."
+   },
+   {
+    "word": "HERON",
+    "bird": "Boat-billed Heron",
+    "note": "Peers from riverbanks with huge eyes at Tortuguero.",
+    "sci": "Cochlearius cochlearius",
+    "blurb": "A stocky heron with a broad, scoop-shaped bill."
+   },
+   {
+    "word": "ANHINGA",
+    "bird": "Anhinga",
+    "note": "Swims with only its snake-like neck above water.",
+    "sci": "Anhinga anhinga",
+    "blurb": "A dark waterbird with a dagger bill and long neck."
+   },
+   {
+    "word": "SPOONBILL",
+    "bird": "Roseate Spoonbill",
+    "note": "Sweeps the Palo Verde wetlands.",
+    "sci": "Platalea ajaja",
+    "blurb": "A pink wader with a spoon-shaped bill."
+   },
+   {
+    "word": "STORK",
+    "bird": "Jabiru",
+    "note": "A giant stork of the Palo Verde marshes.",
+    "sci": "Jabiru mycteria",
+    "blurb": "A huge white stork with a black head and red neck band."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Harpy Eagle",
+    "note": "One of the world's most powerful eagles, rarely seen in remote forest.",
+    "sci": "Harpia harpyja",
+    "blurb": "A huge grey eagle with a double crest that hunts sloths."
+   },
+   {
+    "word": "VULTURE",
+    "bird": "King Vulture",
+    "note": "A colourful scavenger soaring over the forest.",
+    "sci": "Sarcoramphus papa",
+    "blurb": "A white vulture with an orange, purple and red head."
+   },
+   {
+    "word": "POTOO",
+    "bird": "Common Potoo",
+    "note": "Disguises itself as a broken branch.",
+    "sci": "Nyctibius griseus",
+    "blurb": "A grey nocturnal bird that looks like a tree stump."
+   },
+   {
+    "word": "WOODCREEPER",
+    "bird": "Wedge-billed Woodcreeper",
+    "note": "Spirals up trunks in the rainforest.",
+    "sci": "Glyphorynchus spirurus",
+    "blurb": "A small brown bird that climbs trees with its stiff tail."
+   },
+   {
+    "word": "ANTBIRD",
+    "bird": "Bicolored Antbird",
+    "note": "Follows army ant swarms.",
+    "sci": "Gymnopithys bicolor",
+    "blurb": "A brown-and-white antbird that follows army ants."
+   },
+   {
+    "word": "HONEYCREEPER",
+    "bird": "Red-legged Honeycreeper",
+    "note": "Visits fruit feeders in the lowlands.",
+    "sci": "Cyanerpes cyaneus",
+    "blurb": "Males are purple-blue with red legs."
+   },
+   {
+    "word": "EUPHONIA",
+    "bird": "Yellow-throated Euphonia",
+    "note": "Eats mistletoe berries.",
+    "sci": "Euphonia hirundinacea",
+    "blurb": "A small, stubby yellow-and-blue-black finch."
+   },
+   {
+    "word": "PARAKEET",
+    "bird": "Orange-chinned Parakeet",
+    "note": "Small noisy flocks in pastures.",
+    "sci": "Brotogeris jugularis",
+    "blurb": "A small green parakeet with an orange chin."
+   },
+   {
+    "word": "PUFFBIRD",
+    "bird": "White-necked Puffbird",
+    "note": "Sits motionless on high branches.",
+    "sci": "Notharchus hyperrhynchus",
+    "blurb": "A black-and-white bird with a heavy bill."
+   },
+   {
+    "word": "ROBIN",
+    "bird": "Clay-colored Thrush",
+    "note": "Costa Rica's national bird, singing in the rainy season.",
+    "sci": "Turdus grayi",
+    "blurb": "A plain brown thrush with a lovely song."
+   },
+   {
+    "word": "KINGFISHER",
+    "bird": "Amazon Kingfisher",
+    "note": "Dives for fish on lowland rivers.",
+    "sci": "Chloroceryle amazona",
+    "blurb": "A green kingfisher with a white collar and rufous breast."
+   }
+  ]
+ },
+ {
+  "id": "colombia",
+  "name": "Colombia",
+  "flag": "🇨🇴",
+  "group": "Central & South America",
+  "birds": [
+   {
+    "word": "CONDOR",
+    "bird": "Andean Condor",
+    "note": "Colombia's national bird, soaring over the high Andes.",
+    "sci": "Vultur gryphus",
+    "blurb": "A giant black vulture with a white ruff and huge wingspan."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Sword-billed Hummingbird",
+    "note": "Its bill is longer than its body; one of Colombia's 160-plus hummingbirds.",
+    "sci": "Ensifera ensifera",
+    "blurb": "A green hummingbird with an astonishingly long bill."
+   },
+   {
+    "word": "TANAGER",
+    "bird": "Multicolored Tanager",
+    "note": "A dazzling tanager found only in Colombia.",
+    "sci": "Chlorochrysa nitidissima",
+    "blurb": "A green tanager with yellow face, blue belly and black patches."
+   },
+   {
+    "word": "MACAW",
+    "bird": "Blue-and-yellow Macaw",
+    "note": "Flies in pairs over the Llanos.",
+    "sci": "Ara ararauna",
+    "blurb": "A big blue parrot with a golden-yellow breast."
+   },
+   {
+    "word": "TOUCAN",
+    "bird": "Chestnut-mandibled Toucan",
+    "note": "Yelps from the canopy in lowland forest.",
+    "sci": "Ramphastos ambiguus",
+    "blurb": "A black toucan with a yellow bib and a two-toned bill."
+   },
+   {
+    "word": "COTINGA",
+    "bird": "Andean Cock-of-the-rock",
+    "note": "Males display at leks in cloud forest ravines.",
+    "sci": "Rupicola peruvianus",
+    "blurb": "Males are brilliant orange-red with a fan-shaped crest."
+   },
+   {
+    "word": "HOATZIN",
+    "bird": "Hoatzin",
+    "note": "Chicks have claws on their wings to climb trees.",
+    "sci": "Opisthocomus hoazin",
+    "blurb": "A punk-crested, leaf-eating bird of Amazon swamps."
+   },
+   {
+    "word": "MOTMOT",
+    "bird": "Andean Motmot",
+    "note": "Swings its racket tail in coffee farms.",
+    "sci": "Momotus aequatorialis",
+    "blurb": "A green bird with a blue crown and racket-tipped tail."
+   },
+   {
+    "word": "PARAKEET",
+    "bird": "Santa Marta Parakeet",
+    "note": "Found only in the Sierra Nevada de Santa Marta.",
+    "sci": "Pyrrhura viridicata",
+    "blurb": "A green parakeet with red and orange patches."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Venezuelan Troupial",
+    "note": "Sings loudly from dry scrub.",
+    "sci": "Icterus icterus",
+    "blurb": "A black-and-orange oriole with a blue eye patch."
+   },
+   {
+    "word": "OROPENDOLA",
+    "bird": "Crested Oropendola",
+    "note": "Weaves hanging nests in colonies.",
+    "sci": "Psarocolius decumanus",
+    "blurb": "A black bird with a chestnut rump and yellow tail."
+   },
+   {
+    "word": "QUETZAL",
+    "bird": "Golden-headed Quetzal",
+    "note": "Calls from cloud forest canopies.",
+    "sci": "Pharomachrus auriceps",
+    "blurb": "A green trogon with a golden-bronze head and red belly."
+   },
+   {
+    "word": "BARBET",
+    "bird": "Toucan Barbet",
+    "note": "A colourful bird of the western cloud forest.",
+    "sci": "Semnornis ramphastinus",
+    "blurb": "A grey-and-red barbet with a black mask and heavy bill."
+   },
+   {
+    "word": "TROGON",
+    "bird": "Masked Trogon",
+    "note": "Sits quietly in cloud forest.",
+    "sci": "Trogon personatus",
+    "blurb": "A green trogon with a red belly and black face."
+   },
+   {
+    "word": "KISKADEE",
+    "bird": "Great Kiskadee",
+    "note": "Shouts its name from every town.",
+    "sci": "Pitangus sulphuratus",
+    "blurb": "A yellow-bellied flycatcher with a bold head stripe."
+   },
+   {
+    "word": "SPOONBILL",
+    "bird": "Roseate Spoonbill",
+    "note": "Sweeps the wetlands of the Llanos.",
+    "sci": "Platalea ajaja",
+    "blurb": "A pink wader with a spoon-shaped bill."
+   },
+   {
+    "word": "IBIS",
+    "bird": "Scarlet Ibis",
+    "note": "Flocks glow red over the Llanos wetlands.",
+    "sci": "Eudocimus ruber",
+    "blurb": "A brilliant scarlet ibis."
+   },
+   {
+    "word": "STORK",
+    "bird": "Jabiru",
+    "note": "A giant stork of the Llanos.",
+    "sci": "Jabiru mycteria",
+    "blurb": "A huge white stork with a black head and red neck band."
+   },
+   {
+    "word": "JACANA",
+    "bird": "Wattled Jacana",
+    "note": "Walks on lily pads.",
+    "sci": "Jacana jacana",
+    "blurb": "A black-and-chestnut bird with huge toes."
+   },
+   {
+    "word": "ANTPITTA",
+    "bird": "Moustached Antpitta",
+    "note": "Comes to worm feeders at Colombian reserves.",
+    "sci": "Grallaria alleni",
+    "blurb": "A round, long-legged ground bird with a pale moustache."
+   },
+   {
+    "word": "MANAKIN",
+    "bird": "Golden-headed Manakin",
+    "note": "Males snap and dance at leks.",
+    "sci": "Ceratopipra erythrocephala",
+    "blurb": "A tiny black bird with a golden head."
+   },
+   {
+    "word": "EUPHONIA",
+    "bird": "Thick-billed Euphonia",
+    "note": "Eats mistletoe berries in gardens.",
+    "sci": "Euphonia laniirostris",
+    "blurb": "A small yellow-and-blue-black finch."
+   },
+   {
+    "word": "PUFFLEG",
+    "bird": "Golden-breasted Puffleg",
+    "note": "A hummingbird with fluffy white leg puffs.",
+    "sci": "Eriocnemis mosquera",
+    "blurb": "A green hummingbird with white leg puffs."
+   },
+   {
+    "word": "SICKLEBILL",
+    "bird": "White-tipped Sicklebill",
+    "note": "Feeds on heliconia with its curved bill.",
+    "sci": "Eutoxeres aquila",
+    "blurb": "A hummingbird with a sharply down-curved bill."
+   },
+   {
+    "word": "GUAN",
+    "bird": "Sickle-winged Guan",
+    "note": "Rattles its wings in display flights.",
+    "sci": "Chamaepetes goudotii",
+    "blurb": "A dark turkey-like bird with a blue face."
+   },
+   {
+    "word": "PARROT",
+    "bird": "Yellow-eared Parrot",
+    "note": "Saved by protecting the wax palms it nests in.",
+    "sci": "Ognorhynchus icterotis",
+    "blurb": "A green parrot with yellow cheeks."
+   },
+   {
+    "word": "HERON",
+    "bird": "Cocoi Heron",
+    "note": "Stalks the rivers of the Llanos.",
+    "sci": "Ardea cocoi",
+    "blurb": "A big grey heron with a black cap."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "Black-and-chestnut Eagle",
+    "note": "A rare eagle of Andean forests.",
+    "sci": "Spizaetus isidori",
+    "blurb": "A big black-and-chestnut eagle with a crest."
+   },
+   {
+    "word": "POTOO",
+    "bird": "Common Potoo",
+    "note": "Disguises itself as a branch.",
+    "sci": "Nyctibius griseus",
+    "blurb": "A grey nocturnal bird that looks like a stump."
+   },
+   {
+    "word": "TINAMOU",
+    "bird": "Little Tinamou",
+    "note": "Whistles from dense forest undergrowth.",
+    "sci": "Crypturellus soui",
+    "blurb": "A small, round ground bird related to ostriches."
+   }
   ]
  },
  {
@@ -590,34 +5187,6 @@
     "word": "BROLGA",
     "bird": "Brolga",
     "note": "A tall crane famous for its leaping, bowing courtship dance."
-   }
-  ],
-  "draft": true
- },
- {
-  "id": "costarica",
-  "name": "Costa Rica",
-  "flag": "🌋",
-  "birds": [
-   {
-    "word": "QUETZAL",
-    "bird": "Resplendent Quetzal",
-    "note": "Males trail emerald tail streamers up to two feet long through cloud forest."
-   },
-   {
-    "word": "TOUCAN",
-    "bird": "Keel-billed Toucan",
-    "note": "Its huge, rainbow-coloured bill is mostly hollow and surprisingly light."
-   },
-   {
-    "word": "MOTMOT",
-    "bird": "Turquoise-browed Motmot",
-    "note": "Swings its racket-tipped tail like a pendulum when it spots a predator."
-   },
-   {
-    "word": "TROGON",
-    "bird": "Slaty-tailed Trogon",
-    "note": "Sits still for long spells, then sallies out to snatch fruit or insects."
    }
   ],
   "draft": true
@@ -758,34 +5327,6 @@
     "word": "PUKEKO",
     "bird": "Pūkeko",
     "note": "A purple swamphen that flicks its white undertail as it strides through paddocks."
-   }
-  ],
-  "draft": true
- },
- {
-  "id": "alaska",
-  "name": "Alaska",
-  "flag": "🏔️",
-  "birds": [
-   {
-    "word": "PTARMIGAN",
-    "bird": "Willow Ptarmigan",
-    "note": "Alaska's state bird turns pure white in winter."
-   },
-   {
-    "word": "EIDER",
-    "bird": "Spectacled Eider",
-    "note": "Winters in openings in the Bering Sea ice."
-   },
-   {
-    "word": "LOON",
-    "bird": "Yellow-billed Loon",
-    "note": "The largest loon, breeding on Arctic tundra lakes."
-   },
-   {
-    "word": "PUFFIN",
-    "bird": "Tufted Puffin",
-    "note": "Grows golden head plumes for the breeding season."
    }
   ],
   "draft": true

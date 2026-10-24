@@ -180,7 +180,7 @@ def build(region, n, seed, used, min_birds):
     required = sorted(set(required) | extra)
     bonus = [w for w in bonus if w not in extra]
     idx = lambda tiles: sorted(r * n + c for r, c in tiles)
-    return {'region': region['id'], 'name': region['name'], 'flag': region['flag'], 'size': n,
+    return {'region': region['id'], 'name': region['name'], 'flag': region['flag'], 'group': region.get('group', ''), 'size': n,
             'grid': grid, 'birds': [b for b in region['birds'] if b['word'] in on_board] + surprises,
             # For each required word: the tiles it can start on and the tiles it can use,
             # which drive the red and white numbers.
@@ -194,7 +194,8 @@ for i, region in enumerate(regions):
         continue
     used = set()
     for k, (level, label, n, min_birds) in enumerate(LEVELS):
-        b = build(region, n, 1000 + 100 * i + k, used, min_birds)
+        # A region's seed is fixed in regions.json once it has boards, so reordering regions keeps them.
+        b = build(region, n, 1000 + 100 * region.get('seed', i) + k, used, min_birds)
         used |= {x['word'] for x in b['birds']}
         b['id'] = f"{region['id']}-{level}"
         b['level'] = label

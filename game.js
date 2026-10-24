@@ -49,19 +49,40 @@ function hinted(w) {
 
 const boardLabel = (b) => `${b.level} · ${b.size}×${b.size}`;
 
+// The home screen lists regions under their country or continent. Tapping a
+// region opens its five boards; the open region is remembered.
 function showRegions() {
   clearInterval(guideTimer);
   $('regions').hidden = false; $('game').hidden = true; $('back').hidden = true;
   const list = $('region-list');
   list.innerHTML = '';
-  let region;
+  const open = store.get('birdle:open-region');
+  let group, region, levels;
   for (const b of BOARDS) {
+    if (b.group !== group) {
+      group = b.group;
+      const h = document.createElement('li');
+      h.className = 'group-head';
+      h.textContent = group;
+      list.append(h);
+    }
     if (b.region !== region) {
       region = b.region;
-      const h = document.createElement('li');
-      h.className = 'region-head';
-      h.innerHTML = `<span class="flag">${b.flag}</span> ${b.name}`;
-      list.append(h);
+      const boards = BOARDS.filter((x) => x.region === region);
+      const done = boards.filter(isComplete).length;
+      const li = document.createElement('li');
+      li.className = 'region';
+      li.innerHTML = `<button class="region-head" aria-expanded="${open === region}">` +
+        `<span class="flag">${b.flag}</span><span class="region-name">${b.name}</span>` +
+        `<span class="done">${done ? `${done} of ${boards.length} ✓` : ''}</span><span class="chev">›</span></button><ul class="levels"></ul>`;
+      levels = li.querySelector('.levels');
+      levels.hidden = open !== region;
+      const r = region;
+      li.querySelector('.region-head').onclick = () => {
+        store.set('birdle:open-region', store.get('birdle:open-region') === r ? null : r);
+        showRegions();
+      };
+      list.append(li);
     }
     const saved = store.get('birdle:' + b.id);
     const s = saved && saved.grid === b.grid.join('') ? saved : null;
@@ -72,14 +93,17 @@ function showRegions() {
       : found === b.words.length ? 'Complete ✓'
       : `${birds} of ${all.length} birds · ${found} of ${b.words.length} words`;
     const li = document.createElement('li');
-    li.innerHTML = `<button><span class="name">${boardLabel(b)}</span><span class="state">${status}</span></button>`;
+    li.innerHTML = `<button class="level"><span class="name">${boardLabel(b)}</span><span class="state">${status}</span></button>`;
     li.querySelector('button').onclick = () => openBoard(b);
-    list.append(li);
+    levels.append(li);
   }
+  const openHead = list.querySelector('.region-head[aria-expanded="true"]');
+  if (openHead) openHead.scrollIntoView({ block: 'nearest' });
 }
 
 function openBoard(b) {
   board = b;
+  store.set('birdle:open-region', b.region);
   size = b.grid.length;
   letters = b.grid.join('');
   required = new Map(b.words.map((w) => [w.w, w]));
