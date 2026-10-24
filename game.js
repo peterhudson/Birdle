@@ -473,7 +473,12 @@ $('reset').onclick = () => {
 };
 $('back').onclick = showRegions;
 const wordsDialog = $('words');
-$('count').onclick = () => { wordsDialog.showModal(); wordsDialog.scrollTop = 0; };
+// The list reopens where you left it on each board.
+const listScroll = {};
+const listBody = wordsDialog.querySelector('.sheet-body');
+$('count').onclick = () => { wordsDialog.showModal(); listBody.scrollTop = listScroll[board.id] || 0; };
+// Saved as you scroll: by the time the dialog's close event fires, it has already lost its scroll position.
+listBody.addEventListener('scroll', () => { if (wordsDialog.open) listScroll[board.id] = listBody.scrollTop; });
 wordsDialog.querySelector('.close').onclick = () => wordsDialog.close();
 // Tapping outside the list closes it too.
 wordsDialog.addEventListener('click', (e) => { if (e.target === wordsDialog) wordsDialog.close(); });
