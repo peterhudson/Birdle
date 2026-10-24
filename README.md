@@ -14,6 +14,14 @@ fills you earn the same help as Squaredle:
 2. ★ White numbers: how many words use each square.
 3. ★ Hints: show each missing word's first letter and sort the word list alphabetically.
 
+Each board also comes with one 💡 reveal, and finding all its birds earns another. A reveal shows a
+random missing word, or once the hints are unlocked, the missing word you tap twice. Finishing a
+board offers the next unfinished board in the region.
+
+Finding a bird opens its card, with a short description, a local note and a Creative Commons photo
+from [iNaturalist](https://www.inaturalist.org/) with its credit. Photos are looked up live by the
+bird's scientific name the first time its card opens, then remembered in the browser.
+
 ## Running locally
 
 It's a static site with no build step:
@@ -26,7 +34,8 @@ then open http://localhost:8000.
 
 ## Adding or changing boards
 
-Regions and their birds live in `tools/regions.json`. List a region's best-known birds first: the
+Regions and their birds live in `tools/regions.json`. Each bird has its word on the board, its
+name, its scientific name (`sci`, used to find its photo), a `blurb` describing it and a local `note`. List a region's best-known birds first: the
 first eight score extra when the generator picks which birds to place. Regenerate the boards with:
 
 ```sh
