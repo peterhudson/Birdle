@@ -200,7 +200,7 @@ function submit() {
   if (w.length === 0) return clearPath();
   if (path.length === 1 && !typed) return clearPath();   // a tap, not a word
   if (w.length < MIN_LEN) flash(w, 'Too short');
-  else if (state.found.includes(w) || state.bonus.includes(w)) flash(w, 'Already found');
+  else if (state.found.includes(w) || state.bonus.includes(w)) say(`${w}: already found`, 'neutral');
   else if (required.has(w)) {
     const before = starsEarned();
     state.found.push(w);
@@ -234,7 +234,7 @@ function renderPath() {
   const cur = $('current');
   const word = typed ? typedWord : path.map((i) => letters[i]).join('');
   const msg = !word && message;
-  cur.className = msg ? 'msg' + (msg.good ? ' good' : ' bad') : (typed && word && !path.length ? 'bad' : '');
+  cur.className = msg ? `msg ${msg.kind}` : (typed && word && !path.length ? 'bad' : '');
   cur.textContent = msg ? msg.text : word;
   const wrap = $('board-wrap').getBoundingClientRect();
   const pts = path.map((i) => {
@@ -311,14 +311,15 @@ function renderWords(hintsOn) {
 
 // Messages show on the line above the board, where the word being built goes.
 let message = null, messageTimer;
-function say(text, good) {
-  message = { text, good };
+// kind: 'good' (green), 'bad' (red, for words that don't count) or 'neutral'.
+function say(text, kind) {
+  message = { text, kind };
   clearTimeout(messageTimer);
   messageTimer = setTimeout(() => { message = null; renderPath(); }, 2200);
   renderPath();
 }
-const toast = (text) => say(text, true);
-const flash = (word, why) => say(`${word}: ${why.toLowerCase()}`, false);
+const toast = (text) => say(text, 'good');
+const flash = (word, why) => say(`${word}: ${why.toLowerCase()}`, 'bad');
 
 // ----- controls --------------------------------------------------------------
 
