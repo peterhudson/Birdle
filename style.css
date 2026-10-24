@@ -86,11 +86,11 @@ main { max-width: 520px; margin: 0 auto; padding: 12px 16px 40px; }
 #progress .star.on { color: var(--star); }
 
 #current {
-  height: 2.6rem; display: grid; place-items: center; text-align: center;
+  height: 3rem; display: grid; place-items: center; text-align: center;
   font-size: 1.8rem; font-weight: 800; letter-spacing: .1em; line-height: 1.1;
 }
 #current.bad { color: var(--red); }
-#current.msg { font-size: 1.15rem; letter-spacing: 0; font-weight: 700; }
+#current.msg { font-size: 1.05rem; line-height: 1.2; letter-spacing: 0; font-weight: 700; }
 #current.msg.good { color: var(--good); }
 
 #board-wrap { position: relative; width: min(100%, 460px); margin: 0 auto; touch-action: none; }
