@@ -147,6 +147,7 @@ section h3 { margin: 0 0 6px; font-size: 1.05rem; }
 #birds-panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
 .bird-row { padding: 8px 0; border-top: 1px solid var(--line); }
 .bird-row:first-of-type { border-top: 0; }
+.surprise-head { margin-top: 14px; }
 button.bird-row {
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 10px; width: 100%;
   background: none; border: 0; border-top: 1px solid var(--line); text-align: left; padding: 10px 0;

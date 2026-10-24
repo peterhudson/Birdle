@@ -23,6 +23,10 @@ once the hints are unlocked you can tap a missing word twice to reveal it. The w
 light up in order on the board, and it counts once you swipe it. Finishing a
 board offers the next unfinished board in the region.
 
+Bird words that turn up on a board by chance (OWLET, KITE, SWAN...) count as ✨ surprise birds: they
+score double and get a card too, but the bird count and first star only cover the region's birds.
+The list of bird words is `tools/data/bird-words.json`.
+
 Finding a bird opens its card, with a short description, a local note and a Creative Commons photo
 from [iNaturalist](https://www.inaturalist.org/) with its credit. Photos are looked up live by the
 bird's scientific name the first time its card opens, then remembered in the browser.

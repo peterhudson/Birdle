@@ -1,0 +1,926 @@
+[
+ {
+  "word": "AUKLET",
+  "bird": "Auklet",
+  "sci": "Alcidae",
+  "blurb": "Small, chunky seabirds of the auk family that dive for plankton in cold northern seas."
+ },
+ {
+  "word": "AVOCET",
+  "bird": "Avocet",
+  "sci": "Recurvirostra",
+  "blurb": "Elegant black-and-white waders that sweep their upturned bills through shallow water."
+ },
+ {
+  "word": "BITTERN",
+  "bird": "Bittern",
+  "sci": "Botaurinae",
+  "blurb": "Secretive, streaky herons of reedbeds that freeze with their bills pointed skyward."
+ },
+ {
+  "word": "BLACKBIRD",
+  "bird": "Blackbird",
+  "sci": "Icteridae",
+  "blurb": "A name for several dark songbirds, from New World icterids to the Old World thrush."
+ },
+ {
+  "word": "BOOBY",
+  "bird": "Booby",
+  "sci": "Sula",
+  "blurb": "Tropical relatives of gannets that plunge-dive for fish; some have bright blue feet."
+ },
+ {
+  "word": "BUNTING",
+  "bird": "Bunting",
+  "sci": "Emberizidae",
+  "blurb": "Seed-eating songbirds, many with brightly coloured breeding males."
+ },
+ {
+  "word": "BUZZARD",
+  "bird": "Buzzard",
+  "sci": "Buteo",
+  "blurb": "Broad-winged hawks that soar in circles; in North America the name is often used for vultures."
+ },
+ {
+  "word": "CANARY",
+  "bird": "Canary",
+  "sci": "Serinus",
+  "blurb": "Small yellow-green finches with sweet songs, famous as cage birds."
+ },
+ {
+  "word": "CARDINAL",
+  "bird": "Cardinal",
+  "sci": "Cardinalidae",
+  "blurb": "Stout-billed songbirds; the Northern Cardinal male is bright red with a crest."
+ },
+ {
+  "word": "CHAT",
+  "bird": "Chat",
+  "sci": "Saxicolinae",
+  "blurb": "Small, perky songbirds that flick their wings and tails from a low perch."
+ },
+ {
+  "word": "CHICK",
+  "bird": "Chick",
+  "sci": "Aves",
+  "blurb": "A young bird, especially one newly hatched."
+ },
+ {
+  "word": "CHICKADEE",
+  "bird": "Chickadee",
+  "sci": "Poecile",
+  "blurb": "Tiny, tame songbirds named for their 'chick-a-dee-dee' call."
+ },
+ {
+  "word": "CHICKEN",
+  "bird": "Chicken",
+  "sci": "Gallus gallus",
+  "blurb": "Descended from the Red Junglefowl of southern Asia; the most numerous bird on Earth."
+ },
+ {
+  "word": "CONDOR",
+  "bird": "Condor",
+  "sci": "Cathartidae",
+  "blurb": "Huge vultures with some of the largest wingspans of any land bird."
+ },
+ {
+  "word": "COOT",
+  "bird": "Coot",
+  "sci": "Fulica",
+  "blurb": "Dark, duck-like rails with white bills and lobed toes."
+ },
+ {
+  "word": "CORMORANT",
+  "bird": "Cormorant",
+  "sci": "Phalacrocoracidae",
+  "blurb": "Dark diving seabirds that hold their wings out to dry after fishing."
+ },
+ {
+  "word": "COWBIRD",
+  "bird": "Cowbird",
+  "sci": "Molothrus",
+  "blurb": "Blackbirds that lay their eggs in other birds' nests."
+ },
+ {
+  "word": "CRANE",
+  "bird": "Crane",
+  "sci": "Gruidae",
+  "blurb": "Tall, long-legged birds famous for their dancing displays and bugling calls."
+ },
+ {
+  "word": "CROW",
+  "bird": "Crow",
+  "sci": "Corvus",
+  "blurb": "Clever, all-black birds that use tools and remember faces."
+ },
+ {
+  "word": "CUCKOO",
+  "bird": "Cuckoo",
+  "sci": "Cuculidae",
+  "blurb": "Slim birds with long tails; many lay their eggs in other species' nests."
+ },
+ {
+  "word": "CURLEW",
+  "bird": "Curlew",
+  "sci": "Numenius",
+  "blurb": "Large shorebirds with long, down-curved bills and haunting calls."
+ },
+ {
+  "word": "CYGNET",
+  "bird": "Cygnet",
+  "sci": "Cygnus",
+  "blurb": "A young swan, grey and fluffy before growing white feathers."
+ },
+ {
+  "word": "DIPPER",
+  "bird": "Dipper",
+  "sci": "Cinclus",
+  "blurb": "Plump songbirds that walk underwater in fast streams to feed."
+ },
+ {
+  "word": "DIVER",
+  "bird": "Diver",
+  "sci": "Gavia",
+  "blurb": "The British name for loons, expert diving birds of northern lakes and seas."
+ },
+ {
+  "word": "DODO",
+  "bird": "Dodo",
+  "sci": "Raphus cucullatus",
+  "blurb": "A flightless pigeon from Mauritius, extinct since the late 1600s."
+ },
+ {
+  "word": "DOVE",
+  "bird": "Dove",
+  "sci": "Columbidae",
+  "blurb": "Pigeons by another name; soft cooing birds found almost everywhere."
+ },
+ {
+  "word": "DOWITCHER",
+  "bird": "Dowitcher",
+  "sci": "Limnodromus",
+  "blurb": "Stocky shorebirds that probe mud with a sewing-machine motion."
+ },
+ {
+  "word": "DRAKE",
+  "bird": "Drake",
+  "sci": "Anatidae",
+  "blurb": "A male duck."
+ },
+ {
+  "word": "DUCK",
+  "bird": "Duck",
+  "sci": "Anatidae",
+  "blurb": "Waterbirds with webbed feet and flat bills, from dabblers to divers."
+ },
+ {
+  "word": "DUCKLING",
+  "bird": "Duckling",
+  "sci": "Anatidae",
+  "blurb": "A young duck, able to swim within hours of hatching."
+ },
+ {
+  "word": "DUNLIN",
+  "bird": "Dunlin",
+  "sci": "Calidris alpina",
+  "blurb": "A small sandpiper that forms huge, wheeling winter flocks."
+ },
+ {
+  "word": "EAGLE",
+  "bird": "Eagle",
+  "sci": "Accipitridae",
+  "blurb": "Large, powerful birds of prey with hooked bills and keen eyes."
+ },
+ {
+  "word": "EAGLET",
+  "bird": "Eaglet",
+  "sci": "Accipitridae",
+  "blurb": "A young eagle, which can take years to reach adult plumage."
+ },
+ {
+  "word": "EGRET",
+  "bird": "Egret",
+  "sci": "Ardeidae",
+  "blurb": "White herons, once hunted for their fine breeding plumes."
+ },
+ {
+  "word": "EIDER",
+  "bird": "Eider",
+  "sci": "Somateria",
+  "blurb": "Big sea ducks whose soft down lines their nests and our duvets."
+ },
+ {
+  "word": "FALCON",
+  "bird": "Falcon",
+  "sci": "Falco",
+  "blurb": "Fast birds of prey with pointed wings; the Peregrine is the fastest animal alive."
+ },
+ {
+  "word": "FINCH",
+  "bird": "Finch",
+  "sci": "Fringillidae",
+  "blurb": "Seed-eating songbirds with strong, cone-shaped bills."
+ },
+ {
+  "word": "FLAMINGO",
+  "bird": "Flamingo",
+  "sci": "Phoenicopteridae",
+  "blurb": "Pink waders that feed upside down, filtering food from the water."
+ },
+ {
+  "word": "FLEDGLING",
+  "bird": "Fledgling",
+  "sci": "Aves",
+  "blurb": "A young bird that has just left the nest and is learning to fly."
+ },
+ {
+  "word": "FLICKER",
+  "bird": "Flicker",
+  "sci": "Colaptes",
+  "blurb": "Woodpeckers that often feed on ants on the ground."
+ },
+ {
+  "word": "FOWL",
+  "bird": "Fowl",
+  "sci": "Galliformes",
+  "blurb": "Game birds and poultry, such as chickens, turkeys and grouse."
+ },
+ {
+  "word": "GADWALL",
+  "bird": "Gadwall",
+  "sci": "Mareca strepera",
+  "blurb": "A subtly beautiful grey dabbling duck with a black rear end."
+ },
+ {
+  "word": "GANNET",
+  "bird": "Gannet",
+  "sci": "Morus",
+  "blurb": "Large seabirds that plunge-dive from a great height for fish."
+ },
+ {
+  "word": "GOOSE",
+  "bird": "Goose",
+  "sci": "Anserini",
+  "blurb": "Large waterfowl that graze on land and fly in honking V-formations."
+ },
+ {
+  "word": "GOSHAWK",
+  "bird": "Goshawk",
+  "sci": "Astur",
+  "blurb": "Powerful forest hawks that chase prey through the trees."
+ },
+ {
+  "word": "GOSLING",
+  "bird": "Gosling",
+  "sci": "Anserini",
+  "blurb": "A young goose, covered in soft yellow-grey down."
+ },
+ {
+  "word": "GRACKLE",
+  "bird": "Grackle",
+  "sci": "Quiscalus",
+  "blurb": "Glossy, long-tailed blackbirds with yellow eyes."
+ },
+ {
+  "word": "GREBE",
+  "bird": "Grebe",
+  "sci": "Podicipedidae",
+  "blurb": "Diving birds with lobed toes and elaborate courtship dances."
+ },
+ {
+  "word": "GROSBEAK",
+  "bird": "Grosbeak",
+  "sci": "Pheucticus",
+  "blurb": "A name for several songbirds with large, heavy bills for cracking seeds."
+ },
+ {
+  "word": "GROUSE",
+  "bird": "Grouse",
+  "sci": "Tetraonini",
+  "blurb": "Plump, chicken-like birds of forests and moors."
+ },
+ {
+  "word": "GULL",
+  "bird": "Gull",
+  "sci": "Laridae",
+  "blurb": "Familiar seabirds of coasts and parking lots, clever and adaptable."
+ },
+ {
+  "word": "HARRIER",
+  "bird": "Harrier",
+  "sci": "Circus",
+  "blurb": "Slim hawks that glide low over marshes and fields with wings raised in a V."
+ },
+ {
+  "word": "HAWK",
+  "bird": "Hawk",
+  "sci": "Accipitridae",
+  "blurb": "Birds of prey with hooked bills and sharp talons."
+ },
+ {
+  "word": "HERON",
+  "bird": "Heron",
+  "sci": "Ardeidae",
+  "blurb": "Long-legged wading birds that stalk fish with dagger-like bills."
+ },
+ {
+  "word": "HOOPOE",
+  "bird": "Hoopoe",
+  "sci": "Upupa",
+  "blurb": "Cinnamon birds with zebra-striped wings and a fan-like crest."
+ },
+ {
+  "word": "HORNBILL",
+  "bird": "Hornbill",
+  "sci": "Bucerotidae",
+  "blurb": "Birds of Africa and Asia with huge, often casqued bills."
+ },
+ {
+  "word": "HUMMINGBIRD",
+  "bird": "Hummingbird",
+  "sci": "Trochilidae",
+  "blurb": "Tiny nectar-feeders that hover and can even fly backwards."
+ },
+ {
+  "word": "IBIS",
+  "bird": "Ibis",
+  "sci": "Threskiornithidae",
+  "blurb": "Wading birds with long, down-curved bills."
+ },
+ {
+  "word": "JACKDAW",
+  "bird": "Jackdaw",
+  "sci": "Coloeus monedula",
+  "blurb": "A small grey-naped crow with pale eyes, sociable and bold."
+ },
+ {
+  "word": "JUNCO",
+  "bird": "Junco",
+  "sci": "Junco",
+  "blurb": "Small sparrows that flash white outer tail feathers."
+ },
+ {
+  "word": "KESTREL",
+  "bird": "Kestrel",
+  "sci": "Falco",
+  "blurb": "Small falcons famous for hovering over fields."
+ },
+ {
+  "word": "KILLDEER",
+  "bird": "Killdeer",
+  "sci": "Charadrius vociferus",
+  "blurb": "A plover that fakes a broken wing to lure danger from its nest."
+ },
+ {
+  "word": "KINGFISHER",
+  "bird": "Kingfisher",
+  "sci": "Alcedinidae",
+  "blurb": "Big-headed birds that dive headfirst for fish."
+ },
+ {
+  "word": "KINGLET",
+  "bird": "Kinglet",
+  "sci": "Regulus",
+  "blurb": "Tiny, hyperactive songbirds with bright crown stripes."
+ },
+ {
+  "word": "KITE",
+  "bird": "Kite",
+  "sci": "Accipitridae",
+  "blurb": "Graceful, long-winged birds of prey that hang on the wind."
+ },
+ {
+  "word": "KITTIWAKE",
+  "bird": "Kittiwake",
+  "sci": "Rissa",
+  "blurb": "Cliff-nesting gulls named for their 'kitti-waaake' call."
+ },
+ {
+  "word": "KIWI",
+  "bird": "Kiwi",
+  "sci": "Apteryx",
+  "blurb": "New Zealand's shy, flightless national bird, with nostrils at the tip of its bill."
+ },
+ {
+  "word": "KNOT",
+  "bird": "Knot",
+  "sci": "Calidris canutus",
+  "blurb": "A stocky sandpiper that makes some of the longest migrations of any bird."
+ },
+ {
+  "word": "LARK",
+  "bird": "Lark",
+  "sci": "Alaudidae",
+  "blurb": "Ground-dwelling songbirds famous for singing high in the air."
+ },
+ {
+  "word": "LINNET",
+  "bird": "Linnet",
+  "sci": "Linaria cannabina",
+  "blurb": "A small finch; breeding males have a rosy forehead and breast."
+ },
+ {
+  "word": "LOON",
+  "bird": "Loon",
+  "sci": "Gavia",
+  "blurb": "Diving birds of northern lakes with haunting, wailing calls."
+ },
+ {
+  "word": "MAGPIE",
+  "bird": "Magpie",
+  "sci": "Pica",
+  "blurb": "Bold, long-tailed members of the crow family, black and white with a glossy sheen."
+ },
+ {
+  "word": "MALLARD",
+  "bird": "Mallard",
+  "sci": "Anas platyrhynchos",
+  "blurb": "The familiar green-headed duck, ancestor of most farmyard ducks."
+ },
+ {
+  "word": "MARTIN",
+  "bird": "Martin",
+  "sci": "Hirundinidae",
+  "blurb": "Swallows by another name, catching insects on the wing."
+ },
+ {
+  "word": "MERLIN",
+  "bird": "Merlin",
+  "sci": "Falco columbarius",
+  "blurb": "A small, fierce falcon that hunts songbirds in fast, low chases."
+ },
+ {
+  "word": "MOCKINGBIRD",
+  "bird": "Mockingbird",
+  "sci": "Mimus",
+  "blurb": "Songbirds that mimic the songs of other birds and even car alarms."
+ },
+ {
+  "word": "MURRE",
+  "bird": "Murre",
+  "sci": "Uria",
+  "blurb": "Penguin-like seabirds that nest shoulder to shoulder on cliff ledges."
+ },
+ {
+  "word": "NESTLING",
+  "bird": "Nestling",
+  "sci": "Aves",
+  "blurb": "A young bird still too young to leave the nest."
+ },
+ {
+  "word": "NIGHTHAWK",
+  "bird": "Nighthawk",
+  "sci": "Chordeiles",
+  "blurb": "Nightjars that hunt insects at dusk with booming display dives."
+ },
+ {
+  "word": "NIGHTINGALE",
+  "bird": "Nightingale",
+  "sci": "Luscinia megarhynchos",
+  "blurb": "A plain brown thrush famous for its rich song by night."
+ },
+ {
+  "word": "NUTHATCH",
+  "bird": "Nuthatch",
+  "sci": "Sitta",
+  "blurb": "Small birds that climb head-first down tree trunks."
+ },
+ {
+  "word": "ORIOLE",
+  "bird": "Oriole",
+  "sci": "Oriolus",
+  "blurb": "Bright yellow or orange songbirds with fluting calls."
+ },
+ {
+  "word": "OSPREY",
+  "bird": "Osprey",
+  "sci": "Pandion haliaetus",
+  "blurb": "A fish-eating hawk found on every continent but Antarctica."
+ },
+ {
+  "word": "OSTRICH",
+  "bird": "Ostrich",
+  "sci": "Struthio",
+  "blurb": "The biggest bird alive, flightless but very fast on its feet."
+ },
+ {
+  "word": "OUZEL",
+  "bird": "Ouzel",
+  "sci": "Turdus torquatus",
+  "blurb": "An old name for thrushes; the Ring Ouzel is a mountain blackbird."
+ },
+ {
+  "word": "OWLET",
+  "bird": "Owlet",
+  "sci": "Strigiformes",
+  "blurb": "A young owl; it is also the name for several kinds of small owls."
+ },
+ {
+  "word": "PARROT",
+  "bird": "Parrot",
+  "sci": "Psittaciformes",
+  "blurb": "Colourful, clever birds with curved bills and gripping feet."
+ },
+ {
+  "word": "PARTRIDGE",
+  "bird": "Partridge",
+  "sci": "Phasianidae",
+  "blurb": "Plump game birds of fields and scrub."
+ },
+ {
+  "word": "PEACOCK",
+  "bird": "Peacock",
+  "sci": "Pavo cristatus",
+  "blurb": "The male peafowl, with its spectacular fan of eyed tail feathers."
+ },
+ {
+  "word": "PELICAN",
+  "bird": "Pelican",
+  "sci": "Pelecanus",
+  "blurb": "Big waterbirds with stretchy throat pouches for scooping fish."
+ },
+ {
+  "word": "PENGUIN",
+  "bird": "Penguin",
+  "sci": "Spheniscidae",
+  "blurb": "Flightless seabirds of the Southern Hemisphere that fly underwater."
+ },
+ {
+  "word": "PETREL",
+  "bird": "Petrel",
+  "sci": "Procellariidae",
+  "blurb": "Tube-nosed seabirds that spend most of their lives far out at sea."
+ },
+ {
+  "word": "PHEASANT",
+  "bird": "Pheasant",
+  "sci": "Phasianidae",
+  "blurb": "Game birds, the males often long-tailed and gaudy."
+ },
+ {
+  "word": "PHOEBE",
+  "bird": "Phoebe",
+  "sci": "Sayornis",
+  "blurb": "Tail-wagging flycatchers that call their own name."
+ },
+ {
+  "word": "PIGEON",
+  "bird": "Pigeon",
+  "sci": "Columbidae",
+  "blurb": "Plump, cooing birds; city pigeons descend from the Rock Dove."
+ },
+ {
+  "word": "PINTAIL",
+  "bird": "Pintail",
+  "sci": "Anas acuta",
+  "blurb": "An elegant duck with a long, pointed tail."
+ },
+ {
+  "word": "PIPIT",
+  "bird": "Pipit",
+  "sci": "Anthus",
+  "blurb": "Slim, streaky songbirds of open ground that bob their tails."
+ },
+ {
+  "word": "PLOVER",
+  "bird": "Plover",
+  "sci": "Charadriidae",
+  "blurb": "Round-headed shorebirds that run, stop and pick at the ground."
+ },
+ {
+  "word": "POULT",
+  "bird": "Poult",
+  "sci": "Galliformes",
+  "blurb": "A young game bird, such as a turkey or grouse chick."
+ },
+ {
+  "word": "PTARMIGAN",
+  "bird": "Ptarmigan",
+  "sci": "Lagopus",
+  "blurb": "Grouse of tundra and mountains that turn white in winter."
+ },
+ {
+  "word": "PUFFIN",
+  "bird": "Puffin",
+  "sci": "Fratercula",
+  "blurb": "Stocky seabirds with bright bills, nicknamed sea parrots."
+ },
+ {
+  "word": "PULLET",
+  "bird": "Pullet",
+  "sci": "Gallus gallus",
+  "blurb": "A young hen, less than a year old."
+ },
+ {
+  "word": "QUAIL",
+  "bird": "Quail",
+  "sci": "Galliformes",
+  "blurb": "Small, round game birds that run rather than fly."
+ },
+ {
+  "word": "RAIL",
+  "bird": "Rail",
+  "sci": "Rallidae",
+  "blurb": "Secretive marsh birds, often heard but rarely seen."
+ },
+ {
+  "word": "RAPTOR",
+  "bird": "Raptor",
+  "sci": "Accipitriformes",
+  "blurb": "A bird of prey, such as a hawk, eagle or falcon."
+ },
+ {
+  "word": "RAVEN",
+  "bird": "Raven",
+  "sci": "Corvus corax",
+  "blurb": "The largest songbird, with a deep croak and a wedge-shaped tail."
+ },
+ {
+  "word": "REDPOLL",
+  "bird": "Redpoll",
+  "sci": "Acanthis",
+  "blurb": "Small streaky finches with a red cap that visit feeders in winter."
+ },
+ {
+  "word": "REDSTART",
+  "bird": "Redstart",
+  "sci": "Setophaga ruticilla",
+  "blurb": "Lively songbirds that flash colourful tails."
+ },
+ {
+  "word": "RHEA",
+  "bird": "Rhea",
+  "sci": "Rhea",
+  "blurb": "Big, flightless South American birds related to the ostrich."
+ },
+ {
+  "word": "ROBIN",
+  "bird": "Robin",
+  "sci": "Turdus migratorius",
+  "blurb": "In North America, a red-breasted thrush; in Britain, a small orange-breasted flycatcher."
+ },
+ {
+  "word": "ROOK",
+  "bird": "Rook",
+  "sci": "Corvus frugilegus",
+  "blurb": "A sociable crow with a bare whitish face that nests in noisy colonies."
+ },
+ {
+  "word": "ROOSTER",
+  "bird": "Rooster",
+  "sci": "Gallus gallus",
+  "blurb": "A male chicken, famous for crowing at dawn."
+ },
+ {
+  "word": "RUFF",
+  "bird": "Ruff",
+  "sci": "Calidris pugnax",
+  "blurb": "A sandpiper whose males grow showy neck ruffs to display in groups."
+ },
+ {
+  "word": "SANDERLING",
+  "bird": "Sanderling",
+  "sci": "Calidris alba",
+  "blurb": "A pale sandpiper that chases the waves along sandy beaches."
+ },
+ {
+  "word": "SANDPIPER",
+  "bird": "Sandpiper",
+  "sci": "Scolopacidae",
+  "blurb": "Shorebirds that probe mud and sand with slender bills."
+ },
+ {
+  "word": "SAPSUCKER",
+  "bird": "Sapsucker",
+  "sci": "Sphyrapicus",
+  "blurb": "Woodpeckers that drill rows of holes to drink tree sap."
+ },
+ {
+  "word": "SCAUP",
+  "bird": "Scaup",
+  "sci": "Aythya",
+  "blurb": "Diving ducks that gather in big rafts on lakes and bays."
+ },
+ {
+  "word": "SCOTER",
+  "bird": "Scoter",
+  "sci": "Melanitta",
+  "blurb": "Dark sea ducks of cold coasts."
+ },
+ {
+  "word": "SHRIKE",
+  "bird": "Shrike",
+  "sci": "Laniidae",
+  "blurb": "Songbirds with hooked bills that impale prey on thorns."
+ },
+ {
+  "word": "SISKIN",
+  "bird": "Siskin",
+  "sci": "Spinus",
+  "blurb": "Small, streaky finches with flashes of yellow."
+ },
+ {
+  "word": "SKUA",
+  "bird": "Skua",
+  "sci": "Stercorariidae",
+  "blurb": "Piratical seabirds that chase other birds to steal their catch."
+ },
+ {
+  "word": "SKYLARK",
+  "bird": "Skylark",
+  "sci": "Alauda arvensis",
+  "blurb": "A lark famous for singing nonstop while hovering high in the sky."
+ },
+ {
+  "word": "SNIPE",
+  "bird": "Snipe",
+  "sci": "Gallinago",
+  "blurb": "Long-billed, well-camouflaged shorebirds of wet meadows."
+ },
+ {
+  "word": "SPARROW",
+  "bird": "Sparrow",
+  "sci": "Passeridae",
+  "blurb": "Small brown seed-eating birds, familiar in towns and fields."
+ },
+ {
+  "word": "STARLING",
+  "bird": "Starling",
+  "sci": "Sturnidae",
+  "blurb": "Glossy, chatty songbirds that gather in huge swirling flocks."
+ },
+ {
+  "word": "STILT",
+  "bird": "Stilt",
+  "sci": "Himantopus",
+  "blurb": "Black-and-white waders with very long pink legs."
+ },
+ {
+  "word": "STORK",
+  "bird": "Stork",
+  "sci": "Ciconiidae",
+  "blurb": "Large, long-legged birds that soar on thermals during migration."
+ },
+ {
+  "word": "SWALLOW",
+  "bird": "Swallow",
+  "sci": "Hirundinidae",
+  "blurb": "Graceful fliers with forked tails that catch insects in the air."
+ },
+ {
+  "word": "SWAN",
+  "bird": "Swan",
+  "sci": "Cygnus",
+  "blurb": "Large, long-necked waterfowl, mostly white."
+ },
+ {
+  "word": "SWIFT",
+  "bird": "Swift",
+  "sci": "Apodidae",
+  "blurb": "Aerial birds that eat, drink and even sleep on the wing."
+ },
+ {
+  "word": "TANAGER",
+  "bird": "Tanager",
+  "sci": "Thraupidae",
+  "blurb": "Brightly coloured songbirds, most of them tropical."
+ },
+ {
+  "word": "TEAL",
+  "bird": "Teal",
+  "sci": "Anas",
+  "blurb": "Small dabbling ducks that fly in fast, twisting flocks."
+ },
+ {
+  "word": "TERN",
+  "bird": "Tern",
+  "sci": "Sternidae",
+  "blurb": "Graceful seabirds that dive for fish; the Arctic Tern migrates pole to pole."
+ },
+ {
+  "word": "THRASHER",
+  "bird": "Thrasher",
+  "sci": "Toxostoma",
+  "blurb": "Long-tailed songbirds with curved bills, related to mockingbirds."
+ },
+ {
+  "word": "THRUSH",
+  "bird": "Thrush",
+  "sci": "Turdidae",
+  "blurb": "Songbirds with rich, fluty songs, including robins and bluebirds."
+ },
+ {
+  "word": "TITMOUSE",
+  "bird": "Titmouse",
+  "sci": "Paridae",
+  "blurb": "Small, crested relatives of chickadees."
+ },
+ {
+  "word": "TOUCAN",
+  "bird": "Toucan",
+  "sci": "Ramphastidae",
+  "blurb": "Tropical birds with enormous, colourful bills."
+ },
+ {
+  "word": "TOWHEE",
+  "bird": "Towhee",
+  "sci": "Pipilo",
+  "blurb": "Big sparrows that scratch noisily in leaf litter."
+ },
+ {
+  "word": "TURKEY",
+  "bird": "Turkey",
+  "sci": "Meleagris",
+  "blurb": "Large game birds of North America; males gobble and fan their tails."
+ },
+ {
+  "word": "TURNSTONE",
+  "bird": "Turnstone",
+  "sci": "Arenaria",
+  "blurb": "Stocky shorebirds that flip stones and seaweed to find food."
+ },
+ {
+  "word": "VIREO",
+  "bird": "Vireo",
+  "sci": "Vireonidae",
+  "blurb": "Small, olive songbirds that sing persistently from the treetops."
+ },
+ {
+  "word": "VULTURE",
+  "bird": "Vulture",
+  "sci": "Gyps",
+  "blurb": "Scavenging birds of prey with bare heads, soaring for hours on thermals."
+ },
+ {
+  "word": "WADER",
+  "bird": "Wader",
+  "sci": "Charadriiformes",
+  "blurb": "A shorebird or other long-legged bird that feeds in shallow water."
+ },
+ {
+  "word": "WARBLER",
+  "bird": "Warbler",
+  "sci": "Parulidae",
+  "blurb": "Small, active insect-eating songbirds, many brightly coloured."
+ },
+ {
+  "word": "WAXWING",
+  "bird": "Waxwing",
+  "sci": "Bombycilla",
+  "blurb": "Sleek, crested birds with waxy red wing tips that travel in flocks."
+ },
+ {
+  "word": "WEAVER",
+  "bird": "Weaver",
+  "sci": "Ploceidae",
+  "blurb": "Finch-like birds that weave elaborate hanging nests."
+ },
+ {
+  "word": "WHEATEAR",
+  "bird": "Wheatear",
+  "sci": "Oenanthe",
+  "blurb": "Ground-loving chats with white rumps."
+ },
+ {
+  "word": "WHIMBREL",
+  "bird": "Whimbrel",
+  "sci": "Numenius phaeopus",
+  "blurb": "A curlew with a striped crown and a rippling call."
+ },
+ {
+  "word": "WIGEON",
+  "bird": "Wigeon",
+  "sci": "Mareca",
+  "blurb": "Dabbling ducks that graze on land; males whistle."
+ },
+ {
+  "word": "WILLET",
+  "bird": "Willet",
+  "sci": "Tringa semipalmata",
+  "blurb": "A plain shorebird that flashes bold black-and-white wings in flight."
+ },
+ {
+  "word": "WOODCOCK",
+  "bird": "Woodcock",
+  "sci": "Scolopax",
+  "blurb": "Plump, long-billed shorebirds of the forest floor."
+ },
+ {
+  "word": "WOODPECKER",
+  "bird": "Woodpecker",
+  "sci": "Picidae",
+  "blurb": "Birds that drum and drill into trees with chisel-like bills."
+ },
+ {
+  "word": "WREN",
+  "bird": "Wren",
+  "sci": "Troglodytidae",
+  "blurb": "Tiny brown birds with cocked tails and surprisingly loud songs."
+ },
+ {
+  "word": "YELLOWLEGS",
+  "bird": "Yellowlegs",
+  "sci": "Tringa",
+  "blurb": "Tall sandpipers with bright yellow legs and ringing calls."
+ }
+]
