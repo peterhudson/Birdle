@@ -19,14 +19,17 @@ from pathlib import Path
 HERE = Path(__file__).parent
 MIN_LEN, MAX_LEN = 4, 12
 SIGNATURE = 8   # the first birds listed for a region are its best known, and score extra
-# One board per level for every region: (id, name, size, minimum birds).
-# A 3x3 only has room for one or two birds.
+# One board per level for every region: (id, name, size, minimum and maximum birds,
+# lengths of the birds it places). A 3x3 only has room for one or two birds. Each bird
+# goes on only one of a region's boards, so the maximums and lengths share the birds out:
+# short birds for the small boards, long ones for the big boards, and whatever is left
+# for the last board.
 LEVELS = [
-    ('express', 'Express', 3, 1),
-    ('easy', 'Easy', 4, 4),
-    ('medium', 'Medium', 5, 4),
-    ('hard', 'Hard', 6, 4),
-    ('extreme', 'Extreme Birder', 7, 4),
+    ('express', 'Express', 3, 1, 3, (4, 6)),
+    ('easy', 'Easy', 4, 4, 5, (4, 6)),
+    ('medium', 'Medium', 5, 4, 5, (5, 8)),
+    ('hard', 'Hard', 6, 4, 6, (6, 10)),
+    ('extreme', 'Extreme Birder', 7, 4, 8, (4, 12)),
 ]
 # Per size: attempts, acceptable required-word range, and the count to aim for.
 SETTINGS = {
@@ -130,10 +133,10 @@ def place(grid, word, rng):
             return True
     return False
 
-def attempt(n, birds, rng, used, min_birds):
+def attempt(n, birds, candidates, rng, used, min_birds, max_birds):
     grid = [[None] * n for _ in range(n)]
     # Try the birds in a random order, keeping every one that still fits.
-    order = [b for b in birds if len(b) <= n * n]
+    order = candidates[:]
     rng.shuffle(order)
     for b in order:
         place(grid, b, rng)
@@ -145,8 +148,11 @@ def attempt(n, birds, rng, used, min_birds):
     found = find_words(grid)
     if any(w in blocked for w in found):
         return None
+    # Each of a region's birds belongs to just one of its boards.
+    if any(b in found for b in used):
+        return None
     on_board = [b for b in birds if b in found]
-    if len(on_board) < min_birds:
+    if not min_birds <= len(on_board) <= max_birds:
         return None
     bird_forms = set(on_board) | {b + 'S' for b in on_board}
     required = sorted(w for w in found if w in common or w in bird_forms)
@@ -156,20 +162,24 @@ def attempt(n, birds, rng, used, min_birds):
     # Every tile must be part of some required word, like Squaredle.
     if len(covered) < n * n or not lo <= len(required) <= hi:
         return None
-    # More birds first, favouring signature birds and ones the region's other boards
-    # haven't used; then a comfortable number of words and few bonus words.
-    bird_score = sum(100 + (60 if birds.index(b) < SIGNATURE else 0) - (50 if b in used else 0) for b in on_board)
+    # More birds first, favouring signature birds; then a comfortable number of words
+    # and few bonus words.
+    bird_score = sum(100 + (60 if birds.index(b) < SIGNATURE else 0) for b in on_board)
     score = bird_score - abs(len(required) - SETTINGS[n]['target']) - 0.1 * len(bonus)
     return score, grid, on_board, required, bonus, found
 
-def build(region, n, seed, used, min_birds):
+def build(region, n, seed, used, seen, min_birds, max_birds, lengths):
     rng = random.Random(seed)
     birds = [b['word'] for b in region['birds']]
+    # Leave out birds that hold another board's bird (GOSHAWK holds HAWK) or a blocked word.
+    inside = lambda b: {b[i:j] for i in range(len(b)) for j in range(i + MIN_LEN, len(b) + 1)}
+    candidates = [b for b in birds if lengths[0] <= len(b) <= lengths[1] and b not in used
+                  and not inside(b) & (used | blocked)]
     best = None
     # Some regions' birds are hard to fit; if no grid works, keep trying for longer.
     for tries in range(4):
         for _ in range(SETTINGS[n]['attempts'] * 2 ** tries):
-            res = attempt(n, birds, rng, used, min_birds)
+            res = attempt(n, birds, candidates, rng, used, min_birds, max_birds)
             if res and (best is None or res[0] > best[0]):
                 best = res
         if best:
@@ -178,8 +188,9 @@ def build(region, n, seed, used, min_birds):
         raise RuntimeError(f"Couldn't build a {n}x{n} board for {region['name']}")
     _, grid, on_board, required, bonus, found = best
     # Surprise birds are added after the grid is chosen, so they never change which grid wins.
+    # One the region's other boards already have is just a word here.
     surprises = [surprise_birds[w] | {'note': f"A surprise bird! It isn't one of the {region['name']} birds this board was built around, but it's a bird all the same.", 'extra': True}
-                 for w in sorted(found) if w in surprise_birds and w not in on_board]
+                 for w in sorted(found) if w in surprise_birds and w not in on_board and w not in seen]
     extra = {w for s in surprises for w in (s['word'], s['word'] + 'S') if w in found}
     required = sorted(set(required) | extra)
     bonus = [w for w in bonus if w not in extra]
@@ -193,11 +204,12 @@ def build(region, n, seed, used, min_birds):
 
 def build_region(job):
     i, region = job
-    used, boards = set(), []
-    for k, (level, label, n, min_birds) in enumerate(LEVELS):
+    used, seen, boards = set(), set(), []
+    for k, (level, label, n, min_birds, max_birds, lengths) in enumerate(LEVELS):
         # A region's seed is fixed in regions.json once it has boards, so reordering regions keeps them.
-        b = build(region, n, 1000 + 100 * region.get('seed', i) + k, used, min_birds)
-        used |= {x['word'] for x in b['birds']}
+        b = build(region, n, 1000 + 100 * region.get('seed', i) + k, used, seen, min_birds, max_birds, lengths)
+        used |= {x['word'] for x in b['birds'] if not x.get('extra')}
+        seen |= {x['word'] for x in b['birds'] if x.get('extra')}
         b['id'] = f"{region['id']}-{level}"
         b['level'] = label
         boards.append(b)
