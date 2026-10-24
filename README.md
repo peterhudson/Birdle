@@ -43,7 +43,9 @@ then open http://localhost:8000.
 
 ## Adding or changing boards
 
-Regions and their birds live in `tools/regions.json`. Each bird has its word on the board, its
+Regions and their birds live in `tools/regions.json`, in the order they appear on the home screen,
+grouped by their `group` (a country or continent). A region that already has boards keeps a fixed
+`seed`, so reordering regions doesn't change its boards. Each bird has its word on the board, its
 name, its scientific name (`sci`, used to find its photo), a `blurb` describing it and a local `note`. List a region's best-known birds first: the
 first eight score extra when the generator picks which birds to place. Regenerate the boards with:
 
