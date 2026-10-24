@@ -25,18 +25,24 @@ then open http://localhost:8000.
 
 ## Adding or changing boards
 
-Regions and their birds live in `tools/regions.json`. Regenerate the boards with:
+Regions and their birds live in `tools/regions.json`. List a region's best-known birds first: the
+first eight score extra when the generator picks which birds to place. Regenerate the boards with:
 
 ```sh
-python3 tools/gen.py              # all regions
-python3 tools/gen.py bc           # just one
+python3 tools/gen.py              # all regions not marked "draft"
+python3 tools/gen.py bc           # just one region
 ```
 
-The generator lays each region's birds into a 5×5 grid, fills the gaps, and finds every word on the
-board. Common American English words (SCOWL up to size 55) become required words; everything else in
-the dictionary, including British spellings, counts as a bonus word. To move a word across that line,
-add it to `tools/data/avoid.txt` or `tools/data/promote.txt` and regenerate.
-Word list sources and licenses are in `tools/data/SOURCES.md`.
+Each region gets three boards. Their sizes are drawn 60% 4×4, 30% 5×5 and 10% 7×7, unless the
+region lists its own `sizes`. For each board the generator places as many of the region's birds as
+it can (at least 4), fills the gaps, and finds every word on the board. Common American English
+words (SCOWL up to size 55) become required words; everything else in the dictionary, including
+British spellings, counts as a bonus word. To move a word across that line, add it to
+`tools/data/avoid.txt` or `tools/data/promote.txt` and regenerate.
+
+Any board that spells a word from `tools/data/blocklist.txt` is thrown away, apart from the bird
+names and everyday words listed in `tools/data/unblock.txt`. Word list sources and licenses are in
+`tools/data/SOURCES.md`.
 
 ## License
 

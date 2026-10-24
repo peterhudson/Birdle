@@ -23,7 +23,182 @@
     "word": "OSPREY",
     "bird": "Osprey",
     "note": "Nests on pilings and channel markers all along the coast and lakes."
+   },
+   {
+    "word": "RAVEN",
+    "bird": "Common Raven",
+    "note": "Central to Haida and other coastal First Nations stories as a trickster and creator."
+   },
+   {
+    "word": "LOON",
+    "bird": "Common Loon",
+    "note": "Its wailing call carries across interior lakes on summer nights."
+   },
+   {
+    "word": "JUNCO",
+    "bird": "Dark-eyed Junco",
+    "note": "Flashes white outer tail feathers as it flies up from the ground."
+   },
+   {
+    "word": "TOWHEE",
+    "bird": "Spotted Towhee",
+    "note": "Scratches noisily in the leaf litter with a two-footed backward hop."
+   },
+   {
+    "word": "WREN",
+    "bird": "Pacific Wren",
+    "note": "A tiny bird with a long, tumbling song in old-growth forest."
+   },
+   {
+    "word": "DIPPER",
+    "bird": "American Dipper",
+    "note": "Walks underwater along mountain streams to feed."
+   },
+   {
+    "word": "GROUSE",
+    "bird": "Sooty Grouse",
+    "note": "Males hoot from high in the conifers in spring."
+   },
+   {
+    "word": "PUFFIN",
+    "bird": "Tufted Puffin",
+    "note": "Nests on islands off Haida Gwaii and northern Vancouver Island."
+   },
+   {
+    "word": "MURRELET",
+    "bird": "Marbled Murrelet",
+    "note": "A seabird that nests high on mossy branches of old-growth trees."
+   },
+   {
+    "word": "FLICKER",
+    "bird": "Northern Flicker",
+    "note": "BC's 'red-shafted' flickers flash salmon-pink under the wings."
+   },
+   {
+    "word": "KINGLET",
+    "bird": "Golden-crowned Kinglet",
+    "note": "Weighs about as much as two paper clips, yet winters in the north."
+   },
+   {
+    "word": "BUSHTIT",
+    "bird": "Bushtit",
+    "note": "Moves in chattering flocks and weaves a sock-shaped hanging nest."
+   },
+   {
+    "word": "SAPSUCKER",
+    "bird": "Red-breasted Sapsucker",
+    "note": "Drills neat rows of holes to drink sap and catch insects."
+   },
+   {
+    "word": "BUFFLEHEAD",
+    "bird": "Bufflehead",
+    "note": "A small diving duck that nests in old flicker holes."
+   },
+   {
+    "word": "SCOTER",
+    "bird": "Surf Scoter",
+    "note": "Huge flocks raft off the coast in winter and spring."
+   },
+   {
+    "word": "BRANT",
+    "bird": "Brant",
+    "note": "Stops over at Parksville and Qualicum Beach each spring."
+   },
+   {
+    "word": "GOOSE",
+    "bird": "Canada Goose",
+    "note": "Abundant on every park lawn and estuary."
+   },
+   {
+    "word": "CROW",
+    "bird": "American Crow",
+    "note": "The coastal 'Northwestern Crow' is now lumped with the American Crow."
+   },
+   {
+    "word": "HAWK",
+    "bird": "Red-tailed Hawk",
+    "note": "The commonest roadside hawk in the Fraser Valley."
+   },
+   {
+    "word": "GULL",
+    "bird": "Glaucous-winged Gull",
+    "note": "The everyday gull of the BC coast."
+   },
+   {
+    "word": "DUCK",
+    "bird": "Harlequin Duck",
+    "note": "Breeds on fast mountain rivers and winters in coastal surf."
+   },
+   {
+    "word": "TEAL",
+    "bird": "Green-winged Teal",
+    "note": "North America's smallest dabbling duck."
+   },
+   {
+    "word": "COOT",
+    "bird": "American Coot",
+    "note": "Has lobed toes instead of webbed feet."
+   },
+   {
+    "word": "GREBE",
+    "bird": "Western Grebe",
+    "note": "Pairs 'rush' across the water side by side in courtship."
+   },
+   {
+    "word": "CORMORANT",
+    "bird": "Pelagic Cormorant",
+    "note": "Nests on narrow ledges of coastal sea cliffs."
+   },
+   {
+    "word": "HUMMINGBIRD",
+    "bird": "Rufous Hummingbird",
+    "note": "Migrates from Mexico to BC, a huge trip for its size."
+   },
+   {
+    "word": "SISKIN",
+    "bird": "Pine Siskin",
+    "note": "A streaky finch that arrives in noisy flocks at feeders."
+   },
+   {
+    "word": "SPARROW",
+    "bird": "Song Sparrow",
+    "note": "The dark, rich-coloured coastal birds sing all year."
+   },
+   {
+    "word": "ROBIN",
+    "bird": "American Robin",
+    "note": "A sure sign of spring on every lawn."
+   },
+   {
+    "word": "THRUSH",
+    "bird": "Varied Thrush",
+    "note": "Its eerie, single-note song echoes through wet forests."
+   },
+   {
+    "word": "NUTHATCH",
+    "bird": "Red-breasted Nuthatch",
+    "note": "Smears sap around its nest hole to keep intruders out."
+   },
+   {
+    "word": "WIGEON",
+    "bird": "American Wigeon",
+    "note": "Grazes in big flocks on golf courses and fields."
+   },
+   {
+    "word": "PTARMIGAN",
+    "bird": "White-tailed Ptarmigan",
+    "note": "Lives above the treeline and turns white in winter."
+   },
+   {
+    "word": "SNIPE",
+    "bird": "Wilson's Snipe",
+    "note": "Makes a 'winnowing' sound with its tail feathers in display flight."
    }
+  ],
+  "sizes": [
+   4,
+   4,
+   5
   ]
  },
  {
@@ -50,7 +225,177 @@
     "word": "SUNBIRD",
     "bird": "Orange-breasted Sunbird",
     "note": "Found only in the fynbos of the Western Cape, sipping from proteas and ericas."
+   },
+   {
+    "word": "CRANE",
+    "bird": "Blue Crane",
+    "note": "South Africa's national bird."
+   },
+   {
+    "word": "HOOPOE",
+    "bird": "African Hoopoe",
+    "note": "Probes lawns for grubs and raises its crest when alarmed."
+   },
+   {
+    "word": "WEAVER",
+    "bird": "Southern Masked Weaver",
+    "note": "Males weave intricate hanging nests and tear them down if the female doesn't approve."
+   },
+   {
+    "word": "BARBET",
+    "bird": "Crested Barbet",
+    "note": "Its long trilling call is a classic sound of Highveld gardens."
+   },
+   {
+    "word": "ROLLER",
+    "bird": "Lilac-breasted Roller",
+    "note": "A Kruger favourite that tumbles in its display flight."
+   },
+   {
+    "word": "HORNBILL",
+    "bird": "Southern Ground Hornbill",
+    "note": "Lives in family groups and booms like a lion at dawn."
+   },
+   {
+    "word": "TURACO",
+    "bird": "Knysna Turaco",
+    "note": "Flashes brilliant red wing feathers as it flies through the forest."
+   },
+   {
+    "word": "HAMERKOP",
+    "bird": "Hamerkop",
+    "note": "Builds enormous domed nests that can hold a person's weight."
+   },
+   {
+    "word": "FLAMINGO",
+    "bird": "Lesser Flamingo",
+    "note": "Kamfers Dam near Kimberley hosts one of its few breeding colonies."
+   },
+   {
+    "word": "IBIS",
+    "bird": "Sacred Ibis",
+    "note": "A wetland and rubbish-dump regular with a bare black head."
+   },
+   {
+    "word": "BUSTARD",
+    "bird": "Kori Bustard",
+    "note": "One of the heaviest flying birds in the world."
+   },
+   {
+    "word": "KORHAAN",
+    "bird": "Northern Black Korhaan",
+    "note": "Males rise up calling noisily, then parachute down."
+   },
+   {
+    "word": "FISCAL",
+    "bird": "Southern Fiscal",
+    "note": "A shrike that impales prey on thorns, nicknamed the 'butcher bird'."
+   },
+   {
+    "word": "DRONGO",
+    "bird": "Fork-tailed Drongo",
+    "note": "Mimics alarm calls to scare other animals off their food."
+   },
+   {
+    "word": "BULBUL",
+    "bird": "Dark-capped Bulbul",
+    "note": "One of the commonest garden birds in the north and east."
+   },
+   {
+    "word": "CANARY",
+    "bird": "Cape Canary",
+    "note": "A wild relative of the cage canary, with a rich song."
+   },
+   {
+    "word": "SUGARBIRD",
+    "bird": "Cape Sugarbird",
+    "note": "Males trail very long tails over the fynbos."
+   },
+   {
+    "word": "MOUSEBIRD",
+    "bird": "Speckled Mousebird",
+    "note": "Creeps through bushes like a mouse and huddles in groups at night."
+   },
+   {
+    "word": "STARLING",
+    "bird": "Cape Starling",
+    "note": "A glossy blue starling that flashes in the sun."
+   },
+   {
+    "word": "ORIOLE",
+    "bird": "Black-headed Oriole",
+    "note": "Its liquid whistle carries through thornveld and gardens."
+   },
+   {
+    "word": "VULTURE",
+    "bird": "Cape Vulture",
+    "note": "Breeds on cliffs; South Africa holds most of the world population."
+   },
+   {
+    "word": "EAGLE",
+    "bird": "African Fish Eagle",
+    "note": "Its ringing call is the sound of African rivers and dams."
+   },
+   {
+    "word": "GANNET",
+    "bird": "Cape Gannet",
+    "note": "Dives for sardines in huge colonies at Lambert's Bay and Bird Island."
+   },
+   {
+    "word": "OXPECKER",
+    "bird": "Red-billed Oxpecker",
+    "note": "Rides on buffalo and giraffes, picking off ticks."
+   },
+   {
+    "word": "GUINEAFOWL",
+    "bird": "Helmeted Guineafowl",
+    "note": "Noisy flocks roam farmland and suburbs."
+   },
+   {
+    "word": "FRANCOLIN",
+    "bird": "Crested Francolin",
+    "note": "Runs with its tail cocked like a bantam."
+   },
+   {
+    "word": "LARK",
+    "bird": "Rufous-naped Lark",
+    "note": "Calls from the top of a bush, then claps its wings in display."
+   },
+   {
+    "word": "CHAT",
+    "bird": "Familiar Chat",
+    "note": "Flicks its wings constantly; a common farmyard companion."
+   },
+   {
+    "word": "DOVE",
+    "bird": "Cape Turtle Dove",
+    "note": "Its 'work harder' call is a constant sound of the bush."
+   },
+   {
+    "word": "TERN",
+    "bird": "Swift Tern",
+    "note": "Breeds on Robben Island and harbour breakwaters."
+   },
+   {
+    "word": "PRINIA",
+    "bird": "Karoo Prinia",
+    "note": "A small, perky warbler with a cocked tail."
+   },
+   {
+    "word": "KESTREL",
+    "bird": "Rock Kestrel",
+    "note": "Hovers over grassland and roadside verges."
+   },
+   {
+    "word": "PIPIT",
+    "bird": "African Pipit",
+    "note": "A streaky ground bird of open grassland."
    }
+  ],
+  "sizes": [
+   4,
+   5,
+   7
   ]
  },
  {
@@ -78,7 +423,8 @@
     "bird": "White Ibis",
     "note": "Probes the mud with its curved red bill; the most numerous wading bird in South Florida."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "australia",
@@ -105,7 +451,8 @@
     "bird": "Brolga",
     "note": "A tall crane famous for its leaping, bowing courtship dance."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "costarica",
@@ -132,7 +479,8 @@
     "bird": "Slaty-tailed Trogon",
     "note": "Sits still for long spells, then sallies out to snatch fruit or insects."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "galapagos",
@@ -159,7 +507,8 @@
     "bird": "Waved Albatross",
     "note": "Nearly the whole world population breeds on Española island."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "britain",
@@ -186,7 +535,8 @@
     "bird": "Eurasian Wren",
     "note": "Tiny, but with one of the loudest songs for its size of any British bird."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "india",
@@ -213,7 +563,8 @@
     "bird": "Common Myna",
     "note": "A bold, chattering city bird found in almost every Indian town."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "kenya",
@@ -240,7 +591,8 @@
     "bird": "Hamerkop",
     "note": "Builds enormous domed nests that can hold a person's weight."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "newzealand",
@@ -267,7 +619,8 @@
     "bird": "Pūkeko",
     "note": "A purple swamphen that flicks its white undertail as it strides through paddocks."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "alaska",
@@ -294,7 +647,8 @@
     "bird": "Tufted Puffin",
     "note": "Grows golden head plumes for the breeding season."
    }
-  ]
+  ],
+  "draft": true
  },
  {
   "id": "spain",
@@ -321,6 +675,7 @@
     "bird": "White Stork",
     "note": "Nests on church towers and pylons all across Extremadura."
    }
-  ]
+  ],
+  "draft": true
  }
 ]
