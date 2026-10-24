@@ -262,13 +262,15 @@ function addFound(w, viaReveal) {
 
 // ----- reveals ---------------------------------------------------------------
 
-// Like Squaredle: a reveal shows a random missing word, or once the hints are
-// unlocked, the missing word you tap (twice, so a stray tap doesn't waste it).
+// Like Squaredle: reveals only work on 4 to 6 letter words. A reveal shows a
+// random missing word of one length, or once the hints are unlocked, the
+// missing word you tap (twice, so a stray tap doesn't waste it).
+const REVEALABLE = (w) => w.length <= 6;
 let armed = null, armedTimer;
 const noReveals = () => say(state.birdReveal ? 'No reveals left on this board' : 'No reveals left. Find all the birds to earn one.', 'neutral');
-function revealRandom() {
+function revealRandom(len) {
   if (!state.reveals) return noReveals();
-  const left = board.words.map((w) => w.w).filter((w) => !state.found.includes(w));
+  const left = board.words.map((w) => w.w).filter((w) => w.length === len && !state.found.includes(w));
   // Leave the birds for the player while there are other words to show.
   const pool = left.filter((w) => !birdWords.has(w));
   const choices = pool.length ? pool : left;
@@ -333,9 +335,6 @@ function render() {
     t.style.transform = `rotate(${-rotation}deg)`;
   });
 
-  const rv = $('reveal');
-  rv.textContent = state.reveals ? `💡 Reveal a word (${state.reveals})` : '💡 No reveals';
-  rv.classList.toggle('spent', !state.reveals);
   renderBirds();
   $('hints').hidden = stars < 3;
   $('hint-letters').checked = state.hintLetters;
@@ -352,7 +351,7 @@ function renderBirds() {
     board.birds.map((b) => state.found.includes(b.word)
       ? `<button class="bird-row found" data-bird="${b.word}"><span class="name">${b.word} · ${b.bird}</span>` +
         `<span class="more">Photo and notes ›</span></button>`
-      : `<div class="bird-row${armed === b.word ? ' armed' : ''}"${hintsOn ? ` data-miss="${b.word}"` : ''}>` +
+      : `<div class="bird-row${armed === b.word ? ' armed' : ''}"${hintsOn && REVEALABLE(b.word) ? ` data-miss="${b.word}"` : ''}>` +
         `<span class="slots">${showLetters ? hinted(b.word) : '_'.repeat(b.word.length)}</span> <span class="note">${b.word.length} letters</span></div>`
     ).join('');
 }
@@ -362,7 +361,9 @@ function renderWords(hintsOn) {
   const sortAll = hintsOn && state.hintSort;
   const byLen = {};
   for (const w of board.words) (byLen[w.w.length] ||= []).push(w.w);
-  let html = `<h3>Words: ${state.found.length} of ${board.words.length}</h3>`;
+  let html = `<h3>Words: ${state.found.length} of ${board.words.length}</h3>` +
+    `<p class="reveals">💡 Reveals remaining: ${state.reveals}` +
+    `${state.birdReveal ? '' : ' <span class="note">(find all the birds for another)</span>'}</p>`;
   for (const len of Object.keys(byLen).sort((a, b) => a - b)) {
     const all = byLen[len];
     const found = all.filter((w) => state.found.includes(w));
@@ -375,8 +376,14 @@ function renderWords(hintsOn) {
         if (found.includes(w)) return `<span class="word${cls}"${birdWords.has(w) ? ` data-bird="${w}"` : ''}>${w}</span>`;
         if (!sortAll && !showLetters) return '';
         const shown = showLetters ? hinted(w) : '_'.repeat(w.length);
-        return `<span class="word missing${armed === w ? ' armed' : ''}" data-miss="${w}">${shown}</span>`;
+        return `<span class="word missing${armed === w ? ' armed' : ''}"${REVEALABLE(w) ? ` data-miss="${w}"` : ''}>${shown}</span>`;
       }).join('') + '</div>';
+    // Until the missing words show as blanks, say how many are left, with a reveal link for short words.
+    const left = all.length - found.length;
+    if (left && !sortAll && !showLetters) {
+      html += `<p class="left">+${left} word${left > 1 ? 's' : ''} left` +
+        (len <= 6 && state.reveals ? ` · <button class="link" data-reveal="${len}">Reveal a random word</button>` : '') + '</p>';
+    }
   }
   $('word-list').innerHTML = html;
   $('bonus-list').innerHTML = state.bonus.length
@@ -405,13 +412,13 @@ $('rotate').onclick = () => {
   $('board').style.transform = `rotate(${rotation}deg)`;
   render();
 };
-$('reveal').onclick = revealRandom;
 // Taps in the bird panel and word list: a found bird opens its card, a missing word can be revealed.
 for (const id of ['birds-panel', 'word-list']) {
   $(id).addEventListener('click', (e) => {
-    const el = e.target.closest('[data-bird], [data-miss]');
+    const el = e.target.closest('[data-bird], [data-miss], [data-reveal]');
     if (!el) return;
-    if (el.dataset.bird) showBird(board.birds.find((b) => b.word === el.dataset.bird));
+    if (el.dataset.reveal) revealRandom(+el.dataset.reveal);
+    else if (el.dataset.bird) showBird(board.birds.find((b) => b.word === el.dataset.bird));
     else tapMissing(el.dataset.miss);
   });
 }

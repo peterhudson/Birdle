@@ -114,7 +114,10 @@ main { max-width: 520px; margin: 0 auto; padding: 12px 16px 40px; }
 .num.white { background: #555; color: #fff; padding: 0 4px; border-radius: 4px; font-weight: 700; }
 
 .controls { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 12px 0; }
-#reveal.spent { color: var(--muted); }
+.reveals { margin: 0 0 4px; font-weight: 600; }
+.reveals .note, .left { color: var(--muted); font-weight: 400; }
+.left { margin: 6px 0 0; font-style: italic; }
+.left .link { color: var(--red); padding: 0; font-style: inherit; }
 
 section { margin-top: 18px; }
 section h3 { margin: 0 0 6px; font-size: 1.05rem; }
