@@ -27,6 +27,9 @@ Bird words that turn up on a board by chance (OWLET, KITE, SWAN...) count as ✨
 score double and get a card too, but the bird count and first star only cover the region's birds.
 The list of bird words is `tools/data/bird-words.json`.
 
+Stuck on the birds? The word list has a 🐦 bird tweet checkbox, available at any time, that marks
+the square where each missing bird starts.
+
 Finding a bird opens its card, with a short description, a local note and a Creative Commons photo
 from [iNaturalist](https://www.inaturalist.org/) with its credit. Photos are looked up live by the
 bird's scientific name the first time its card opens, then remembered in the browser.
@@ -47,7 +50,8 @@ Regions and their birds live in `tools/regions.json`, in the order they appear o
 grouped by their `group` (a country or continent). A region that already has boards keeps a fixed
 `seed`, so reordering regions doesn't change its boards. Each bird has its word on the board, its
 name, its scientific name (`sci`, used to find its photo), a `blurb` describing it and a local `note`. List a region's best-known birds first: the
-first eight score extra when the generator picks which birds to place. Regenerate the boards with:
+first eight score extra when the generator picks which birds to place. Each of a region's birds
+appears on only one of its boards (and a surprise bird only counts on the first board it turns up on). Regenerate the boards with:
 
 ```sh
 python3 tools/gen.py              # all regions not marked "draft"
