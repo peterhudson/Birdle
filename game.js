@@ -36,11 +36,21 @@ function hinted(w) {
 
 // ----- screens ---------------------------------------------------------------
 
+const boardLabel = (b) => `Board ${b.id.split('-').pop()} · ${b.size}×${b.size}`;
+
 function showRegions() {
   $('regions').hidden = false; $('game').hidden = true; $('back').hidden = true;
   const list = $('region-list');
   list.innerHTML = '';
+  let region;
   for (const b of BOARDS) {
+    if (b.region !== region) {
+      region = b.region;
+      const h = document.createElement('li');
+      h.className = 'region-head';
+      h.innerHTML = `<span class="flag">${b.flag}</span> ${b.name}`;
+      list.append(h);
+    }
     const saved = store.get('birdle:' + b.id);
     const s = saved && saved.grid === b.grid.join('') ? saved : null;
     const found = s ? s.found.length : 0;
@@ -49,7 +59,7 @@ function showRegions() {
       : found === b.words.length ? 'Complete ✓'
       : `${birds} of ${b.birds.length} birds · ${found} of ${b.words.length} words`;
     const li = document.createElement('li');
-    li.innerHTML = `<button><span class="flag">${b.flag}</span><span><span class="name">${b.name}</span><span class="state">${status}</span></span></button>`;
+    li.innerHTML = `<button><span class="name">${boardLabel(b)}</span><span class="state">${status}</span></button>`;
     li.querySelector('button').onclick = () => openBoard(b);
     list.append(li);
   }
@@ -68,7 +78,7 @@ function openBoard(b) {
   if (!state || state.grid !== letters) state = freshState();
   path = []; rotation = 0;
   $('regions').hidden = true; $('game').hidden = false; $('back').hidden = false;
-  $('region-name').textContent = `${b.flag} ${b.name}`;
+  $('region-name').textContent = `${b.flag} ${b.name} · Board ${b.id.split('-').pop()}`;
   $('progress').querySelector('.stars').innerHTML =
     STARS.map((s) => `<span class="star" style="left:${s * 100}%">★</span>`).join('');
   buildBoard();
