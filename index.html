@@ -38,9 +38,13 @@
   </main>
 
   <dialog id="words" aria-labelledby="words-title">
-    <button class="close icon" aria-label="Close">×</button>
-    <h2 id="words-title">Words</h2>
+    <!-- The title bar stays put while the list scrolls, so the × is always in reach. -->
+    <div class="sheet-head">
+      <h2 id="words-title">Words</h2>
+      <button class="close icon" aria-label="Close">×</button>
+    </div>
     <p id="words-msg" aria-live="polite"></p>
+    <div class="sheet-body">
     <section id="birds-panel"></section>
     <section id="hints" hidden>
       <h3>Hints</h3>
@@ -50,6 +54,7 @@
     <section id="word-list"></section>
     <section id="bonus-list"></section>
     <p class="reset-row"><button id="reset" class="link">Start this board over</button></p>
+    </div>
   </dialog>
 
   <dialog id="bird-card" aria-labelledby="bird-card-name">
